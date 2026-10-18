@@ -278,3 +278,10 @@ p{line-height:1.75}a{transition:opacity .18s ease}a:hover{opacity:.86}
 .tgc-treatment-faqs summary{cursor:pointer;font-size:14px;font-weight:600;color:#554b40;list-style:revert;}
 .tgc-treatment-faqs details p{font-size:13px;margin:12px 0;color:#686055;}
 @media(max-width:760px){.tgc-original-section-photo{float:none;margin:0 auto 18px;max-width:100%;max-height:300px}}
+
+.tgc-accessible-concern{display:flex;flex-direction:column;align-items:stretch;justify-content:space-between;padding:12px 15px 14px;gap:7px;}
+.tgc-concern-select{cursor:pointer;display:flex;align-items:center;gap:10px;position:relative;flex:1;padding:5px 0 0;min-width:0;}
+.tgc-accessible-concern .tgc-concern-select input{top:0;right:0;}
+.tgc-accessible-concern .tgc-concern-select img{width:78px;height:78px;flex:0 0 78px;object-fit:contain;}
+.tgc-accessible-concern .tgc-inline-concern{margin:0;text-decoration:underline;text-underline-offset:3px;align-self:flex-start;}
+@media(max-width:760px){.tgc-accessible-concern .tgc-concern-select img{width:65px;height:65px;flex-basis:65px;}}
