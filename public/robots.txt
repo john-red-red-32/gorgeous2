@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+# Staging only. Replace this file with a launch-approved robots.txt.
