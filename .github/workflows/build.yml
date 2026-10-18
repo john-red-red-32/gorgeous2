@@ -25,5 +25,7 @@ jobs:
         run: npm run test:legacy
       - name: Audit imported historical 301 rules
         run: npm run audit:legacy
+      - name: Validate source export ordering and URL preservation
+        run: npm run audit:imports
       - name: Audit legacy sitemap coverage (advisory until cutover)
         run: npm run audit:migration
