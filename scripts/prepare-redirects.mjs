@@ -23,7 +23,7 @@ export function pathFrom(raw) {
       const u=new URL(value);
       if(![DOMAIN,'www.'+DOMAIN].includes(u.hostname.toLowerCase()))return{error:'other hostname: '+u.hostname};
       if(u.search||u.hash)return{error:'querystring or fragment needs review'};
-      return {path:u.pathname};
+      return {path:decodeURI(u.pathname)};
     }catch{return{error:'invalid absolute URL'};}
   }
   if(!value.startsWith('/'))return {error:'route must start with /'};
