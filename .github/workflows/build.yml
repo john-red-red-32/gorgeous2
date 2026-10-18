@@ -21,5 +21,9 @@ jobs:
         run: npm run test:import
       - name: Test legacy 301 redirect normalisation
         run: npm run test:redirects
+      - name: Test imported historical 301 auditing
+        run: npm run test:legacy
+      - name: Audit imported historical 301 rules
+        run: npm run audit:legacy
       - name: Audit legacy sitemap coverage (advisory until cutover)
         run: npm run audit:migration
