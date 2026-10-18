@@ -1,0 +1,47 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import {gallery} from '../../data/gallery';
+import {treatments, bookingUrl} from '../../data/content';
+export function getStaticPaths() {
+ return gallery.map((entry,i)=>({params:{slug:entry.slug},props:{entry,index:i}}));
+}
+const {entry,index}=Astro.props;
+const matchingTreatments=entry.treatmentSlugs.map(slug=>treatments.find(t=>t.slug===slug)).filter((t):t is typeof treatments[number]=>!!t);
+const previous=gallery[(index-1+gallery.length)%gallery.length];
+const next=gallery[(index+1)%gallery.length];
+const schema={
+ '@context':'https://schema.org','@type':'ImageGallery',
+ name:entry.title+' | The Gorgeous Clinic',
+ url:'https://thegorgeousclinic.co.uk/gallery/'+entry.slug+'/',
+ description:entry.body||entry.alt,
+ image:[{'@type':'ImageObject',contentUrl:entry.imageUrl,caption:entry.alt||entry.title}]
+};
+---
+<SiteLayout title={entry.title+' | Before and After | The Gorgeous Clinic Blackpool'} description={(entry.alt||entry.body||'Explore a real before-and-after result at The Gorgeous Clinic, Blackpool.').slice(0,205)} schema={schema}>
+  <section class="page-hero tgc-gallery-heading"><div class="container">
+    <p class="eyebrow"><a href="/gallery/">← Back to Before &amp; Afters</a></p>
+    <h1>{entry.title}</h1>
+    <p>Real client results from The Gorgeous Clinic</p>
+  </div></section>
+  <article class="container tgc-gallery-detail">
+    <figure class="tgc-gallery-photo">
+      <img src={entry.imageUrl} alt={entry.alt||entry.title} fetchpriority="high" />
+      {entry.alt && <figcaption>{entry.alt}</figcaption>}
+    </figure>
+    <div class="tgc-gallery-story">
+      <p class="eyebrow">A closer look</p>
+      <h2>Behind the transformation</h2>
+      <p class="tgc-preserve-paragraphs">{entry.body||entry.alt}</p>
+      {matchingTreatments.length>0 && <section class="treatment-detail-section">
+        <h3>Explore related treatments</h3>
+        <p>Read about the treatment approaches mentioned in this transformation and what they involve.</p>
+        <div class="treatment-detail-tags">{matchingTreatments.map(t=><a href={'/treatments/'+t.slug+'/'}>{t.name} ↗</a>)}</div>
+      </section>}
+      <div class="tgc-gallery-book"><h3>Discuss your own goals</h3><p>Every face is different. Book a free consultation to discuss your options with our team.</p><a class="heritage-solid-button" href={bookingUrl} target="_blank" rel="noopener noreferrer">Free Consultation ↗</a></div>
+    </div>
+  </article>
+  <nav class="container tgc-gallery-neighbours" aria-label="More client transformations">
+    <a href={'/gallery/'+previous.slug+'/'}><span>← Previous result</span><strong>{previous.title}</strong></a>
+    <a href={'/gallery/'+next.slug+'/'}><span>Next result →</span><strong>{next.title}</strong></a>
+  </nav>
+</SiteLayout>
