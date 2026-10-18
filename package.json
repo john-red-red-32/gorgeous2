@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro build && node scripts/build-redirects.mjs",
     "preview": "astro preview",
     "check": "astro check",
     "audit": "node scripts/audit-dist.mjs",
@@ -15,7 +15,8 @@
     "test:redirects": "node --test scripts/prepare-redirects.test.mjs",
     "audit:redirects": "node scripts/prepare-redirects.mjs",
     "audit:legacy": "node scripts/audit-legacy-redirects.mjs",
-    "test:legacy": "node --test scripts/audit-legacy-redirects.test.mjs"
+    "test:legacy": "node --test scripts/audit-legacy-redirects.test.mjs",
+    "test:build-redirects": "node --test scripts/build-redirects.test.mjs"
   },
   "dependencies": {
     "astro": "^5.16.0"
