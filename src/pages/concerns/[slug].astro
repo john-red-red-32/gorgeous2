@@ -1,0 +1,32 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import { concerns, treatmentsForConcern, catalogueStatus } from '../../data/catalogue';
+import { bookingUrl } from '../../data/content';
+export function getStaticPaths() {
+  return concerns.map(concern=>({params:{slug:concern.slug},props:{concern}}));
+}
+const {concern} = Astro.props;
+const related = treatmentsForConcern(concern.slug);
+const schema = {'@context':'https://schema.org','@type':'WebPage',name:concern.name+' | The Gorgeous Clinic',description:concern.description,url:'https://thegorgeousclinic.co.uk/concerns/'+concern.slug+'/'};
+---
+<SiteLayout title={concern.name + ' | Causes, Treatment Options & Advice | The Gorgeous Clinic'} description={concern.description+' Learn about treatment considerations at The Gorgeous Clinic in Blackpool.'} schema={schema}>
+  <section class="page-hero"><div class="container"><div class="breadcrumbs"><a href="/">Home</a> / <a href="/treatments/">Explore treatments</a> / {concern.name}</div><p class="eyebrow">Understanding your concerns</p><h1>{concern.name}</h1><p>{concern.description}</p></div></section>
+  <div class="container concern-content-wrap">
+    <article class="concern-article">
+      <p class="eyebrow">A helpful starting point</p>
+      <h2>What could be behind this concern?</h2>
+      <p>{concern.explainer}</p>
+      <h2>Where should you start?</h2>
+      <p>The first step is identifying the feature that concerns you most and what you would like to change, if anything. The treatment options are not interchangeable, and what suits one person may not suit someone else.</p>
+      <p>Our treatment pages explain how different approaches work. You can also book a consultation to discuss your goals and get advice specific to you.</p>
+      <div class="concern-article-callout"><h3>Not sure what would help?</h3><p>Try exploring other concerns, browse treatments by name, or use our guided discovery experience.</p><a class="heritage-ghost-button" href="/treatments/#virtual-consultation">Explore your options →</a></div>
+    </article>
+    <aside class="concern-related">
+      <p class="eyebrow">Options to explore</p>
+      <h2>Relevant treatments</h2>
+      {related.length>0 ? <div class="concern-related-cards">{related.map(t=><a href={'/treatments/'+t.slug+'/'} class="concern-related-card"><strong>{t.name}</strong><span>{t.summary}</span><small>Explore treatment ↗</small></a>)}</div> : <p>We're completing the links between this concern and the clinic's full treatment catalogue. You can still browse all treatments or ask our team.</p>}
+      <a class="heritage-solid-button" href={bookingUrl} target="_blank" rel="noopener noreferrer">Free Consultation ↗</a>
+    </aside>
+  </div>
+  <section class="heritage-feature-band"><p class="eyebrow">The Gorgeous Clinic</p><h2>Knowledge is power.</h2><p>Our aim is to help you understand the available options, even if you aren't visiting our clinic.</p><a class="heritage-ghost-button" href="/treatments/">Explore Treatments</a></section>
+</SiteLayout>
