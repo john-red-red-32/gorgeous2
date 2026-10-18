@@ -1,28 +1,101 @@
 ---
 import SiteLayout from '../layouts/SiteLayout.astro';
-import { treatments, articles, bookingUrl } from '../data/content';
-const image = 'https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/f1764947143838x499374604427451840/rs%3Dw_1200%2Ch_902%2Ccg_true%5B1%5D';
-const schema = { '@context': 'https://schema.org', '@type': 'WebSite', name: 'The Gorgeous Clinic', url: 'https://thegorgeousclinic.co.uk/' };
+import { bookingUrl, articles } from '../data/content';
+
+const assetBase = 'https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io';
+const whiteLogo = assetBase + '/f1764895107430x247950839261458880/2%20white.png';
+const greenLogo = assetBase + '/f1764895866717x944082419627878600/Untitled%20design%20%281%29.png';
+const clinicPhoto = assetBase + '/f1764947143838x499374604427451840/rs%3Dw_1200%2Ch_902%2Ccg_true%5B1%5D';
+const secondPhoto = assetBase + '/f1764947578406x237798609847311940/rs%3Dw_1200%2Ch_902%2Ccg_true%5B1%5D';
+const concernNames = ['Wrinkles','Jowls','Lip lines','Sagging skin','Lip volume','Jawline definition','Pigmentation','Chin fat','Gaunt face','Acne','Under-eye hollows','Frown lines'];
+const galleryUrl = 'https://thegorgeousclinic.co.uk/gallery/';
+const videosUrl = 'https://thegorgeousclinic.co.uk/videos/';
+const teamUrl = 'https://thegorgeousclinic.co.uk/meet-the-team/';
+const academyUrl = 'https://thegorgeousclinic.co.uk/explore-academy/';
+const schema = { '@context':'https://schema.org', '@type':'WebSite', name:'The Gorgeous Clinic', url:'https://thegorgeousclinic.co.uk/' };
 ---
-<SiteLayout title="The Gorgeous Clinic | Medical Aesthetics Blackpool & Lancashire" description="Discover The Gorgeous Clinic in Blackpool, the Fylde Coast's highest rated medical aesthetics clinic with over 1,000 five-star reviews and a focus on natural results." schema={schema}>
-  <section class="hero">
-    <div class="hero-grid">
-      <div class="hero-copy">
-        <p class="eyebrow">Welcome to The Gorgeous Clinic · Blackpool</p>
-        <h1>Confidence,<br /><em>beautifully</em><br />considered.</h1>
-        <p>Medical aesthetics with a thoughtful touch. From subtle lip enhancements to advanced skin treatments, our approach is personal, precise and always centred on you.</p>
-        <div class="hero-actions"><a class="button button-light" href="/treatments/">Explore treatments <span>↗</span></a><a class="button button-outline" style="color:#fff;border-color:#83988c" href={bookingUrl} target="_blank" rel="noopener noreferrer">Free consultation <span>↗</span></a></div>
-      </div>
-      <div class="hero-visual">
-        <img src={image} alt="Medical aesthetics and natural-looking facial rejuvenation at The Gorgeous Clinic" loading="eager" decoding="async" onerror="this.style.display='none'" />
-        <div class="visual-ring"></div>
-        <div class="visual-label">A REFINED APPROACH TO AESTHETICS</div>
-      </div>
+<SiteLayout title="The Gorgeous Clinic | Highest Rated Medical Aesthetics Clinic on the Fylde Coast" description="Discover The Gorgeous Clinic, the Fylde Coast's highest rated medical aesthetics clinic with over 1,000 five-star reviews. Beautiful, natural-looking results in Blackpool." schema={schema}>
+  <section class="heritage-brand-hero" aria-label="The Gorgeous Clinic">
+    <div class="heritage-main-logo">
+      <img src={whiteLogo} alt="The Gorgeous Clinic circular white logo" fetchpriority="high" onerror="this.style.opacity='0';this.nextElementSibling.style.opacity='1'" />
+      <div class="heritage-logo-fallback" aria-hidden="true"><small>THE</small><strong>GORGEOUS</strong><small>CLINIC</small></div>
     </div>
   </section>
-  <div class="trust-strip"><div class="container trust-inner"><span><b>1,000+</b> FIVE-STAR REVIEWS</span><span><b>01</b> NATURAL-LOOKING RESULTS</span><span><b>02</b> HIGHLY TRAINED PRACTITIONERS</span><span><b>03</b> FREE CONSULTATIONS</span></div></div>
-  <section class="section intro-block"><div class="container intro-grid"><div><p class="eyebrow">Our philosophy</p><h2>Natural, but <em>noticeable.</em></h2></div><div class="lead"><p>We believe the best aesthetic treatments are the ones that make you feel refreshed, rather than different.</p><p>Based on Whitegate Drive in Blackpool, we welcome clients from the Fylde Coast, Lancashire and further afield. Every treatment starts with a conversation about what will genuinely suit you.</p><a class="button button-outline" href="/contact-us/">Get to know us <span>↗</span></a></div></div></section>
-  <section class="section" style="background:#f0eee5"><div class="container"><div class="split-heading"><div><p class="eyebrow">The treatments</p><h2>Small refinements.<br />Beautifully balanced.</h2></div><p>Explore some of our most requested treatments, from lip enhancements to skin and facial rejuvenation.</p></div><div class="card-grid">{treatments.slice(0,3).map((t,i)=><a href={'/treatments/'+t.slug+'/'} class="tile"><div class="tile-body"><span class="tile-number">0{i+1}</span><h3>{t.name}</h3><p>{t.summary}</p></div><div class="tile-footer"><span>Explore treatment</span><span class="arrow-pill">↗</span></div></a>)}</div><div style="margin-top:34px;text-align:center"><a class="button button-dark" href="/treatments/">View all treatments <span>↗</span></a></div></div></section>
-  <section class="section"><div class="container two-column"><div><p class="eyebrow">What sets us apart</p><h2>Real expertise.<br /><em>Real people.</em></h2><p>Over 1,000 five-star reviews reflect the trust our clients place in us. We take that responsibility seriously, from the initial consultation to the smallest treatment detail.</p><p>Our team combines specialist training, honest guidance and an eye for facial balance.</p><a class="button button-outline" href="/contact-us/">Speak to the clinic <span>↗</span></a></div><div class="quote-panel"><p>“The best results still look like you. Just a little fresher.”</p><span class="eyebrow">THE GORGEOUS CLINIC APPROACH</span></div></div></section>
-  <section class="section dark-section"><div class="container"><div class="split-heading"><div><p class="eyebrow">The knowledge hub</p><h2>A little knowledge<br />goes a long way.</h2></div><p>Clear answers to common questions about treatment, results and safety, written with real clients in mind.</p></div><div class="article-list">{articles.map(a=><a class="article-card" href={'/blog/'+a.slug+'/'}><span class="eyebrow">{a.category}</span><h3>{a.title}</h3><p>{a.description}</p><span class="more">Read the article ↗</span></a>)}</div><div style="margin-top:35px"><a class="button button-light" href="/blog-posts/">Browse the knowledge hub <span>↗</span></a></div></div></section>
+
+  <div class="heritage-discover"><span aria-hidden="true"></span>Discover ↓</div>
+  <section class="heritage-headline">
+    <h1>The Fylde Coast's<br />Highest Rated<br />Medical Aesthetics Clinic</h1>
+    <p>with over 1,000 5-star reviews</p>
+  </section>
+
+  <section class="heritage-intro" aria-label="Welcome">
+    <div class="heritage-intro-logo">
+      <img src={greenLogo} alt="The Gorgeous Clinic" loading="lazy" />
+      <div class="heritage-award">WINNER OF THE<br /><strong>BEST IN CLASS</strong><br />NATIONAL AWARD 2026</div>
+    </div>
+    <div class="heritage-intro-text">
+      <p>Welcome to <strong>The Gorgeous Clinic</strong>, where we believe that beauty is an expression of inner confidence.</p>
+      <p><strong>As one of the highest-rated medical aesthetics clinics in the UK,</strong> we have become the trusted choice for patients seeking <strong>natural but noticeable results, honest guidance,</strong> and a more refined approach to aesthetics. With a reputation built on exceptional results, we now welcome clients from across the UK and beyond.</p>
+      <p>Our focus is never on <strong>changing who you are</strong>, but on helping you feel <strong>refreshed, confident, and beautifully yourself.</strong></p>
+      <h2>Are you ready to start your journey?</h2>
+      <div class="heritage-action-pair"><a class="heritage-ghost-button" href="/treatments/">Explore Our Treatments</a><a class="heritage-solid-button" href={bookingUrl} target="_blank" rel="noopener noreferrer">Book a Free Consultation</a></div>
+    </div>
+  </section>
+
+  <section class="heritage-concerns-wrap" aria-label="Popular concerns">
+    <div class="heritage-concerns">
+      {concernNames.map((name, i) => <a class="heritage-concern" href="/treatments/" aria-label={'Explore treatments for ' + name}><span class="heritage-concern-circle" aria-hidden="true">{String(i+1).padStart(2,'0')}</span><span>{name}</span></a>)}
+    </div>
+  </section>
+
+  <section class="heritage-explore" aria-label="Quick access">
+    <p class="heritage-explore-label">Where would you like to begin?</p>
+    <div class="heritage-tile-buttons">
+      <a href="/treatments/">Search by Concern</a>
+      <a href="/treatments/">Discover Treatments</a>
+      <a href={academyUrl}>Explore Training Academy</a>
+    </div>
+    <p class="heritage-explore-label">Or perhaps something else?</p>
+    <div class="heritage-tile-buttons">
+      <a href={galleryUrl}>Before & Afters</a>
+      <a href={videosUrl}>Watch Client Videos</a>
+      <a href={teamUrl}>Meet Our Team</a>
+    </div>
+    <p class="heritage-explore-label">Ready for a consultation?</p>
+    <div class="heritage-tile-buttons two">
+      <a href={bookingUrl} target="_blank" rel="noopener noreferrer">Book a Free Consultation</a>
+      <a href={bookingUrl} target="_blank" rel="noopener noreferrer">Book Treatments</a>
+    </div>
+  </section>
+
+  <section class="heritage-story">
+    <div class="heritage-story-image"><img src={clinicPhoto} alt="The Gorgeous Clinic medical aesthetics treatment photography" loading="lazy" /></div>
+    <div class="heritage-story-copy"><h2>Our Promise.</h2><p>For years, we've been the trusted partner in countless transformation stories.</p><p>With a harmonious blend of advanced technology and seasoned medical professionals, we ensure results that are both natural but noticeable.</p><p>Together, we can create the refreshed and rejuvenated version of yourself that you've been dreaming of for so long.</p><a class="heritage-ghost-button" href={galleryUrl}>View Before & Afters</a></div>
+  </section>
+  <section class="heritage-story reverse">
+    <div class="heritage-story-image"><img src={secondPhoto} alt="Real results and aesthetics treatment at The Gorgeous Clinic" loading="lazy" /></div>
+    <div class="heritage-story-copy"><h2>You're in Safe Hands.</h2><p>Entrust your care to our experienced and highly trained team, combining university-level qualifications with advanced medical aesthetics education.</p><p>Our priority is careful treatment planning, honest guidance and making you feel completely comfortable with every decision.</p><a class="heritage-ghost-button" href={teamUrl}>Meet Our Team</a></div>
+  </section>
+  <section class="heritage-feature-band">
+    <h2>Natural, but noticeable!</h2>
+    <p>You'll never leave with a trout pout or wonky brow. We're full-time advanced aesthetic practitioners creating natural, lifted, fresh-looking faces. And of course, smiles!</p>
+    <div class="heritage-action-pair"><a class="heritage-solid-button" href="/treatments/">Explore Our Treatments</a><a class="heritage-ghost-button" href={galleryUrl}>View Our Masterpieces</a></div>
+  </section>
+  <section class="heritage-story">
+    <div class="heritage-story-image"><img src={secondPhoto} alt="Before-and-after aesthetics and facial contouring work at The Gorgeous Clinic" loading="lazy" /></div>
+    <div class="heritage-story-copy"><h2>View our masterpieces...</h2><p>All transformations carried out by our team. Safety and natural results are always the priority.</p><p>See how careful planning and a personalised approach can make a difference.</p><a class="heritage-ghost-button" href={galleryUrl}>View Before & Afters</a></div>
+  </section>
+  <section class="heritage-feature-band">
+    <h2>Join our Academy</h2>
+    <p>The Gorgeous Clinic Academy is an online learning platform for aesthetics practitioners. Access free and paid courses, structured lessons, resources and selected practical training days. For trained professionals only.</p>
+    <div class="heritage-action-pair"><a class="heritage-solid-button" href={academyUrl}>Explore Academy</a><a class="heritage-ghost-button" href={videosUrl}>Watch Client Videos</a></div>
+  </section>
+  <section class="heritage-article-section">
+    <div class="container">
+      <h2>From the Knowledge Hub</h2>
+      <p class="heritage-introductory">Practical answers, honest treatment information and the details that matter before making a decision.</p>
+      <div class="article-list">{articles.slice(0,2).map(a => <a class="article-card" href={'/blog/'+a.slug+'/'}><span class="eyebrow">{a.category}</span><h3>{a.title}</h3><p>{a.description}</p><span class="more">Read article →</span></a>)}</div>
+      <div class="heritage-action-pair" style="margin-top:35px"><a class="heritage-ghost-button" href="/blog-posts/">Read More Articles</a></div>
+    </div>
+  </section>
 </SiteLayout>
