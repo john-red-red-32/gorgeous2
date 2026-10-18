@@ -1,0 +1,19 @@
+name: Build and audit
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  astro:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+      - name: Build static HTML
+        run: npm run build
+      - name: Audit generated HTML
+        run: npm run audit
