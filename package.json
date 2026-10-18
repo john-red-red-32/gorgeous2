@@ -13,7 +13,9 @@
     "audit:migration": "node scripts/audit-migration.mjs",
     "audit:migration:strict": "node scripts/audit-migration.mjs --strict",
     "test:redirects": "node --test scripts/prepare-redirects.test.mjs",
-    "audit:redirects": "node scripts/prepare-redirects.mjs"
+    "audit:redirects": "node scripts/prepare-redirects.mjs",
+    "audit:legacy": "node scripts/audit-legacy-redirects.mjs",
+    "test:legacy": "node --test scripts/audit-legacy-redirects.test.mjs"
   },
   "dependencies": {
     "astro": "^5.16.0"
