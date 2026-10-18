@@ -1,0 +1,9 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import { treatments } from '../../data/content';
+const groups = [...new Set(treatments.map(t => t.category))];
+---
+<SiteLayout title="Aesthetics Treatments in Blackpool | The Gorgeous Clinic" description="Explore anti-wrinkle injections, lip enhancements, dermal fillers and other treatments at The Gorgeous Clinic, Blackpool's highest rated aesthetics clinic.">
+<section class="page-hero"><div class="container"><p class="eyebrow">Discover our treatments</p><h1>Thoughtful treatments.<br /><em>Beautifully done.</em></h1><p>Explore options for facial balance, fine lines, lips and skin concerns. Our approach begins with an honest conversation about what would suit you.</p></div></section>
+<div class="container section"><p class="demo-note">INITIAL PROTOTYPE: THE COMPLETE TREATMENT CATALOGUE WILL BE IMPORTED FROM BUBBLE.</p>{groups.map(group=><section style="margin-bottom:65px"><div class="split-heading"><h2 style="font-size:36px">{group}</h2><p>Explore treatments and learn more about suitability, results and consultation.</p></div><div class="card-grid">{treatments.filter(t=>t.category===group).map((t,i)=><a class="tile" href={'/treatments/'+t.slug+'/'}><div class="tile-body"><span class="eyebrow">The Gorgeous Clinic</span><h3>{t.name}</h3><p>{t.summary}</p></div><div class="tile-footer"><span>Discover treatment</span><span class="arrow-pill">↗</span></div></a>)}</div></section>)}</div>
+</SiteLayout>
