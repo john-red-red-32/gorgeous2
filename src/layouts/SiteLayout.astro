@@ -1,5 +1,6 @@
 ---
 import '../styles/site.css';
+import '../styles/heritage.css';
 import { bookingUrl, whatsappUrl } from '../data/content';
 
 interface Props {
@@ -37,22 +38,29 @@ const nav = [
   {schema && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
 </head>
 <body>
-  <div class="announcement"><span class="sparkle">✦</span> THE FYLDE COAST'S HIGHEST RATED MEDICAL AESTHETICS CLINIC <span class="sparkle">✦</span></div>
-  <header class="site-header">
-    <div class="header-inner container">
-      <a class="brand" href="/" aria-label="The Gorgeous Clinic homepage">
-        <span class="brand-emblem">G</span>
-        <span class="brand-stack"><strong>THE GORGEOUS CLINIC</strong><small>MEDICAL AESTHETICS · BLACKPOOL</small></span>
-      </a>
-      <nav class="desktop-nav" aria-label="Main navigation">
-        {nav.map(item => <a href={item.href} aria-current={currentPath === item.href ? 'page' : undefined}>{item.label}</a>)}
+  <header class:list={['heritage-header', { 'is-home': currentPath === '/' }]} id="site-header">
+    <nav class="heritage-navigation" aria-label="Main navigation">
+      <div class="heritage-navlinks">
+        <a href="/" aria-current={currentPath === '/' ? 'page' : undefined}>Home <span aria-hidden="true">⌄</span></a>
+        <a href="/treatments/" aria-current={currentPath.startsWith('/treatments/') ? 'page' : undefined}>Treatments <span aria-hidden="true">⌄</span></a>
+        <a href="https://thegorgeousclinic.co.uk/gallery/" aria-label="View original before and after gallery">Gallery <span aria-hidden="true">⌄</span></a>
+        <a href="/contact-us/">Contact <span aria-hidden="true">⌄</span></a>
+      </div>
+      <div class="heritage-navactions">
+        <a class="heritage-gold-pill" href="https://thegorgeousclinic.co.uk/explore-academy/">Training Academy</a>
+        <a class="heritage-cream-pill" href={bookingUrl} target="_blank" rel="noopener noreferrer">Free Consultation</a>
+      </div>
+    </nav>
+    <details class="heritage-mobile-nav">
+      <summary aria-label="Open website menu"><span>☰</span></summary>
+      <nav aria-label="Mobile navigation">
+        <a href="/">Home</a><a href="/treatments/">Treatments</a>
+        <a href="https://thegorgeousclinic.co.uk/gallery/">Gallery</a>
+        <a href="/blog-posts/">Knowledge Hub</a><a href="/contact-us/">Contact</a>
+        <a href="https://thegorgeousclinic.co.uk/explore-academy/">Training Academy</a>
+        <a href={bookingUrl} target="_blank" rel="noopener noreferrer">Free Consultation</a>
       </nav>
-      <a class="header-book" href={bookingUrl} target="_blank" rel="noopener noreferrer">Book a consultation <span aria-hidden="true">↗</span></a>
-      <details class="mobile-menu">
-        <summary aria-label="Open navigation"><span></span><span></span><span></span></summary>
-        <nav aria-label="Mobile navigation">{nav.map(item => <a href={item.href}>{item.label}</a>)}<a href={bookingUrl} target="_blank" rel="noopener noreferrer">Book a consultation ↗</a></nav>
-      </details>
-    </div>
+    </details>
   </header>
   <main><slot /></main>
   <section class="footer-cta">
