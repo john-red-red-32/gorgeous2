@@ -1,0 +1,3441 @@
+{
+  "source": "User-supplied previous Bubble/GoDaddy 301 redirect export (pasted)",
+  "imported_at": "2026-10-18",
+  "raw_pairs": 896,
+  "unique_exact_pairs": 858,
+  "removed_exact_duplicates": 38,
+  "pairs": [
+    {
+      "from": "/anti-wrinkle",
+      "to": "/treatments/anti-wrinkle-injections"
+    },
+    {
+      "from": "/anti-wrinkle-botox",
+      "to": "/treatments/anti-wrinkle-injections"
+    },
+    {
+      "from": "/collagen-induction-skin",
+      "to": "/treatments/collagen-inductiontherapy"
+    },
+    {
+      "from": "/lines-&-wrinkles",
+      "to": "/treatments/anti-wrinkle-injections"
+    },
+    {
+      "from": "/fat-dissolving-injections",
+      "to": "/treatments/fat-dissolving-injections"
+    },
+    {
+      "from": "/knowledge-hub",
+      "to": "/blog"
+    },
+    {
+      "from": "/injectable-moisturisers-1",
+      "to": "/treatments/injectable-moisturisers-1"
+    },
+    {
+      "from": "/brighter-undereyes",
+      "to": "/treatments/injectable-moisturisers-1"
+    },
+    {
+      "from": "/anti-fluid-retention-eyes",
+      "to": "/treatments/anti-fluid-retention-eyes"
+    },
+    {
+      "from": "/vampire-facial",
+      "to": "/treatments/collagen-inductiontherapy"
+    },
+    {
+      "from": "/filler-dissolving",
+      "to": "/treatments/filler-dissolving"
+    },
+    {
+      "from": "/hyperhydrosis",
+      "to": "/treatments/hyperhidrosis-sweat-control-injections"
+    },
+    {
+      "from": "/full-works-ultra",
+      "to": "/treatments/non-surgical-face-lift-1"
+    },
+    {
+      "from": "/contact",
+      "to": "/contact-us"
+    },
+    {
+      "from": "/solutions",
+      "to": "/treatments/view-our-treatments?section=concern"
+    },
+    {
+      "from": "/our-team",
+      "to": "/meet-the-team"
+    },
+    {
+      "from": "/plla-sculptra-/-aesplla",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/subcision-acne-scarring-1",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/knowledge-hub/f.rss",
+      "to": "/blog/f.rss"
+    },
+    {
+      "from": "/f/exploring-the-ingredients-jalupro-vs-profhilo",
+      "to": "/treatments/injectable-moisturisers-1"
+    },
+    {
+      "from": "/plla-sculptra-/-aesplla?blogcategory=Lines,+Wrinkles+&+Acne+Scars",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/subcision-acne-scarring-1?blogcategory=Fat+Dissolving+Injections",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/pricing/f/symmetry-work-for-client-with-facial-paralysis",
+      "to": "/gallery"
+    },
+    {
+      "from": "/pricing/f/the-art-of-lip-filler-injections-finding-a-skilled-practitioner",
+      "to": "/treatments/lip-enhancements"
+    },
+    {
+      "from": "/pricing/f/non-surgical-face-lift-lip-enhancement-walkthrough",
+      "to": "/treatments/lip-enhancements"
+    },
+    {
+      "from": "/pricing/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction",
+      "to": "/treatments/fat-dissolving-injections"
+    },
+    {
+      "from": "/pricing/f/non-surgical-face-lift-lip-enhancement-rejuvenation",
+      "to": "/treatments/lip-enhancements"
+    },
+    {
+      "from": "/pricing/f/natural-lip-enhancements-how-to-get-them-right-lip-filler",
+      "to": "/treatments/lip-enhancements"
+    },
+    {
+      "from": "/pricing/f/forehead-rejuvenation-how-fillers-can-turn-back-time",
+      "to": "/treatments/temple-revolumisation-1765308723112x953852281526645600"
+    },
+    {
+      "from": "/pricing/f/pdo-cog-thread-lift-⚙️🔵",
+      "to": "/treatments/thread-lifts-pdo-pla"
+    },
+    {
+      "from": "/pricing/f/chemical-peel-for-active-acne-meet-our-30%-salicylic-acid-peel",
+      "to": "/treatments/active-acne-peel-1765640746293x377513566426518340"
+    },
+    {
+      "from": "/pricing/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/pricing/f/the-secret-to-natural-lip-filler",
+      "to": "/treatments/lip-enhancements"
+    },
+    {
+      "from": "/anti-wrinkle-injections",
+      "to": "/treatments/anti-wrinkle-injections"
+    },
+    {
+      "from": "/treatments-info",
+      "to": "/treatments"
+    },
+    {
+      "from": "/collagen-inductiontherapy",
+      "to": "/treatments/collagen-inductiontherapy"
+    },
+    {
+      "from": "/non-surgical-face-lift-1",
+      "to": "/treatments/non-surgical-face-lift-1"
+    },
+    {
+      "from": "/lip-enhancements",
+      "to": "/treatments/lip-enhancements"
+    },
+    {
+      "from": "/upper-third-temple-filler",
+      "to": "/treatments/upper-third-temple-filler"
+    },
+    {
+      "from": "/cheek-&-jawline-filler",
+      "to": "/treatments/midface-reconstruction-cheek-filler"
+    },
+    {
+      "from": "/smile-lines-filler",
+      "to": "/treatments/nose-to-mouth-lines-1776479081334x319605839156922300"
+    },
+    {
+      "from": "/chemical-peels-1",
+      "to": "/treatments/chemical-peels-1"
+    },
+    {
+      "from": "/thread-lifts-pdo/pla",
+      "to": "/treatments/thread-lifts-pdo-pla"
+    },
+    {
+      "from": "/platelet-rich-plasma-prp",
+      "to": "/treatments/platelet-rich-plasma-prp"
+    },
+    {
+      "from": "/upper-third-temple-filler?blogcategory=Non-Surgical+Face+Lift",
+      "to": "/treatments/upper-third-temple-filler"
+    },
+    {
+      "from": "/upper-third-temple-filler/f/non-surgical-face-lift-lip-enhancement-walkthrough",
+      "to": "/treatments/upper-third-temple-filler"
+    },
+    {
+      "from": "/brighter-eyes",
+      "to": "/treatments/under-eye-hollow-filler-1776481181955x304405063828494100"
+    },
+    {
+      "from": "/treatments-info/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/upper-third-temple-filler/f/symmetry-work-for-client-with-facial-paralysis",
+      "to": "/treatments/upper-third-temple-filler"
+    },
+    {
+      "from": "/subcision-acne-scarring-1/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/plla-sculptra-/-aesplla/f/subcision-for-acne-scar-removal-tgcs-expert-solution",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/plla-sculptra-/-aesplla/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/plla-sculptra-/-aesplla/f/next-generation-of-skincare-the-hydrafacial-syndeo",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/upper-third-temple-filler/f/non-surgical-face-lift-lip-enhancement-rejuvenation",
+      "to": "/treatments/lip-enhancements"
+    },
+    {
+      "from": "/upper-third-temple-filler/f/forehead-rejuvenation-how-fillers-can-turn-back-time",
+      "to": "/treatments/upper-third-temple-filler"
+    },
+    {
+      "from": "/glowing-skin",
+      "to": "/treatments/collagen-inductiontherapy"
+    },
+    {
+      "from": "/pdo-korean-thread-lift",
+      "to": "/treatments/thread-lifts-pdo-pla"
+    },
+    {
+      "from": "/pricing",
+      "to": "/treatments/view-our-treatments?section=treatments"
+    },
+    {
+      "from": "/+33pptMNwErCOd0Mn3XQPEFDnCmmueian70S15Az2Q=",
+      "to": "/blog/fat-dissolving-for-double-chin-what-to-expect-9526"
+    },
+    {
+      "from": "/IzdEbSL0w+2aBJTYvUIKWC5E+mk4yHB7QIRgmvZEaQ=",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/f/pdo-cog-thread-lift-%E2%9A%99%EF%B8%8F%F0%9F%94%B5",
+      "to": "/treatments/thread-lifts-pdo-pla"
+    },
+    {
+      "from": "/f/exploring-the-ingredients-jalupro-vs-profhilo",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/prp-for-hair-transplant-natural-hair-restoration-at-the-gorgeous",
+      "to": "/treatments/view-our-treatments?section=treatments"
+    },
+    {
+      "from": "/treatments-info",
+      "to": "/blog-posts"
+    },
+    {
+      "from": "/f/chemical-peel-for-active-acne-meet-our-30%25-salicylic-acid-peel",
+      "to": "/treatments/active-acne-peel-1765640746293x377513566426518340"
+    },
+    {
+      "from": "/plla-sculptra-%2F-aesplla/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/fat-dissolving-injections/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction",
+      "to": "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
+    },
+    {
+      "from": "/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction",
+      "to": "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
+    },
+    {
+      "from": "/plla-sculptra-%2F-aesplla",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/anti-",
+      "to": "/treatments/anti-wrinkle-injections"
+    },
+    {
+      "from": "/knowledge-hub/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=Lines%2C+Wrinkles+%26+Acne+Scars",
+      "to": "/treatments/chemical-peels-1"
+    },
+    {
+      "from": "/f/how-often-should-you-get-a-hydrafacial?ref=qanomed&blogcategory=PDO+Cogs+%26+Threads",
+      "to": "/treatments/chemical-peels-1"
+    },
+    {
+      "from": "/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/plla-sculptra-%2F-aesplla/f/subcision-for-acne-scar-removal-tgcs-expert-solution",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/non-surgical-face-lift-1",
+      "to": "/treatments/thread-lifts-pdo-pla"
+    },
+    {
+      "from": "/treatments-info/f/can-hydrafacial-help-with-acne?blogcategory=Facial+Paralysis",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/treatments-info/f/can-hydrafacial-help-with-acne?blogcategory=Body+Countouring+%26+Weight+Loss",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/treatments-info/f/can-hydrafacial-help-with-acne?blogcategory=Lines,+Wrinkles+%26+Acne+Scars",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/treatments-info/f/can-hydrafacial-help-with-acne?blogcategory=PDO+Cogs+%26+Threads",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/solutions",
+      "to": "/treatments/view-our-treatments"
+    },
+    {
+      "from": "/pricing",
+      "to": "/treatments/view-our-treatments"
+    },
+    {
+      "from": "/ 33pptMNwErCOd0Mn3XQPEFDnCmmueian70S15Az2Q=",
+      "to": ""
+    },
+    {
+      "from": "/IzdEbSL0w 2aBJTYvUIKWC5E mk4yHB7QIRgmvZEaQ=",
+      "to": ""
+    },
+    {
+      "from": "/f/pdo-cog-thread-lift-⚙️🔵",
+      "to": "/treatments/thread-lifts-pdo-pla"
+    },
+    {
+      "from": "/knowledge-hub/f/prp-for-hair-transplant-natural-hair-restoration-at-the-gorgeous",
+      "to": "/treatments/prp-for-hair-restoration-1765309605238x422875589125000450"
+    },
+    {
+      "from": "/treatments-info",
+      "to": "/treatments/view-our-treatments"
+    },
+    {
+      "from": "/f/chemical-peel-for-active-acne-meet-our-30%-salicylic-acid-peel",
+      "to": "/treatments/active-acne-peel-1765640746293x377513566426518340"
+    },
+    {
+      "from": "/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/f/how-often-should-you-get-a-hydrafacial?ref=qanomed&blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/plla-sculptra-/-aesplla/f/subcision-for-acne-scar-removal-tgcs-expert-solution",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/treatments-info/f/can-hydrafacial-help-with-acne?blogcategory=Facial Paralysis",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/treatments-info/f/can-hydrafacial-help-with-acne?blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/treatments-info/f/can-hydrafacial-help-with-acne?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/treatments-info/f/can-hydrafacial-help-with-acne?blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Fat Dissolving Injections",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/vitamin-b12-injections",
+      "to": "/treatments/view-our-treatments"
+    },
+    {
+      "from": "/non-surgical-face-lift",
+      "to": "/treatments/non-surgical-face-lift-1"
+    },
+    {
+      "from": "/pricing/f/medically-managed-weight-loss-program-a-path-to-a-healthier-you?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/fat-dissolving-injections-in-blackpool-what-to-know-9526"
+    },
+    {
+      "from": "/f/how-often-should-you-get-a-hydrafacial?ref=qanomed&blogcategory=Injectable Moisturisers",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/non-surgical-face-lift-lip-enhancement-rejuvenation?blogcategory=Non-Surgical Face Lift",
+      "to": "/gallery/non-surgical-full-face-rejuvenation-1765560129962x482716356226522900"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Hair %26 Hair Transplant",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction?blogcategory=Hair %26 Hair Transplant",
+      "to": "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction?blogcategory=Injectable Moisturisers",
+      "to": "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Injectable Moisturisers",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction?blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction?blogcategory=Facial Paralysis",
+      "to": "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Lip Enhancements",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Facial Paralysis",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Hydrafacial",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/medically-managed-weight-loss-program-a-path-to-a-healthier-you?blogcategory=Aesthetics for men",
+      "to": "/blog/fat-dissolving-injections-in-blackpool-what-to-know-9526"
+    },
+    {
+      "from": "/f/hydrafacial-vs-traditional-facials-which-is-right-for-you",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction?blogcategory=Fat Dissolving Injections",
+      "to": "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/medically-managed-weight-loss-program-a-path-to-a-healthier-you?blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/blog/fat-dissolving-injections-in-blackpool-what-to-know-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/medically-managed-weight-loss-program-a-path-to-a-healthier-you?blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/fat-dissolving-injections-in-blackpool-what-to-know-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/medically-managed-weight-loss-program-a-path-to-a-healthier-you?blogcategory=Facial Paralysis",
+      "to": "/blog/fat-dissolving-injections-in-blackpool-what-to-know-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/medically-managed-weight-loss-program-a-path-to-a-healthier-you?blogcategory=Lip Enhancements",
+      "to": "/blog/fat-dissolving-injections-in-blackpool-what-to-know-9526"
+    },
+    {
+      "from": "/ccnuw2zLf3k5mmjsyqYsCyAllwKGeTG/9ylN5meMMY=",
+      "to": ""
+    },
+    {
+      "from": "/lines-&-wrinkles/f/the-science-behind-vampire-facials-their-cost?blogcategory=Fat Dissolving Injections",
+      "to": "/blog/prp-for-skin-rejuvenation-natural-skin-repair-without-filler-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/the-science-behind-vampire-facials-their-cost?blogcategory=Injectable Moisturisers",
+      "to": "/blog/prp-for-skin-rejuvenation-natural-skin-repair-without-filler-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/the-science-behind-vampire-facials-their-cost?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/prp-for-skin-rejuvenation-natural-skin-repair-without-filler-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/the-science-behind-vampire-facials-their-cost",
+      "to": "/blog/prp-for-skin-rejuvenation-natural-skin-repair-without-filler-9526"
+    },
+    {
+      "from": "/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?ref=qanomed&blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/f/non-surgical-face-lift-lip-enhancement-rejuvenation?blogcategory=Lip Enhancements",
+      "to": "/gallery/non-surgical-full-face-rejuvenation-1765560129962x482716356226522900"
+    },
+    {
+      "from": "/pricing/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Hair %26 Hair Transplant",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/pricing/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Injectable Moisturisers",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/pricing/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Fat Dissolving Injections",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/pricing/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/treatments-info/f/how-often-should-you-get-a-hydrafacial?blogcategory=Fat Dissolving Injections",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/non-surgical-face-lift-lip-enhancement-walkthrough?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/non-surgical-face-lift-explained-8526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/the-secret-to-natural-lip-filler?blogcategory=Lip Enhancements",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/f/can-hydrafacial-help-with-acne?blogcategory=Hydrafacial",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/treatments-info/f/medically-managed-weight-loss-program-a-path-to-a-healthier-you?blogcategory=Aesthetics for men",
+      "to": "/blog/fat-dissolving-injections-in-blackpool-what-to-know-9526"
+    },
+    {
+      "from": "/our-team",
+      "to": ""
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Hydrafacial",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/chemical-peel-for-active-acne-meet-our-30%-salicylic-acid-peel",
+      "to": "/treatments/active-acne-peel-1765640746293x377513566426518340"
+    },
+    {
+      "from": "/treatments-info/f/exploring-the-ingredients-jalupro-vs-profhilo?blogcategory=Aesthetics for men",
+      "to": "/treatments/injectable-moisturisers-1"
+    },
+    {
+      "from": "/treatments-info/f/the-science-behind-hydrafacial",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction?blogcategory=Facial Paralysis",
+      "to": "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/the-science-behind-hydrafacial",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/pricing/f/hydrafacial-vs-traditional-facials-which-is-right-for-you",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-benefits-process-results",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/non-surgical-face-lift-lip-enhancement-rejuvenation?blogcategory=Lip Enhancements",
+      "to": "/gallery/non-surgical-full-face-rejuvenation-1765560129962x482716356226522900"
+    },
+    {
+      "from": "/knowledge-hub/f/the-secret-to-natural-lip-filler?blogcategory=Aesthetics for men",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-before-aftercare-how-to-get-the-best-results",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-myths-debunked-separating-fact-from-fiction",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/treatments-info/f/next-generation-of-skincare-the-hydrafacial-syndeo",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/f/hydrafacial-faqs-everything-you-need-to-know-before",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/forehead-rejuvenation-how-fillers-can-turn-back-time?blogcategory=Non-Surgical Face Lift",
+      "to": "/treatments/forehead-revolumisation-1765308796436x204344993782369380"
+    },
+    {
+      "from": "/knowledge-hub/f/can-hydrafacial-help-with-acne",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/hydrafacial-benefits-process-results",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/pricing/f/the-secret-to-natural-lip-filler",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/upper-third-temple-filler/f/non-surgical-face-lift-lip-enhancement-walkthrough",
+      "to": "/blog/non-surgical-face-lift-explained-8526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/hydrafacial-faqs-everything-you-need-to-know-before",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/exploring-the-ingredients-jalupro-vs-profhilo?blogcategory=Injectable Moisturisers",
+      "to": "/treatments/injectable-moisturisers-1"
+    },
+    {
+      "from": "/pricing/f/the-art-of-lip-filler-injections-finding-a-skilled-practitioner",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/symmetry-work-for-client-with-facial-paralysis?blogcategory=Lip Enhancements",
+      "to": "/gallery/facial-asymmetry-correction-brow-balance-1765559754044x598757657110037500"
+    },
+    {
+      "from": "/f/forehead-rejuvenation-how-fillers-can-turn-back-time?blogcategory=Facial Paralysis",
+      "to": "/treatments/forehead-revolumisation-1765308796436x204344993782369380"
+    },
+    {
+      "from": "/f/hydrafacial-benefits-process-results",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/hydrafacial-before-aftercare-how-to-get-the-best-results",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/hydrafacial-before-aftercare-how-to-get-the-best-results?ref=qanomed&blogcategory=Fat Dissolving Injections",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/prp-for-hair-transplant-natural-hair-restoration-at-the-gorgeous?blogcategory=Aesthetics for men",
+      "to": "/treatments/prp-for-hair-restoration-1765309605238x422875589125000450"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/pdo-cog-thread-lift-⚙️🔵?blogcategory=PDO Cogs %26 Threads",
+      "to": "/treatments/thread-lifts-pdo-pla"
+    },
+    {
+      "from": "/reflexology",
+      "to": "/treatments/view-our-treatments"
+    },
+    {
+      "from": "/full-works-ultra",
+      "to": "/gallery/full-works-ultra-1765470725058x493426724585029900"
+    },
+    {
+      "from": "/f/hydrafacial-before-aftercare-how-to-get-the-best-results",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/upper-third-temple-filler/f/symmetry-work-for-client-with-facial-paralysis",
+      "to": "/gallery/facial-asymmetry-correction-brow-balance-1765559754044x598757657110037500"
+    },
+    {
+      "from": "/treatments-info/f/the-secret-to-natural-lip-filler?blogcategory=Lip Enhancements",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/f/the-science-behind-vampire-facials-their-cost",
+      "to": "/blog/prp-for-skin-rejuvenation-natural-skin-repair-without-filler-9526"
+    },
+    {
+      "from": "/f/hydrafacial-myths-debunked-separating-fact-from-fiction?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/prp-for-hair-transplant-natural-hair-restoration-at-the-gorgeous?blogcategory=Hair %26 Hair Transplant",
+      "to": "/treatments/prp-for-hair-restoration-1765309605238x422875589125000450"
+    },
+    {
+      "from": "/knowledge-hub/f/the-science-behind-hydrafacial",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/the-art-of-lip-filler-injections-finding-a-skilled-practitioner?blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?blogcategory=Hydrafacial",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/treatments-info/f/can-hydrafacial-help-with-acne?blogcategory=Aesthetics for men",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/next-generation-of-skincare-the-hydrafacial-syndeo",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/pricing/f/how-often-should-you-get-a-hydrafacial",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/pricing/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction",
+      "to": "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/how-often-should-you-get-a-hydrafacial",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/can-hydrafacial-help-with-acne",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/pricing/f/the-science-behind-vampire-facials-their-cost",
+      "to": "/blog/prp-for-skin-rejuvenation-natural-skin-repair-without-filler-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/how-often-should-you-get-a-hydrafacial",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub?blogcategory=Fat Dissolving Injections",
+      "to": "/blog/how-to-choose-an-aesthetics-clinic-in-lancashire-8526---"
+    },
+    {
+      "from": "/f/non-surgical-face-lift-lip-enhancement-walkthrough",
+      "to": "/blog/non-surgical-face-lift-explained-8526"
+    },
+    {
+      "from": "/f/hydrafacial-before-aftercare-how-to-get-the-best-results?ref=qanomed&blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/hydrafacial-before-aftercare-how-to-get-the-best-results?ref=qanomed&blogcategory=Hair %26 Hair Transplant",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles?blog=y&blogcategory=Fat Dissolving Injections",
+      "to": "/treatments/anti-wrinkle-injections"
+    },
+    {
+      "from": "/lines-&-wrinkles?blog=y&blogcategory=Injectable Moisturisers",
+      "to": "/treatments/anti-wrinkle-injections"
+    },
+    {
+      "from": "/f/hydrafacial-before-aftercare-how-to-get-the-best-results?ref=qanomed&blogcategory=Injectable Moisturisers",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles?blog=y&blogcategory=Non-Surgical Face Lift",
+      "to": "/treatments/anti-wrinkle-injections"
+    },
+    {
+      "from": "/f/hydrafacial-before-aftercare-how-to-get-the-best-results?ref=qanomed&blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/iv-drip-therapy",
+      "to": "/treatments/view-our-treatments"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/symmetry-work-for-client-with-facial-paralysis?blogcategory=Facial Paralysis",
+      "to": "/gallery/facial-asymmetry-correction-brow-balance-1765559754044x598757657110037500"
+    },
+    {
+      "from": "/f/medically-managed-weight-loss-program-a-path-to-a-healthier-you?blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/blog/fat-dissolving-injections-in-blackpool-what-to-know-9526"
+    },
+    {
+      "from": "/f/how-often-should-you-get-a-hydrafacial",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/pricing/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/natural-lip-enhancements-how-to-get-them-right-lip-filler?blogcategory=Lip Enhancements",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/next-generation-of-skincare-the-hydrafacial-syndeo",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/pricing/f/forehead-rejuvenation-how-fillers-can-turn-back-time",
+      "to": "/treatments/forehead-revolumisation-1765308796436x204344993782369380"
+    },
+    {
+      "from": "/f/medically-managed-weight-loss-program-a-path-to-a-healthier-you",
+      "to": "/blog/fat-dissolving-injections-in-blackpool-what-to-know-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/chemical-peel-for-active-acne-meet-our-30%-salicylic-acid-peel",
+      "to": "/treatments/active-acne-peel-1765640746293x377513566426518340"
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-faqs-everything-you-need-to-know-before",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/upper-third-temple-filler/f/non-surgical-face-lift-lip-enhancement-rejuvenation",
+      "to": "/gallery/non-surgical-full-face-rejuvenation-1765560129962x482716356226522900"
+    },
+    {
+      "from": "/treatments-info/f/subcision-for-acne-scar-removal-tgcs-expert-solution?blogcategory=Aesthetics for men",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/pricing/f/exploring-the-ingredients-jalupro-vs-profhilo",
+      "to": "/treatments/injectable-moisturisers-1"
+    },
+    {
+      "from": "/upper-third-temple-filler/f/pdo-cog-thread-lift-⚙️🔵",
+      "to": "/treatments/thread-lifts-pdo-pla"
+    },
+    {
+      "from": "/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction?blogcategory=Fat Dissolving Injections",
+      "to": "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
+    },
+    {
+      "from": "/f/the-science-behind-hydrafacial?blogcategory=Hydrafacial",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/the-art-of-lip-filler-injections-finding-a-skilled-practitioner?blogcategory=Lip Enhancements",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/treatments-info/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction?blogcategory=Fat Dissolving Injections",
+      "to": "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/pdo-cog-thread-lift-⚙️🔵?blogcategory=Non-Surgical Face Lift",
+      "to": "/treatments/thread-lifts-pdo-pla"
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-vs-traditional-facials-which-is-right-for-you",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/natural-lip-enhancements-how-to-get-them-right-lip-filler?blogcategory=Lip Enhancements",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/pricing/f/subcision-for-acne-scar-removal-tgcs-expert-solution",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/upper-third-temple-filler/f/forehead-rejuvenation-how-fillers-can-turn-back-time",
+      "to": "/treatments/forehead-revolumisation-1765308796436x204344993782369380"
+    },
+    {
+      "from": "/knowledge-hub/f/the-secret-to-natural-lip-filler?blogcategory=Lip Enhancements",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/exploring-the-ingredients-jalupro-vs-profhilo?blogcategory=Injectable Moisturisers",
+      "to": "/treatments/injectable-moisturisers-1"
+    },
+    {
+      "from": "/f/chiseling-a-mans-jawline-using-dermal-fillers?blogcategory=Aesthetics for men",
+      "to": "/blog/dermal-fillers-what-to-know-before-booking-blackpool-8526"
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-benefits-process-results",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/f/hydrafacial-before-aftercare-how-to-get-the-best-results?ref=qanomed&blogcategory=Aesthetics for men",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/hydrafacial-before-aftercare-how-to-get-the-best-results?ref=qanomed&blogcategory=Lip Enhancements",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles?blog=y&blogcategory=Lip Enhancements",
+      "to": "/treatments/anti-wrinkle-injections"
+    },
+    {
+      "from": "/f/the-secret-to-natural-lip-filler?blogcategory=Lip Enhancements",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/pricing/f/hydrafacial-before-aftercare-how-to-get-the-best-results",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/symmetry-work-for-client-with-facial-paralysis?blogcategory=Facial Paralysis",
+      "to": "/gallery/facial-asymmetry-correction-brow-balance-1765559754044x598757657110037500"
+    },
+    {
+      "from": "/knowledge-hub/f/non-surgical-face-lift-lip-enhancement-walkthrough?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/non-surgical-face-lift-explained-8526"
+    },
+    {
+      "from": "/brighter-undereyes",
+      "to": "/treatments/brighter-undereyes"
+    },
+    {
+      "from": "/knowledge-hub",
+      "to": "/blog/how-to-choose-an-aesthetics-clinic-in-lancashire-8526---"
+    },
+    {
+      "from": "/knowledge-hub?blogcategory=Lip Enhancements",
+      "to": "/blog/how-to-choose-an-aesthetics-clinic-in-lancashire-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-myths-debunked-separating-fact-from-fiction?blogcategory=Hydrafacial",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/hydrafacial-vs-traditional-facials-which-is-right-for-you",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/subcision-for-acne-scar-removal-tgcs-expert-solution?blogcategory=Aesthetics for men",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/f/can-hydrafacial-help-with-acne",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/medically-managed-weight-loss-program-a-path-to-a-healthier-you",
+      "to": "/blog/fat-dissolving-injections-in-blackpool-what-to-know-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction?blogcategory=Aesthetics for men",
+      "to": "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/chiseling-a-mans-jawline-using-dermal-fillers?blogcategory=Aesthetics for men",
+      "to": "/blog/dermal-fillers-what-to-know-before-booking-blackpool-8526"
+    },
+    {
+      "from": "/knowledge-hub/f/can-hydrafacial-help-with-acne?blogcategory=Facial Paralysis",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/weight-loss-injections",
+      "to": "/treatments/view-our-treatments"
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-before-aftercare-how-to-get-the-best-results",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/forehead-rejuvenation-how-fillers-can-turn-back-time?blogcategory=Aesthetics for men",
+      "to": "/treatments/forehead-revolumisation-1765308796436x204344993782369380"
+    },
+    {
+      "from": "/vampire-facial",
+      "to": "/treatments/platelet-rich-plasma-prp"
+    },
+    {
+      "from": "/treatments-info/f/pdo-cog-thread-lift-⚙️🔵",
+      "to": "/treatments/thread-lifts-pdo-pla"
+    },
+    {
+      "from": "/f/subcision-for-acne-scar-removal-tgcs-expert-solution?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/f/symmetry-work-for-client-with-facial-paralysis",
+      "to": "/gallery/facial-asymmetry-correction-brow-balance-1765559754044x598757657110037500"
+    },
+    {
+      "from": "/knowledge-hub/f/pdo-cog-thread-lift-⚙️🔵?blogcategory=PDO Cogs %26 Threads",
+      "to": "/treatments/thread-lifts-pdo-pla"
+    },
+    {
+      "from": "/plla-sculptra-/-aesplla/f/next-generation-of-skincare-the-hydrafacial-syndeo",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/knowledge-hub/f/non-surgical-face-lift-lip-enhancement-rejuvenation?blogcategory=Lip Enhancements",
+      "to": "/gallery/non-surgical-full-face-rejuvenation-1765560129962x482716356226522900"
+    },
+    {
+      "from": "/knowledge-hub/f/chiseling-a-mans-jawline-using-dermal-fillers?blogcategory=Aesthetics for men",
+      "to": "/blog/dermal-fillers-what-to-know-before-booking-blackpool-8526"
+    },
+    {
+      "from": "/pricing/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Hair %26 Hair Transplant",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/hydrafacial-before-aftercare-how-to-get-the-best-results?ref=qanomed&blogcategory=Facial Paralysis",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/hydrafacial",
+      "to": "/treatments/chemical-peels-1"
+    },
+    {
+      "from": "/pricing/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles?blog=y&blogcategory=Facial Paralysis",
+      "to": "/treatments/anti-wrinkle-injections"
+    },
+    {
+      "from": "/pricing/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Fat Dissolving Injections",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/hydrafacial-before-aftercare-how-to-get-the-best-results?ref=qanomed&blogcategory=Hydrafacial",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/the-science-behind-vampire-facials-their-cost?blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/prp-for-skin-rejuvenation-natural-skin-repair-without-filler-9526"
+    },
+    {
+      "from": "/f/hydrafacial-myths-debunked-separating-fact-from-fiction?ref=qanomed&blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/the-science-behind-vampire-facials-their-cost?blogcategory=Facial Paralysis",
+      "to": "/blog/prp-for-skin-rejuvenation-natural-skin-repair-without-filler-9526"
+    },
+    {
+      "from": "/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Hair %26 Hair Transplant",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/hydrafacial-myths-debunked-separating-fact-from-fiction?ref=qanomed&blogcategory=Fat Dissolving Injections",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/treatments-info/f/medically-managed-weight-loss-program-a-path-to-a-healthier-you?blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/blog/fat-dissolving-injections-in-blackpool-what-to-know-9526"
+    },
+    {
+      "from": "/knowledge-hub?blogcategory=Hydrafacial",
+      "to": "/blog/how-to-choose-an-aesthetics-clinic-in-lancashire-8526---"
+    },
+    {
+      "from": "/pricing?blogcategory=Hair %26 Hair Transplant&blog=y",
+      "to": "/treatments/view-our-treatments"
+    },
+    {
+      "from": "/treatments-info?blogcategory=Hydrafacial",
+      "to": "/treatments/view-our-treatments"
+    },
+    {
+      "from": "/f/hydrafacial-before-aftercare-how-to-get-the-best-results?ref=qanomed&blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/hydrafacial-before-aftercare-how-to-get-the-best-results?ref=qanomed&blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles?blog=y&blogcategory=Hydrafacial",
+      "to": "/treatments/anti-wrinkle-injections"
+    },
+    {
+      "from": "/lines-&-wrinkles?blogcategory=Fat Dissolving Injections&blog=y",
+      "to": "/treatments/anti-wrinkle-injections"
+    },
+    {
+      "from": "/f/hydrafacial-myths-debunked-separating-fact-from-fiction?ref=qanomed&blogcategory=Injectable Moisturisers",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/f/hydrafacial-myths-debunked-separating-fact-from-fiction?ref=qanomed&blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles?blogcategory=Injectable Moisturisers&blog=y",
+      "to": "/treatments/anti-wrinkle-injections"
+    },
+    {
+      "from": "/pricing?blog=y&blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/treatments/view-our-treatments"
+    },
+    {
+      "from": "/lines-&-wrinkles?blogcategory=Non-Surgical Face Lift&blog=y",
+      "to": "/treatments/anti-wrinkle-injections"
+    },
+    {
+      "from": "/f/hydrafacial-myths-debunked-separating-fact-from-fiction?ref=qanomed&blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles?blogcategory=PDO Cogs %26 Threads&blog=y",
+      "to": "/treatments/anti-wrinkle-injections"
+    },
+    {
+      "from": "/pricing?blog=y&blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/treatments/view-our-treatments"
+    },
+    {
+      "from": "/f/hydrafacial-myths-debunked-separating-fact-from-fiction?ref=qanomed&blogcategory=Facial Paralysis",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/pricing?blog=y&blogcategory=Hair %26 Hair Transplant",
+      "to": "/treatments/view-our-treatments"
+    },
+    {
+      "from": "/lines-&-wrinkles?blogcategory=Lip Enhancements&blog=y",
+      "to": "/treatments/anti-wrinkle-injections"
+    },
+    {
+      "from": "/pricing?blog=y&blogcategory=Injectable Moisturisers",
+      "to": "/treatments/view-our-treatments"
+    },
+    {
+      "from": "/lines-&-wrinkles?blogcategory=Hydrafacial&blog=y",
+      "to": "/treatments/anti-wrinkle-injections"
+    },
+    {
+      "from": "/f/hydrafacial-myths-debunked-separating-fact-from-fiction?ref=qanomed&blogcategory=Lip Enhancements",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/pricing/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/hydrafacial-myths-debunked-separating-fact-from-fiction?ref=qanomed&blogcategory=Hydrafacial",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/fat-dissolving-injections?blogcategory=Fat Dissolving Injections&blog=y",
+      "to": "/treatments/fat-dissolving-injections"
+    },
+    {
+      "from": "/pricing/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles?blog=y",
+      "to": "/treatments/anti-wrinkle-injections"
+    },
+    {
+      "from": "/pricing?blog=y&blogcategory=Non-Surgical Face Lift",
+      "to": "/treatments/view-our-treatments"
+    },
+    {
+      "from": "/treatments-info/f/medically-managed-weight-loss-program-a-path-to-a-healthier-you?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/blog/fat-dissolving-injections-in-blackpool-what-to-know-9526"
+    },
+    {
+      "from": "/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?ref=qanomed&blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?blogcategory=Hydrafacial",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Lip Enhancements",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction",
+      "to": "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
+    },
+    {
+      "from": "/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?ref=qanomed&blogcategory=Hair %26 Hair Transplant",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/pricing?blog=y&blogcategory=Hydrafacial",
+      "to": "/treatments/view-our-treatments"
+    },
+    {
+      "from": "/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?ref=qanomed&blogcategory=Non-Surgical Face Lift",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?ref=qanomed&blogcategory=Aesthetics for men",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/pricing?blogcategory=Lines, Wrinkles %26 Acne Scars&blog=y",
+      "to": "/treatments/view-our-treatments"
+    },
+    {
+      "from": "/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?ref=qanomed&blogcategory=Facial Paralysis",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=Fat Dissolving Injections",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/f/the-art-of-lip-filler-injections-finding-a-skilled-practitioner?blogcategory=Lip Enhancements",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/f/hydrafacial-faqs-everything-you-need-to-know-before?ref=qanomed&blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/hydrafacial-faqs-everything-you-need-to-know-before?ref=qanomed&blogcategory=Injectable Moisturisers",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/hydrafacial-faqs-everything-you-need-to-know-before?ref=qanomed&blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/can-hydrafacial-help-with-acne?blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/f/forehead-rejuvenation-how-fillers-can-turn-back-time?ref=qanomed&blogcategory=PDO Cogs %26 Threads",
+      "to": "/treatments/forehead-revolumisation-1765308796436x204344993782369380"
+    },
+    {
+      "from": "/knowledge-hub/f/can-hydrafacial-help-with-acne?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/f/forehead-rejuvenation-how-fillers-can-turn-back-time?ref=qanomed&blogcategory=Facial Paralysis",
+      "to": "/treatments/forehead-revolumisation-1765308796436x204344993782369380"
+    },
+    {
+      "from": "/fat-dissolving-injections?blog=y&blogcategory=Fat Dissolving Injections",
+      "to": "/treatments/fat-dissolving-injections"
+    },
+    {
+      "from": "/f/hydrafacial-myths-debunked-separating-fact-from-fiction?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/hydrafacial-faqs-everything-you-need-to-know-before?ref=qanomed&blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/the-science-behind-hydrafacial",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/f/non-surgical-face-lift-lip-enhancement-rejuvenation?ref=qanomed&blogcategory=Lip Enhancements",
+      "to": "/gallery/non-surgical-full-face-rejuvenation-1765560129962x482716356226522900"
+    },
+    {
+      "from": "/treatments-info/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction",
+      "to": "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Hair %26 Hair Transplant",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/non-surgical-face-lift-lip-enhancement-rejuvenation?ref=qanomed&blogcategory=Non-Surgical Face Lift",
+      "to": "/gallery/non-surgical-full-face-rejuvenation-1765560129962x482716356226522900"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/f/non-surgical-face-lift-lip-enhancement-rejuvenation",
+      "to": "/gallery/non-surgical-full-face-rejuvenation-1765560129962x482716356226522900"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?blogcategory=Fat Dissolving Injections",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles?blogcategory=Injectable Moisturisers",
+      "to": "/treatments/anti-wrinkle-injections"
+    },
+    {
+      "from": "/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=Aesthetics for men",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/f/hydrafacial-faqs-everything-you-need-to-know-before?ref=qanomed&blogcategory=Aesthetics for men",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/hydrafacial-faqs-everything-you-need-to-know-before?ref=qanomed&blogcategory=Lip Enhancements",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/hydrafacial-faqs-everything-you-need-to-know-before?ref=qanomed&blogcategory=Facial Paralysis",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/subcision-for-acne-scar-removal-tgcs-expert-solution?ref=qanomed&blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/f/hydrafacial-faqs-everything-you-need-to-know-before?ref=qanomed&blogcategory=Hydrafacial",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Fat Dissolving Injections",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Hair %26 Hair Transplant",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/fat-dissolving-injections?blog=y",
+      "to": "/treatments/fat-dissolving-injections"
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Hair %26 Hair Transplant",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/subcision-for-acne-scar-removal-tgcs-expert-solution?ref=qanomed&blogcategory=Fat Dissolving Injections",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/f/hydrafacial-before-aftercare-how-to-get-the-best-results?ref=qanomed",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=Hair %26 Hair Transplant",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/f/hydrafacial-myths-debunked-separating-fact-from-fiction?blogcategory=Fat Dissolving Injections",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Lip Enhancements",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/pricing?blogcategory=Body Countouring %26 Weight Loss&blog=y",
+      "to": "/treatments/view-our-treatments"
+    },
+    {
+      "from": "/f/subcision-for-acne-scar-removal-tgcs-expert-solution?ref=qanomed&blogcategory=Hair %26 Hair Transplant",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Injectable Moisturisers",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/the-science-behind-hydrafacial?ref=qanomed&blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/next-generation-of-skincare-the-hydrafacial-syndeo?blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Injectable Moisturisers",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/medically-managed-weight-loss-program-a-path-to-a-healthier-you?blogcategory=Hair %26 Hair Transplant",
+      "to": "/blog/fat-dissolving-injections-in-blackpool-what-to-know-9526"
+    },
+    {
+      "from": "/f/subcision-for-acne-scar-removal-tgcs-expert-solution?ref=qanomed&blogcategory=Lip Enhancements",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/pricing/f/how-often-should-you-get-a-hydrafacial?blogcategory=Injectable Moisturisers",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Facial Paralysis",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/can-hydrafacial-help-with-acne?blogcategory=Hair %26 Hair Transplant",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=Non-Surgical Face Lift",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction?ref=qanomed&blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
+    },
+    {
+      "from": "/f/subcision-for-acne-scar-removal-tgcs-expert-solution?ref=qanomed&blogcategory=Facial Paralysis",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/f/hydrafacial-myths-debunked-separating-fact-from-fiction?blogcategory=Hair %26 Hair Transplant",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/pricing/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Facial Paralysis",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/subcision-for-acne-scar-removal-tgcs-expert-solution?blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/knowledge-hub/f/next-generation-of-skincare-the-hydrafacial-syndeo?blogcategory=Fat Dissolving Injections",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=Lip Enhancements",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/f/how-often-should-you-get-a-hydrafacial?ref=qanomed&blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/forehead-rejuvenation-how-fillers-can-turn-back-time?ref=qanomed&blogcategory=Lip Enhancements",
+      "to": "/treatments/forehead-revolumisation-1765308796436x204344993782369380"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Fat Dissolving Injections",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=PDO Cogs %26 Threads",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/f/subcision-for-acne-scar-removal-tgcs-expert-solution?blogcategory=Fat Dissolving Injections",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Facial Paralysis",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/how-often-should-you-get-a-hydrafacial?ref=qanomed&blogcategory=Aesthetics for men",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/subcision-for-acne-scar-removal-tgcs-expert-solution?blogcategory=Hair %26 Hair Transplant",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/f/subcision-for-acne-scar-removal-tgcs-expert-solution?blogcategory=Injectable Moisturisers",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Aesthetics for men",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/next-generation-of-skincare-the-hydrafacial-syndeo?blogcategory=Hair %26 Hair Transplant",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/f/how-often-should-you-get-a-hydrafacial?ref=qanomed&blogcategory=Lip Enhancements",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/hydrafacial-faqs-everything-you-need-to-know-before?ref=qanomed",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/pricing/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction?blogcategory=Injectable Moisturisers",
+      "to": "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Injectable Moisturisers",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/can-hydrafacial-help-with-acne?ref=qanomed&blogcategory=Hair %26 Hair Transplant",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=Aesthetics for men",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?blogcategory=Injectable Moisturisers",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/f/subcision-for-acne-scar-removal-tgcs-expert-solution?blogcategory=Aesthetics for men",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/f/can-hydrafacial-help-with-acne?ref=qanomed&blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/f/subcision-for-acne-scar-removal-tgcs-expert-solution?blogcategory=Lip Enhancements",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/f/how-often-should-you-get-a-hydrafacial?ref=qanomed&blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/how-often-should-you-get-a-hydrafacial?ref=qanomed&blogcategory=Fat Dissolving Injections",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/pricing/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
+    },
+    {
+      "from": "/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Injectable Moisturisers",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/pricing/f/forehead-rejuvenation-how-fillers-can-turn-back-time?blogcategory=Hair %26 Hair Transplant",
+      "to": "/treatments/forehead-revolumisation-1765308796436x204344993782369380"
+    },
+    {
+      "from": "/f/how-often-should-you-get-a-hydrafacial?ref=qanomed&blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Injectable Moisturisers",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/pricing/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction?blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/the-science-behind-vampire-facials-their-cost?ref=qanomed&blogcategory=Fat Dissolving Injections",
+      "to": "/blog/prp-for-skin-rejuvenation-natural-skin-repair-without-filler-9526"
+    },
+    {
+      "from": "/pricing/f/forehead-rejuvenation-how-fillers-can-turn-back-time?blogcategory=Aesthetics for men",
+      "to": "/treatments/forehead-revolumisation-1765308796436x204344993782369380"
+    },
+    {
+      "from": "/f/can-hydrafacial-help-with-acne?ref=qanomed&blogcategory=Aesthetics for men",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/pricing?blogcategory=Hydrafacial&blog=y",
+      "to": "/treatments/view-our-treatments"
+    },
+    {
+      "from": "/f/the-science-behind-vampire-facials-their-cost?ref=qanomed&blogcategory=Hair %26 Hair Transplant",
+      "to": "/blog/prp-for-skin-rejuvenation-natural-skin-repair-without-filler-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Lip Enhancements",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/the-science-behind-vampire-facials-their-cost?ref=qanomed&blogcategory=Injectable Moisturisers",
+      "to": "/blog/prp-for-skin-rejuvenation-natural-skin-repair-without-filler-9526"
+    },
+    {
+      "from": "/f/can-hydrafacial-help-with-acne?ref=qanomed&blogcategory=Lip Enhancements",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Aesthetics for men",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/next-generation-of-skincare-the-hydrafacial-syndeo?blogcategory=Injectable Moisturisers",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/next-generation-of-skincare-the-hydrafacial-syndeo?blogcategory=Facial Paralysis",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/pdo-cog-thread-lift-⚙️🔵?blogcategory=Facial Paralysis",
+      "to": "/treatments/thread-lifts-pdo-pla"
+    },
+    {
+      "from": "/treatments-info/f/next-generation-of-skincare-the-hydrafacial-syndeo?blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/next-generation-of-skincare-the-hydrafacial-syndeo?blogcategory=Hydrafacial",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/symmetry-work-for-client-with-facial-paralysis?blogcategory=Aesthetics for men",
+      "to": "/gallery/facial-asymmetry-correction-brow-balance-1765559754044x598757657110037500"
+    },
+    {
+      "from": "/pricing/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Aesthetics for men",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Lip Enhancements",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=Facial Paralysis",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction?ref=qanomed&blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
+    },
+    {
+      "from": "/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction?ref=qanomed&blogcategory=Aesthetics for men",
+      "to": "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
+    },
+    {
+      "from": "/f/hydrafacial-myths-debunked-separating-fact-from-fiction?blogcategory=Aesthetics for men",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/pricing/f/how-often-should-you-get-a-hydrafacial?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/pricing/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/pricing/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction?blogcategory=Aesthetics for men",
+      "to": "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles?blogcategory=Non-Surgical Face Lift",
+      "to": "/treatments/anti-wrinkle-injections"
+    },
+    {
+      "from": "/f/can-hydrafacial-help-with-acne?ref=qanomed&blogcategory=Hydrafacial",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles?blogcategory=Facial Paralysis",
+      "to": "/treatments/anti-wrinkle-injections"
+    },
+    {
+      "from": "/lines-&-wrinkles?blogcategory=Fat Dissolving Injections",
+      "to": "/treatments/anti-wrinkle-injections"
+    },
+    {
+      "from": "/treatments-info/f/next-generation-of-skincare-the-hydrafacial-syndeo?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/f/the-science-behind-hydrafacial?ref=qanomed&blogcategory=Fat Dissolving Injections",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/f/can-hydrafacial-help-with-acne?ref=qanomed&blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/medically-managed-weight-loss-program-a-path-to-a-healthier-you?blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/fat-dissolving-injections-in-blackpool-what-to-know-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-benefits-process-results?blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/treatments-info/f/next-generation-of-skincare-the-hydrafacial-syndeo?blogcategory=Hair %26 Hair Transplant",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-myths-debunked-separating-fact-from-fiction?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/can-hydrafacial-help-with-acne?blogcategory=Injectable Moisturisers",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/f/forehead-rejuvenation-how-fillers-can-turn-back-time?blogcategory=PDO Cogs %26 Threads",
+      "to": "/treatments/forehead-revolumisation-1765308796436x204344993782369380"
+    },
+    {
+      "from": "/treatments-info/f/medically-managed-weight-loss-program-a-path-to-a-healthier-you?blogcategory=Facial Paralysis",
+      "to": "/blog/fat-dissolving-injections-in-blackpool-what-to-know-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Fat Dissolving Injections",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/treatments-info/f/next-generation-of-skincare-the-hydrafacial-syndeo?blogcategory=Injectable Moisturisers",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/can-hydrafacial-help-with-acne?ref=qanomed&blogcategory=Fat Dissolving Injections",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/f/medically-managed-weight-loss-program-a-path-to-a-healthier-you?ref=qanomed&blogcategory=Hair %26 Hair Transplant",
+      "to": "/blog/fat-dissolving-injections-in-blackpool-what-to-know-9526"
+    },
+    {
+      "from": "/f/non-surgical-face-lift-lip-enhancement-walkthrough?blogcategory=Facial Paralysis",
+      "to": "/blog/non-surgical-face-lift-explained-8526"
+    },
+    {
+      "from": "/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?ref=qanomed&blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/pricing/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction?blogcategory=Lip Enhancements",
+      "to": "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
+    },
+    {
+      "from": "/f/medically-managed-weight-loss-program-a-path-to-a-healthier-you?ref=qanomed&blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/fat-dissolving-injections-in-blackpool-what-to-know-9526"
+    },
+    {
+      "from": "/f/can-hydrafacial-help-with-acne?ref=qanomed&blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Lip Enhancements",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/the-science-behind-hydrafacial?ref=qanomed&blogcategory=Aesthetics for men",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/f/medically-managed-weight-loss-program-a-path-to-a-healthier-you?ref=qanomed&blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/blog/fat-dissolving-injections-in-blackpool-what-to-know-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/forehead-rejuvenation-how-fillers-can-turn-back-time?blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/treatments/forehead-revolumisation-1765308796436x204344993782369380"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/forehead-rejuvenation-how-fillers-can-turn-back-time?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/treatments/forehead-revolumisation-1765308796436x204344993782369380"
+    },
+    {
+      "from": "/f/non-surgical-face-lift-lip-enhancement-walkthrough?blogcategory=Lip Enhancements",
+      "to": "/blog/non-surgical-face-lift-explained-8526"
+    },
+    {
+      "from": "/pricing/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?blogcategory=Fat Dissolving Injections",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/treatments-info/f/next-generation-of-skincare-the-hydrafacial-syndeo?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/knowledge-hub?blog=y&blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/blog/how-to-choose-an-aesthetics-clinic-in-lancashire-8526---"
+    },
+    {
+      "from": "/knowledge-hub?blog=y&blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/blog/how-to-choose-an-aesthetics-clinic-in-lancashire-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/chemical-peel-for-active-acne-meet-our-30%-salicylic-acid-peel?blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/treatments/active-acne-peel-1765640746293x377513566426518340"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/can-hydrafacial-help-with-acne?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?ref=qanomed&blogcategory=Fat Dissolving Injections",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/pricing/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?blogcategory=Hair %26 Hair Transplant",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/knowledge-hub?blog=y&blogcategory=Hair %26 Hair Transplant",
+      "to": "/blog/how-to-choose-an-aesthetics-clinic-in-lancashire-8526---"
+    },
+    {
+      "from": "/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?ref=qanomed&blogcategory=Hair %26 Hair Transplant",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/knowledge-hub?blogcategory=Hair %26 Hair Transplant&blog=y",
+      "to": "/blog/how-to-choose-an-aesthetics-clinic-in-lancashire-8526---"
+    },
+    {
+      "from": "/pricing/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/pricing/f/pdo-cog-thread-lift-⚙️🔵?blogcategory=Non-Surgical Face Lift",
+      "to": "/treatments/thread-lifts-pdo-pla"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=Lip Enhancements",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?ref=qanomed&blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/the-secret-to-natural-lip-filler?blogcategory=Fat Dissolving Injections",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?ref=qanomed&blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/knowledge-hub?blog=y&blogcategory=Injectable Moisturisers",
+      "to": "/blog/how-to-choose-an-aesthetics-clinic-in-lancashire-8526---"
+    },
+    {
+      "from": "/f/can-hydrafacial-help-with-acne?blogcategory=Lip Enhancements",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/f/can-hydrafacial-help-with-acne?ref=qanomed",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Facial Paralysis",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/the-secret-to-natural-lip-filler?blogcategory=Injectable Moisturisers",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?ref=qanomed&blogcategory=Aesthetics for men",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Facial Paralysis",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/the-secret-to-natural-lip-filler?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/fat-dissolving-injections?blogcategory=Fat Dissolving Injections",
+      "to": "/treatments/fat-dissolving-injections"
+    },
+    {
+      "from": "/pricing/f/subcision-for-acne-scar-removal-tgcs-expert-solution?blogcategory=PDO Cogs %26 Threads",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/pricing/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/exploring-the-ingredients-jalupro-vs-profhilo?blogcategory=Non-Surgical Face Lift",
+      "to": "/treatments/injectable-moisturisers-1"
+    },
+    {
+      "from": "/pricing?blog=y",
+      "to": "/treatments/view-our-treatments"
+    },
+    {
+      "from": "/knowledge-hub/f/next-generation-of-skincare-the-hydrafacial-syndeo?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/pricing?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/treatments/view-our-treatments"
+    },
+    {
+      "from": "/knowledge-hub?blogcategory=Non-Surgical Face Lift&blog=y",
+      "to": "/blog/how-to-choose-an-aesthetics-clinic-in-lancashire-8526---"
+    },
+    {
+      "from": "/f/hydrafacial-myths-debunked-separating-fact-from-fiction",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles?blogcategory=PDO Cogs %26 Threads",
+      "to": "/treatments/anti-wrinkle-injections"
+    },
+    {
+      "from": "/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/the-secret-to-natural-lip-filler?blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-benefits-process-results?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?ref=qanomed&blogcategory=Lip Enhancements",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/pricing?blogcategory=Fat Dissolving Injections",
+      "to": "/treatments/view-our-treatments"
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/subcision-for-acne-scar-removal-tgcs-expert-solution?blogcategory=Facial Paralysis",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/knowledge-hub?blog=y&blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/how-to-choose-an-aesthetics-clinic-in-lancashire-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/chiseling-a-mans-jawline-using-dermal-fillers",
+      "to": "/blog/dermal-fillers-what-to-know-before-booking-blackpool-8526"
+    },
+    {
+      "from": "/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?ref=qanomed&blogcategory=Hydrafacial",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/treatments-info/f/medically-managed-weight-loss-program-a-path-to-a-healthier-you?blogcategory=Hydrafacial",
+      "to": "/blog/fat-dissolving-injections-in-blackpool-what-to-know-9526"
+    },
+    {
+      "from": "/knowledge-hub?blog=y&blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/how-to-choose-an-aesthetics-clinic-in-lancashire-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/pricing/f/forehead-rejuvenation-how-fillers-can-turn-back-time?blogcategory=Non-Surgical Face Lift",
+      "to": "/treatments/forehead-revolumisation-1765308796436x204344993782369380"
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/pricing/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?blogcategory=Aesthetics for men",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?ref=qanomed&blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/f/the-science-behind-vampire-facials-their-cost?ref=qanomed&blogcategory=Facial Paralysis",
+      "to": "/blog/prp-for-skin-rejuvenation-natural-skin-repair-without-filler-9526"
+    },
+    {
+      "from": "/knowledge-hub?blog=y&blogcategory=Aesthetics for men",
+      "to": "/blog/how-to-choose-an-aesthetics-clinic-in-lancashire-8526---"
+    },
+    {
+      "from": "/f/how-often-should-you-get-a-hydrafacial?blogcategory=Lip Enhancements",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Injectable Moisturisers",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub?blog=y&blogcategory=Hydrafacial",
+      "to": "/blog/how-to-choose-an-aesthetics-clinic-in-lancashire-8526---"
+    },
+    {
+      "from": "/f/the-science-behind-vampire-facials-their-cost?ref=qanomed&blogcategory=Lip Enhancements",
+      "to": "/blog/prp-for-skin-rejuvenation-natural-skin-repair-without-filler-9526"
+    },
+    {
+      "from": "/treatments-info/f/medically-managed-weight-loss-program-a-path-to-a-healthier-you",
+      "to": "/blog/fat-dissolving-injections-in-blackpool-what-to-know-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/the-secret-to-natural-lip-filler?blogcategory=Facial Paralysis",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/pricing?blogcategory=Non-Surgical Face Lift",
+      "to": "/treatments/view-our-treatments"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-benefits-process-results?blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/treatments-info/f/next-generation-of-skincare-the-hydrafacial-syndeo?blogcategory=Lip Enhancements",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-benefits-process-results?blogcategory=Hair %26 Hair Transplant",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/f/can-hydrafacial-help-with-acne?ref=qanomed&blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/plla-sculptra-/-aesplla?blog=y&blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/forehead-rejuvenation-how-fillers-can-turn-back-time?blogcategory=Hair %26 Hair Transplant",
+      "to": "/treatments/forehead-revolumisation-1765308796436x204344993782369380"
+    },
+    {
+      "from": "/f/the-science-behind-vampire-facials-their-cost?blogcategory=Hair %26 Hair Transplant",
+      "to": "/blog/prp-for-skin-rejuvenation-natural-skin-repair-without-filler-9526"
+    },
+    {
+      "from": "/f/can-hydrafacial-help-with-acne?ref=qanomed&blogcategory=Injectable Moisturisers",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/exploring-the-ingredients-jalupro-vs-profhilo?blogcategory=Non-Surgical Face Lift",
+      "to": "/treatments/injectable-moisturisers-1"
+    },
+    {
+      "from": "/f/medically-managed-weight-loss-program-a-path-to-a-healthier-you?ref=qanomed&blogcategory=Lip Enhancements",
+      "to": "/blog/fat-dissolving-injections-in-blackpool-what-to-know-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/next-generation-of-skincare-the-hydrafacial-syndeo?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/forehead-rejuvenation-how-fillers-can-turn-back-time?blogcategory=Facial Paralysis",
+      "to": "/treatments/forehead-revolumisation-1765308796436x204344993782369380"
+    },
+    {
+      "from": "/pricing/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?blogcategory=Lip Enhancements",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/f/can-hydrafacial-help-with-acne?ref=qanomed&blogcategory=Facial Paralysis",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-myths-debunked-separating-fact-from-fiction?blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/f/the-science-behind-hydrafacial?blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/treatments-info/f/how-often-should-you-get-a-hydrafacial?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/the-science-behind-hydrafacial?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/f/can-hydrafacial-help-with-acne?blogcategory=Hair %26 Hair Transplant",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/the-secret-to-natural-lip-filler?blogcategory=Hair %26 Hair Transplant",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/f/hydrafacial-benefits-process-results?ref=qanomed&blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/treatments-info/f/how-often-should-you-get-a-hydrafacial?blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/pricing/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction?blogcategory=Facial Paralysis",
+      "to": "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/symmetry-work-for-client-with-facial-paralysis?blogcategory=Lip Enhancements",
+      "to": "/gallery/facial-asymmetry-correction-brow-balance-1765559754044x598757657110037500"
+    },
+    {
+      "from": "/knowledge-hub/f/pdo-cog-thread-lift-⚙️🔵",
+      "to": "/treatments/thread-lifts-pdo-pla"
+    },
+    {
+      "from": "/treatments-info/f/pdo-cog-thread-lift-⚙️🔵?blogcategory=Non-Surgical Face Lift",
+      "to": "/treatments/thread-lifts-pdo-pla"
+    },
+    {
+      "from": "/treatments-info/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/f/hydrafacial-benefits-process-results?ref=qanomed&blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-benefits-process-results?blogcategory=Fat Dissolving Injections",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/f/hydrafacial-benefits-process-results?ref=qanomed&blogcategory=Hair %26 Hair Transplant",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/treatments-info/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/f/can-hydrafacial-help-with-acne?blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/f/chemical-peel-for-active-acne-meet-our-30%-salicylic-acid-peel?ref=qanomed&blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/treatments/active-acne-peel-1765640746293x377513566426518340"
+    },
+    {
+      "from": "/pricing/f/how-often-should-you-get-a-hydrafacial?blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/pricing/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Hydrafacial",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/treatments-info/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=Hair %26 Hair Transplant",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Aesthetics for men",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/exploring-the-ingredients-jalupro-vs-profhilo?ref=qanomed&blogcategory=Aesthetics for men",
+      "to": "/treatments/injectable-moisturisers-1"
+    },
+    {
+      "from": "/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-myths-debunked-separating-fact-from-fiction?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-benefits-process-results?blogcategory=Injectable Moisturisers",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/the-secret-to-natural-lip-filler?blogcategory=Injectable Moisturisers",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/pricing/f/the-science-behind-vampire-facials-their-cost?blogcategory=Fat Dissolving Injections",
+      "to": "/blog/prp-for-skin-rejuvenation-natural-skin-repair-without-filler-9526"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-benefits-process-results?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-myths-debunked-separating-fact-from-fiction?blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/hydrafacial-benefits-process-results?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/knowledge-hub?blogcategory=PDO Cogs %26 Threads&blog=y",
+      "to": "/blog/how-to-choose-an-aesthetics-clinic-in-lancashire-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/forehead-rejuvenation-how-fillers-can-turn-back-time",
+      "to": "/treatments/forehead-revolumisation-1765308796436x204344993782369380"
+    },
+    {
+      "from": "/f/hydrafacial-benefits-process-results?ref=qanomed&blogcategory=Aesthetics for men",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/f/pdo-cog-thread-lift-⚙️🔵?ref=qanomed&blogcategory=PDO Cogs %26 Threads",
+      "to": "/treatments/thread-lifts-pdo-pla"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/next-generation-of-skincare-the-hydrafacial-syndeo?blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-myths-debunked-separating-fact-from-fiction?blogcategory=Lip Enhancements",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/next-generation-of-skincare-the-hydrafacial-syndeo?blogcategory=Lip Enhancements",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/f/hydrafacial-benefits-process-results?ref=qanomed&blogcategory=Hydrafacial",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/chemical-peel-for-active-acne-meet-our-30%-salicylic-acid-peel?blogcategory=Non-Surgical Face Lift",
+      "to": "/treatments/active-acne-peel-1765640746293x377513566426518340"
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Facial Paralysis",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/next-generation-of-skincare-the-hydrafacial-syndeo?blogcategory=Facial Paralysis",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/f/hydrafacial-benefits-process-results?blogcategory=Injectable Moisturisers",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-myths-debunked-separating-fact-from-fiction?blogcategory=Facial Paralysis",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/chemical-peel-for-active-acne-meet-our-30%-salicylic-acid-peel?blogcategory=PDO Cogs %26 Threads",
+      "to": "/treatments/active-acne-peel-1765640746293x377513566426518340"
+    },
+    {
+      "from": "/treatments-info/f/subcision-for-acne-scar-removal-tgcs-expert-solution?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/knowledge-hub/f/the-secret-to-natural-lip-filler?blogcategory=Facial Paralysis",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-myths-debunked-separating-fact-from-fiction?blogcategory=Hydrafacial",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/chemical-peel-for-active-acne-meet-our-30%-salicylic-acid-peel?blogcategory=Aesthetics for men",
+      "to": "/treatments/active-acne-peel-1765640746293x377513566426518340"
+    },
+    {
+      "from": "/f/hydrafacial-benefits-process-results?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/pricing/f/the-science-behind-vampire-facials-their-cost?blogcategory=Injectable Moisturisers",
+      "to": "/blog/prp-for-skin-rejuvenation-natural-skin-repair-without-filler-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=Facial Paralysis",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-benefits-process-results?blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/treatments-info/f/subcision-for-acne-scar-removal-tgcs-expert-solution?blogcategory=Lip Enhancements",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/chemical-peel-for-active-acne-meet-our-30%-salicylic-acid-peel?blogcategory=Lip Enhancements",
+      "to": "/treatments/active-acne-peel-1765640746293x377513566426518340"
+    },
+    {
+      "from": "/knowledge-hub/f/forehead-rejuvenation-how-fillers-can-turn-back-time?blogcategory=Fat Dissolving Injections",
+      "to": "/treatments/forehead-revolumisation-1765308796436x204344993782369380"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/chemical-peel-for-active-acne-meet-our-30%-salicylic-acid-peel?blogcategory=Facial Paralysis",
+      "to": "/treatments/active-acne-peel-1765640746293x377513566426518340"
+    },
+    {
+      "from": "/treatments-info/f/how-often-should-you-get-a-hydrafacial?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/can-hydrafacial-help-with-acne?blogcategory=Lip Enhancements",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/treatments-info/f/next-generation-of-skincare-the-hydrafacial-syndeo?blogcategory=Facial Paralysis",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/forehead-rejuvenation-how-fillers-can-turn-back-time?blogcategory=Hair %26 Hair Transplant",
+      "to": "/treatments/forehead-revolumisation-1765308796436x204344993782369380"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/chemical-peel-for-active-acne-meet-our-30%-salicylic-acid-peel?blogcategory=Hydrafacial",
+      "to": "/treatments/active-acne-peel-1765640746293x377513566426518340"
+    },
+    {
+      "from": "/f/exploring-the-ingredients-jalupro-vs-profhilo?blogcategory=PDO Cogs %26 Threads",
+      "to": "/treatments/injectable-moisturisers-1"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Hydrafacial",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/subcision-acne-scarring-1?blog=y&blogcategory=Fat Dissolving Injections",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/f/chemical-peel-for-active-acne-meet-our-30%-salicylic-acid-peel?ref=qanomed&blogcategory=Fat Dissolving Injections",
+      "to": "/treatments/active-acne-peel-1765640746293x377513566426518340"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction?blogcategory=Injectable Moisturisers",
+      "to": "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
+    },
+    {
+      "from": "/pricing?blogcategory=Aesthetics for men",
+      "to": "/treatments/view-our-treatments"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/the-science-behind-hydrafacial?blogcategory=Fat Dissolving Injections",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/forehead-rejuvenation-how-fillers-can-turn-back-time?blogcategory=Aesthetics for men",
+      "to": "/treatments/forehead-revolumisation-1765308796436x204344993782369380"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
+    },
+    {
+      "from": "/pricing?blogcategory=Lip Enhancements",
+      "to": "/treatments/view-our-treatments"
+    },
+    {
+      "from": "/knowledge-hub/f/the-art-of-lip-filler-injections-finding-a-skilled-practitioner?blogcategory=Fat Dissolving Injections",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/pricing?blogcategory=Facial Paralysis",
+      "to": "/treatments/view-our-treatments"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/the-science-behind-hydrafacial?blogcategory=Injectable Moisturisers",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/next-generation-of-skincare-the-hydrafacial-syndeo?blogcategory=Hydrafacial",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-benefits-process-results?blogcategory=Lip Enhancements",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/f/chemical-peel-for-active-acne-meet-our-30%-salicylic-acid-peel?ref=qanomed&blogcategory=Non-Surgical Face Lift",
+      "to": "/treatments/active-acne-peel-1765640746293x377513566426518340"
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?blogcategory=Facial Paralysis",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?blogcategory=Fat Dissolving Injections",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-benefits-process-results?blogcategory=Facial Paralysis",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Aesthetics for men",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/the-science-behind-hydrafacial?blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-benefits-process-results?blogcategory=Hydrafacial",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Hydrafacial",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/chemical-peel-for-active-acne-meet-our-30%-salicylic-acid-peel?ref=qanomed&blogcategory=PDO Cogs %26 Threads",
+      "to": "/treatments/active-acne-peel-1765640746293x377513566426518340"
+    },
+    {
+      "from": "/treatments-info/f/hydrafacial-benefits-process-results?blogcategory=Aesthetics for men",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/f/the-art-of-lip-filler-injections-finding-a-skilled-practitioner?blogcategory=Injectable Moisturisers",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/exploring-the-ingredients-jalupro-vs-profhilo",
+      "to": "/treatments/injectable-moisturisers-1"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/next-generation-of-skincare-the-hydrafacial-syndeo?blogcategory=Aesthetics for men",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/f/how-often-should-you-get-a-hydrafacial?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/non-surgical-face-lift-lip-enhancement-walkthrough?ref=qanomed&blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/non-surgical-face-lift-explained-8526"
+    },
+    {
+      "from": "/knowledge-hub?blogcategory=Facial Paralysis&blog=y",
+      "to": "/blog/how-to-choose-an-aesthetics-clinic-in-lancashire-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/exploring-the-ingredients-jalupro-vs-profhilo?blogcategory=Aesthetics for men",
+      "to": "/treatments/injectable-moisturisers-1"
+    },
+    {
+      "from": "/knowledge-hub?blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/blog/how-to-choose-an-aesthetics-clinic-in-lancashire-8526---"
+    },
+    {
+      "from": "/plla-sculptra-/-aesplla?blogcategory=Lines, Wrinkles %26 Acne Scars&blog=y",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Lip Enhancements",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?blogcategory=Hair %26 Hair Transplant",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/f/how-often-should-you-get-a-hydrafacial?blogcategory=Facial Paralysis",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/pricing/f/the-science-behind-vampire-facials-their-cost?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/prp-for-skin-rejuvenation-natural-skin-repair-without-filler-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/the-secret-to-natural-lip-filler",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?blogcategory=Lip Enhancements",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/hydrafacial-benefits-process-results?blogcategory=Facial Paralysis",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/treatments-info/f/how-often-should-you-get-a-hydrafacial?blogcategory=Hydrafacial",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?blogcategory=Aesthetics for men",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/can-hydrafacial-help-with-acne?blogcategory=Facial Paralysis",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Fat Dissolving Injections",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/the-science-behind-hydrafacial?blogcategory=Facial Paralysis",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/hydrafacial-benefits-process-results?blogcategory=Lip Enhancements",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/f/chemical-peel-for-active-acne-meet-our-30%-salicylic-acid-peel?ref=qanomed&blogcategory=Lip Enhancements",
+      "to": "/treatments/active-acne-peel-1765640746293x377513566426518340"
+    },
+    {
+      "from": "/knowledge-hub?blogcategory=Hair %26 Hair Transplant",
+      "to": "/blog/how-to-choose-an-aesthetics-clinic-in-lancashire-8526---"
+    },
+    {
+      "from": "/f/can-hydrafacial-help-with-acne?blogcategory=Injectable Moisturisers",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/treatments-info/f/the-science-behind-hydrafacial?blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/the-science-behind-hydrafacial?blogcategory=Aesthetics for men",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/knowledge-hub?blogcategory=Injectable Moisturisers",
+      "to": "/blog/how-to-choose-an-aesthetics-clinic-in-lancashire-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/hydrafacial-benefits-process-results?blogcategory=Aesthetics for men",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/f/chemical-peel-for-active-acne-meet-our-30%-salicylic-acid-peel?blogcategory=Fat Dissolving Injections",
+      "to": "/treatments/active-acne-peel-1765640746293x377513566426518340"
+    },
+    {
+      "from": "/f/natural-lip-enhancements-how-to-get-them-right-lip-filler?ref=qanomed&blogcategory=Lip Enhancements",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/f/chemical-peel-for-active-acne-meet-our-30%-salicylic-acid-peel?blogcategory=Hair %26 Hair Transplant",
+      "to": "/treatments/active-acne-peel-1765640746293x377513566426518340"
+    },
+    {
+      "from": "/lines-&-wrinkles?blogcategory=Aesthetics for men",
+      "to": "/treatments/anti-wrinkle-injections"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/can-hydrafacial-help-with-acne?blogcategory=Injectable Moisturisers",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?blogcategory=Injectable Moisturisers",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/f/natural-lip-enhancements-how-to-get-them-right-lip-filler?blogcategory=Aesthetics for men",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/f/how-often-should-you-get-a-hydrafacial?blogcategory=Fat Dissolving Injections",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/treatments-info?blog=y&blogcategory=Hydrafacial",
+      "to": "/treatments/view-our-treatments"
+    },
+    {
+      "from": "/f/hydrafacial-myths-debunked-separating-fact-from-fiction?ref=qanomed",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/treatments-info/f/next-generation-of-skincare-the-hydrafacial-syndeo?blogcategory=Hydrafacial",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/f/can-hydrafacial-help-with-acne?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/treatments-info/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=Injectable Moisturisers",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Fat Dissolving Injections",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/pricing/f/pdo-cog-thread-lift-⚙️🔵?blogcategory=PDO Cogs %26 Threads",
+      "to": "/treatments/thread-lifts-pdo-pla"
+    },
+    {
+      "from": "/treatments-info/f/next-generation-of-skincare-the-hydrafacial-syndeo?blogcategory=Aesthetics for men",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/f/the-art-of-lip-filler-injections-finding-a-skilled-practitioner?blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Aesthetics for men",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/forehead-rejuvenation-how-fillers-can-turn-back-time?blogcategory=Injectable Moisturisers",
+      "to": "/treatments/forehead-revolumisation-1765308796436x204344993782369380"
+    },
+    {
+      "from": "/treatments-info/f/the-science-behind-hydrafacial?blogcategory=Hydrafacial",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/non-surgical-face-lift-lip-enhancement-rejuvenation",
+      "to": "/gallery/non-surgical-full-face-rejuvenation-1765560129962x482716356226522900"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/non-surgical-face-lift-lip-enhancement-rejuvenation?blogcategory=Non-Surgical Face Lift",
+      "to": "/gallery/non-surgical-full-face-rejuvenation-1765560129962x482716356226522900"
+    },
+    {
+      "from": "/treatments-info/f/the-science-behind-hydrafacial?blogcategory=Aesthetics for men",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/how-often-should-you-get-a-hydrafacial?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/how-to-choose-an-aesthetics-clinic-in-lancashire-8526---"
+    },
+    {
+      "from": "/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction?blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
+    },
+    {
+      "from": "/knowledge-hub?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/blog/how-to-choose-an-aesthetics-clinic-in-lancashire-8526---"
+    },
+    {
+      "from": "/pricing/f/forehead-rejuvenation-how-fillers-can-turn-back-time?blogcategory=Facial Paralysis",
+      "to": "/treatments/forehead-revolumisation-1765308796436x204344993782369380"
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-benefits-process-results?blogcategory=Hydrafacial",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/f/subcision-for-acne-scar-removal-tgcs-expert-solution?ref=qanomed",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/knowledge-hub/f/chemical-peel-for-active-acne-meet-our-30%-salicylic-acid-peel?blogcategory=Injectable Moisturisers",
+      "to": "/treatments/active-acne-peel-1765640746293x377513566426518340"
+    },
+    {
+      "from": "/f/the-science-behind-vampire-facials-their-cost?blogcategory=Injectable Moisturisers",
+      "to": "/blog/prp-for-skin-rejuvenation-natural-skin-repair-without-filler-9526"
+    },
+    {
+      "from": "/f/hydrafacial-benefits-process-results?blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/can-hydrafacial-help-with-acne?blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/upper-third-temple-filler/f/non-surgical-face-lift-lip-enhancement-rejuvenation?blogcategory=Non-Surgical Face Lift",
+      "to": "/gallery/non-surgical-full-face-rejuvenation-1765560129962x482716356226522900"
+    },
+    {
+      "from": "/treatments-info/f/subcision-for-acne-scar-removal-tgcs-expert-solution?blogcategory=Facial Paralysis",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/knowledge-hub/f/subcision-for-acne-scar-removal-tgcs-expert-solution?blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/subcision-acne-scarring-1?blog=y",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/subcision-acne-scarring-1?blogcategory=Fat Dissolving Injections",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/knowledge-hub/f/prp-for-hair-transplant-natural-hair-restoration-at-the-gorgeous?blogcategory=Fat Dissolving Injections",
+      "to": "/treatments/prp-for-hair-restoration-1765309605238x422875589125000450"
+    },
+    {
+      "from": "/f/the-art-of-lip-filler-injections-finding-a-skilled-practitioner?blogcategory=Aesthetics for men",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/prp-for-hair-transplant-natural-hair-restoration-at-the-gorgeous?blogcategory=Lip Enhancements",
+      "to": "/treatments/prp-for-hair-restoration-1765309605238x422875589125000450"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/hydrafacial-benefits-process-results?blogcategory=Hydrafacial",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/pricing/f/exploring-the-ingredients-jalupro-vs-profhilo?blogcategory=Aesthetics for men",
+      "to": "/treatments/injectable-moisturisers-1"
+    },
+    {
+      "from": "/pricing/f/subcision-for-acne-scar-removal-tgcs-expert-solution?blogcategory=Facial Paralysis",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/knowledge-hub/f/subcision-for-acne-scar-removal-tgcs-expert-solution?blogcategory=Fat Dissolving Injections",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/knowledge-hub/f/next-generation-of-skincare-the-hydrafacial-syndeo?blogcategory=Aesthetics for men",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/how-often-should-you-get-a-hydrafacial?blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/knowledge-hub/f/how-often-should-you-get-a-hydrafacial?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/pricing/f/the-art-of-lip-filler-injections-finding-a-skilled-practitioner?blogcategory=Facial Paralysis",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/plla-sculptra-/-aesplla?blog=y",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/f/exploring-the-ingredients-jalupro-vs-profhilo?blogcategory=Facial Paralysis",
+      "to": "/treatments/injectable-moisturisers-1"
+    },
+    {
+      "from": "/knowledge-hub/f/how-often-should-you-get-a-hydrafacial?blogcategory=Injectable Moisturisers",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Aesthetics for men",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/non-surgical-face-lift-lip-enhancement-walkthrough?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/non-surgical-face-lift-explained-8526"
+    },
+    {
+      "from": "/pricing/f/subcision-for-acne-scar-removal-tgcs-expert-solution?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/upper-third-temple-filler/f/symmetry-work-for-client-with-facial-paralysis?blogcategory=Non-Surgical Face Lift",
+      "to": "/gallery/facial-asymmetry-correction-brow-balance-1765559754044x598757657110037500"
+    },
+    {
+      "from": "/knowledge-hub/f/subcision-for-acne-scar-removal-tgcs-expert-solution?blogcategory=Hair %26 Hair Transplant",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?ref=qanomed",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/f/hydrafacial-myths-debunked-separating-fact-from-fiction?blogcategory=Injectable Moisturisers",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/can-hydrafacial-help-with-acne?blogcategory=Aesthetics for men",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/pdo-cog-thread-lift-⚙️🔵?blogcategory=Non-Surgical Face Lift",
+      "to": "/treatments/thread-lifts-pdo-pla"
+    },
+    {
+      "from": "/f/pdo-cog-thread-lift-⚙️🔵?ref=qanomed&blogcategory=Non-Surgical Face Lift",
+      "to": "/treatments/thread-lifts-pdo-pla"
+    },
+    {
+      "from": "/f/the-art-of-lip-filler-injections-finding-a-skilled-practitioner?ref=qanomed",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=Fat Dissolving Injections",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/treatments-info/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=Aesthetics for men",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/f/chemical-peel-for-active-acne-meet-our-30%-salicylic-acid-peel?blogcategory=Facial Paralysis",
+      "to": "/treatments/active-acne-peel-1765640746293x377513566426518340"
+    },
+    {
+      "from": "/pricing/f/the-secret-to-natural-lip-filler?blogcategory=Injectable Moisturisers",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/symmetry-work-for-client-with-facial-paralysis?blogcategory=Non-Surgical Face Lift",
+      "to": "/gallery/facial-asymmetry-correction-brow-balance-1765559754044x598757657110037500"
+    },
+    {
+      "from": "/pricing/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction?blogcategory=Fat Dissolving Injections",
+      "to": "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-benefits-process-results?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/treatments-info/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=Lip Enhancements",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Hydrafacial",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=Injectable Moisturisers",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/can-hydrafacial-help-with-acne?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=Non-Surgical Face Lift",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/knowledge-hub/f/the-art-of-lip-filler-injections-finding-a-skilled-practitioner",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/prp-for-hair-transplant-natural-hair-restoration-at-the-gorgeous?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/treatments/prp-for-hair-restoration-1765309605238x422875589125000450"
+    },
+    {
+      "from": "/f/the-science-behind-vampire-facials-their-cost?blogcategory=Lip Enhancements",
+      "to": "/blog/prp-for-skin-rejuvenation-natural-skin-repair-without-filler-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=Aesthetics for men",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/knowledge-hub/f/natural-lip-enhancements-how-to-get-them-right-lip-filler",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/chiseling-a-mans-jawline-using-dermal-fillers?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/dermal-fillers-what-to-know-before-booking-blackpool-8526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/can-hydrafacial-help-with-acne?blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=Facial Paralysis",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/f/can-hydrafacial-help-with-acne?blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/can-hydrafacial-help-with-acne?blogcategory=Lip Enhancements",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/f/can-hydrafacial-help-with-acne?blogcategory=Fat Dissolving Injections",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/subcision-for-acne-scar-removal-tgcs-expert-solution?blogcategory=Injectable Moisturisers",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/knowledge-hub/f/how-often-should-you-get-a-hydrafacial?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/how-often-should-you-get-a-hydrafacial?blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/the-science-behind-hydrafacial?ref=qanomed",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/forehead-rejuvenation-how-fillers-can-turn-back-time",
+      "to": "/treatments/forehead-revolumisation-1765308796436x204344993782369380"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Hydrafacial",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-myths-debunked-separating-fact-from-fiction?blogcategory=Injectable Moisturisers",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?blogcategory=Facial Paralysis",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/how-often-should-you-get-a-hydrafacial?blogcategory=Aesthetics for men",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/exploring-the-ingredients-jalupro-vs-profhilo",
+      "to": "/treatments/injectable-moisturisers-1"
+    },
+    {
+      "from": "/knowledge-hub/f/how-often-should-you-get-a-hydrafacial?blogcategory=Hydrafacial",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/pricing/f/the-science-behind-vampire-facials-their-cost?blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/prp-for-skin-rejuvenation-natural-skin-repair-without-filler-9526"
+    },
+    {
+      "from": "/f/medically-managed-weight-loss-program-a-path-to-a-healthier-you?ref=qanomed&blogcategory=Facial Paralysis",
+      "to": "/blog/fat-dissolving-injections-in-blackpool-what-to-know-9526"
+    },
+    {
+      "from": "/pricing?blogcategory=Hydrafacial",
+      "to": "/treatments/view-our-treatments"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?blogcategory=Lip Enhancements",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/pricing/f/the-science-behind-vampire-facials-their-cost?blogcategory=Lip Enhancements",
+      "to": "/blog/prp-for-skin-rejuvenation-natural-skin-repair-without-filler-9526"
+    },
+    {
+      "from": "/f/the-secret-to-natural-lip-filler?ref=qanomed&blogcategory=Fat Dissolving Injections",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/can-hydrafacial-help-with-acne?blogcategory=Aesthetics for men",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/non-surgical-face-lift-lip-enhancement-walkthrough",
+      "to": "/blog/non-surgical-face-lift-explained-8526"
+    },
+    {
+      "from": "/f/the-secret-to-natural-lip-filler?ref=qanomed&blogcategory=Hair %26 Hair Transplant",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/subcision-for-acne-scar-removal-tgcs-expert-solution?blogcategory=Non-Surgical Face Lift",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/can-hydrafacial-help-with-acne?blogcategory=Hydrafacial",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/f/medically-managed-weight-loss-program-a-path-to-a-healthier-you?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/blog/fat-dissolving-injections-in-blackpool-what-to-know-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/subcision-for-acne-scar-removal-tgcs-expert-solution?blogcategory=PDO Cogs %26 Threads",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/f/the-secret-to-natural-lip-filler?ref=qanomed&blogcategory=Aesthetics for men",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/treatments-info/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=Facial Paralysis",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/treatments-info/f/exploring-the-ingredients-jalupro-vs-profhilo",
+      "to": "/treatments/injectable-moisturisers-1"
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Hydrafacial",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/chiseling-a-mans-jawline-using-dermal-fillers?blogcategory=Facial Paralysis",
+      "to": "/blog/dermal-fillers-what-to-know-before-booking-blackpool-8526"
+    },
+    {
+      "from": "/plla-sculptra-/-aesplla/f/subcision-for-acne-scar-removal-tgcs-expert-solution?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Aesthetics for men",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Hydrafacial",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub?blog=y",
+      "to": "/blog/how-to-choose-an-aesthetics-clinic-in-lancashire-8526---"
+    },
+    {
+      "from": "/f/can-hydrafacial-help-with-acne?blogcategory=Aesthetics for men",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/f/can-hydrafacial-help-with-acne?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/prp-for-hair-transplant-natural-hair-restoration-at-the-gorgeous?blogcategory=Non-Surgical Face Lift",
+      "to": "/treatments/prp-for-hair-restoration-1765309605238x422875589125000450"
+    },
+    {
+      "from": "/f/the-secret-to-natural-lip-filler?ref=qanomed&blogcategory=Facial Paralysis",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/f/medically-managed-weight-loss-program-a-path-to-a-healthier-you?blogcategory=Fat Dissolving Injections",
+      "to": "/blog/fat-dissolving-injections-in-blackpool-what-to-know-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/subcision-for-acne-scar-removal-tgcs-expert-solution?blogcategory=Facial Paralysis",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/lines-&-wrinkles?blogcategory=Lip Enhancements",
+      "to": "/treatments/anti-wrinkle-injections"
+    },
+    {
+      "from": "/treatments-info/f/subcision-for-acne-scar-removal-tgcs-expert-solution",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/lines-&-wrinkles?blogcategory=Hydrafacial",
+      "to": "/treatments/anti-wrinkle-injections"
+    },
+    {
+      "from": "/fat-dissolving-injections/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction?blogcategory=Fat Dissolving Injections",
+      "to": "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/pdo-cog-thread-lift-⚙️🔵",
+      "to": "/treatments/thread-lifts-pdo-pla"
+    },
+    {
+      "from": "/knowledge-hub/f/chiseling-a-mans-jawline-using-dermal-fillers?blogcategory=Lip Enhancements",
+      "to": "/blog/dermal-fillers-what-to-know-before-booking-blackpool-8526"
+    },
+    {
+      "from": "/f/subcision-for-acne-scar-removal-tgcs-expert-solution?ref=qanomed&blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?blogcategory=Aesthetics for men",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/f/medically-managed-weight-loss-program-a-path-to-a-healthier-you?blogcategory=Aesthetics for men",
+      "to": "/blog/fat-dissolving-injections-in-blackpool-what-to-know-9526"
+    },
+    {
+      "from": "/f/the-secret-to-natural-lip-filler?blogcategory=Fat Dissolving Injections",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction?blogcategory=Aesthetics for men",
+      "to": "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
+    },
+    {
+      "from": "/upper-third-temple-filler?blog=y&blogcategory=Non-Surgical Face Lift",
+      "to": "/treatments/upper-third-temple-filler"
+    },
+    {
+      "from": "/f/medically-managed-weight-loss-program-a-path-to-a-healthier-you?blogcategory=Facial Paralysis",
+      "to": "/blog/fat-dissolving-injections-in-blackpool-what-to-know-9526"
+    },
+    {
+      "from": "/f/the-secret-to-natural-lip-filler?blogcategory=Injectable Moisturisers",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction?blogcategory=Facial Paralysis",
+      "to": "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
+    },
+    {
+      "from": "/pricing/f/hydrafacial-faqs-everything-you-need-to-know-before?blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/exploring-the-ingredients-jalupro-vs-profhilo?blogcategory=Aesthetics for men",
+      "to": "/treatments/injectable-moisturisers-1"
+    },
+    {
+      "from": "/f/natural-lip-enhancements-how-to-get-them-right-lip-filler",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/pricing/f/the-secret-to-natural-lip-filler?blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/pricing/f/the-secret-to-natural-lip-filler?blogcategory=Lip Enhancements",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/pricing/f/the-science-behind-vampire-facials-their-cost?blogcategory=Facial Paralysis",
+      "to": "/blog/prp-for-skin-rejuvenation-natural-skin-repair-without-filler-9526"
+    },
+    {
+      "from": "/pricing/f/the-science-behind-vampire-facials-their-cost?blogcategory=Aesthetics for men",
+      "to": "/blog/prp-for-skin-rejuvenation-natural-skin-repair-without-filler-9526"
+    },
+    {
+      "from": "/f/subcision-for-acne-scar-removal-tgcs-expert-solution",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/f/chemical-peel-for-active-acne-meet-our-30%-salicylic-acid-peel?blogcategory=Aesthetics for men",
+      "to": "/treatments/active-acne-peel-1765640746293x377513566426518340"
+    },
+    {
+      "from": "/plla-sculptra-/-aesplla?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/f/the-secret-to-natural-lip-filler?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/upper-third-temple-filler/f/pdo-cog-thread-lift-⚙️🔵?blogcategory=Non-Surgical Face Lift",
+      "to": "/treatments/thread-lifts-pdo-pla"
+    },
+    {
+      "from": "/treatments-info/f/pdo-cog-thread-lift-⚙️🔵?blogcategory=PDO Cogs %26 Threads",
+      "to": "/treatments/thread-lifts-pdo-pla"
+    },
+    {
+      "from": "/pricing/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=Hair %26 Hair Transplant",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/upper-third-temple-filler/f/forehead-rejuvenation-how-fillers-can-turn-back-time?blogcategory=Non-Surgical Face Lift",
+      "to": "/treatments/forehead-revolumisation-1765308796436x204344993782369380"
+    },
+    {
+      "from": "/treatments-info?blogcategory=Hydrafacial&blog=y",
+      "to": "/treatments/view-our-treatments"
+    },
+    {
+      "from": "/knowledge-hub/f/chemical-peel-for-active-acne-meet-our-30%-salicylic-acid-peel?blogcategory=Facial Paralysis",
+      "to": "/treatments/active-acne-peel-1765640746293x377513566426518340"
+    },
+    {
+      "from": "/pricing/f/the-secret-to-natural-lip-filler?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/lines-&-wrinkles/f/hydrafacial-vs-traditional-facials-which-is-right-for-you?blogcategory=Hydrafacial",
+      "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+    },
+    {
+      "from": "/knowledge-hub/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Facial Paralysis",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/knowledge-hub?blogcategory=Aesthetics for men",
+      "to": "/blog/how-to-choose-an-aesthetics-clinic-in-lancashire-8526---"
+    },
+    {
+      "from": "/knowledge-hub/f/subcision-for-acne-scar-removal-tgcs-expert-solution?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/pricing/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=Injectable Moisturisers",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/pricing/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=Non-Surgical Face Lift",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/f/the-secret-to-natural-lip-filler",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/f/chiseling-a-mans-jawline-using-dermal-fillers?ref=qanomed&blogcategory=Aesthetics for men",
+      "to": "/blog/dermal-fillers-what-to-know-before-booking-blackpool-8526"
+    },
+    {
+      "from": "/knowledge-hub/f/the-secret-to-natural-lip-filler",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/f/chiseling-a-mans-jawline-using-dermal-fillers",
+      "to": "/blog/dermal-fillers-what-to-know-before-booking-blackpool-8526"
+    },
+    {
+      "from": "/upper-third-temple-filler?blogcategory=Non-Surgical Face Lift&blog=y",
+      "to": "/treatments/upper-third-temple-filler"
+    },
+    {
+      "from": "/f/exploring-the-ingredients-jalupro-vs-profhilo?blogcategory=Injectable Moisturisers",
+      "to": "/treatments/injectable-moisturisers-1"
+    },
+    {
+      "from": "/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=Body Countouring %26 Weight Loss",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/f/symmetry-work-for-client-with-facial-paralysis?blogcategory=Lip Enhancements",
+      "to": "/gallery/facial-asymmetry-correction-brow-balance-1765559754044x598757657110037500"
+    },
+    {
+      "from": "/plla-sculptra-/-aesplla/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/upper-third-temple-filler/f/non-surgical-face-lift-lip-enhancement-walkthrough?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/non-surgical-face-lift-explained-8526"
+    },
+    {
+      "from": "/f/the-science-behind-vampire-facials-their-cost?blogcategory=Non-Surgical Face Lift",
+      "to": "/blog/prp-for-skin-rejuvenation-natural-skin-repair-without-filler-9526"
+    },
+    {
+      "from": "/f/the-science-behind-vampire-facials-their-cost?blogcategory=Aesthetics for men",
+      "to": "/blog/prp-for-skin-rejuvenation-natural-skin-repair-without-filler-9526"
+    },
+    {
+      "from": "/pricing/f/exploring-the-ingredients-jalupro-vs-profhilo?blogcategory=Injectable Moisturisers",
+      "to": "/treatments/injectable-moisturisers-1"
+    },
+    {
+      "from": "/knowledge-hub/f/chiseling-a-mans-jawline-using-dermal-fillers",
+      "to": "/blog/dermal-fillers-what-to-know-before-booking-blackpool-8526"
+    },
+    {
+      "from": "/f/the-secret-to-natural-lip-filler?blogcategory=PDO Cogs %26 Threads",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/f/the-secret-to-natural-lip-filler?blogcategory=Facial Paralysis",
+      "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+    },
+    {
+      "from": "/treatments-info/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction?blogcategory=Hair %26 Hair Transplant",
+      "to": "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
+    },
+    {
+      "from": "/upper-third-temple-filler?blog=y",
+      "to": "/treatments/upper-third-temple-filler"
+    },
+    {
+      "from": "/plla-sculptra-/-aesplla/f/next-generation-of-skincare-the-hydrafacial-syndeo?blogcategory=Lines, Wrinkles %26 Acne Scars",
+      "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+    },
+    {
+      "from": "/pricing/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=PDO Cogs %26 Threads",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/pricing/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=Aesthetics for men",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/pricing/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=Facial Paralysis",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/knowledge-hub/f/subcision-for-acne-scar-removal-tgcs-expert-solution",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/upper-third-temple-filler?blogcategory=Non-Surgical Face Lift",
+      "to": "/treatments/upper-third-temple-filler"
+    },
+    {
+      "from": "/pricing/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=Lip Enhancements",
+      "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+    },
+    {
+      "from": "/knowledge-hub/f/subcision-for-acne-scar-removal-tgcs-expert-solution?blogcategory=Lip Enhancements",
+      "to": "/treatments/subcision-acne-scarring-1"
+    },
+    {
+      "from": "/knowledge-hub/f/chemical-peel-for-active-acne-meet-our-30%-salicylic-acid-peel?blogcategory=PDO Cogs %26 Threads",
+      "to": "/treatments/active-acne-peel-1765640746293x377513566426518340"
+    },
+    {
+      "from": "/knowledge-hub/f/chemical-peel-for-active-acne-meet-our-30%-salicylic-acid-peel?blogcategory=Aesthetics for men",
+      "to": "/treatments/active-acne-peel-1765640746293x377513566426518340"
+    },
+    {
+      "from": "/f/hydrafacial-before-aftercare-how-to-get-the-best-results?blogcategory=Facial Paralysis",
+      "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+    },
+    {
+      "from": "/treatments/pricing",
+      "to": "/treatments/view-our-treatments?section=pricing"
+    }
+  ]
+}
