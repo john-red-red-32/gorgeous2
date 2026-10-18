@@ -462,5 +462,157 @@
     "The same pathname occurs with many different query parameters. Plain static redirects cannot necessarily preserve query-specific behaviour.",
     "Conflicting destinations, existing source pages, stale target paths and redirects to the homepage must be reviewed before activation.",
     "Candidates are a staging analysis, NOT deployed redirect rules."
-  ]
+  ],
+  "conflicting_exact_source_urls": 21,
+  "exactSourceConflicts": [
+    {
+      "source": "/knowledge-hub",
+      "targets": [
+        "/blog",
+        "/blog/how-to-choose-an-aesthetics-clinic-in-lancashire-8526---"
+      ]
+    },
+    {
+      "source": "/brighter-undereyes",
+      "targets": [
+        "/treatments/injectable-moisturisers-1",
+        "/treatments/brighter-undereyes"
+      ]
+    },
+    {
+      "source": "/vampire-facial",
+      "targets": [
+        "/treatments/collagen-inductiontherapy",
+        "/treatments/platelet-rich-plasma-prp"
+      ]
+    },
+    {
+      "source": "/full-works-ultra",
+      "targets": [
+        "/treatments/non-surgical-face-lift-1",
+        "/gallery/full-works-ultra-1765470725058x493426724585029900"
+      ]
+    },
+    {
+      "source": "/solutions",
+      "targets": [
+        "/treatments/view-our-treatments?section=concern",
+        "/treatments/view-our-treatments"
+      ]
+    },
+    {
+      "source": "/our-team",
+      "targets": [
+        "/meet-the-team",
+        "/"
+      ]
+    },
+    {
+      "source": "/f/exploring-the-ingredients-jalupro-vs-profhilo",
+      "targets": [
+        "/treatments/injectable-moisturisers-1",
+        "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+      ]
+    },
+    {
+      "source": "/pricing/f/the-art-of-lip-filler-injections-finding-a-skilled-practitioner",
+      "targets": [
+        "/treatments/lip-enhancements",
+        "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+      ]
+    },
+    {
+      "source": "/pricing/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction",
+      "targets": [
+        "/treatments/fat-dissolving-injections",
+        "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
+      ]
+    },
+    {
+      "source": "/pricing/f/forehead-rejuvenation-how-fillers-can-turn-back-time",
+      "targets": [
+        "/treatments/temple-revolumisation-1765308723112x953852281526645600",
+        "/treatments/forehead-revolumisation-1765308796436x204344993782369380"
+      ]
+    },
+    {
+      "source": "/pricing/f/the-secret-to-natural-lip-filler",
+      "targets": [
+        "/treatments/lip-enhancements",
+        "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+      ]
+    },
+    {
+      "source": "/treatments-info",
+      "targets": [
+        "/treatments",
+        "/blog-posts",
+        "/treatments/view-our-treatments"
+      ]
+    },
+    {
+      "source": "/non-surgical-face-lift-1",
+      "targets": [
+        "/treatments/non-surgical-face-lift-1",
+        "/treatments/thread-lifts-pdo-pla"
+      ]
+    },
+    {
+      "source": "/upper-third-temple-filler/f/non-surgical-face-lift-lip-enhancement-walkthrough",
+      "targets": [
+        "/treatments/upper-third-temple-filler",
+        "/blog/non-surgical-face-lift-explained-8526"
+      ]
+    },
+    {
+      "source": "/upper-third-temple-filler/f/symmetry-work-for-client-with-facial-paralysis",
+      "targets": [
+        "/treatments/upper-third-temple-filler",
+        "/gallery/facial-asymmetry-correction-brow-balance-1765559754044x598757657110037500"
+      ]
+    },
+    {
+      "source": "/plla-sculptra-/-aesplla/f/subcision-for-acne-scar-removal-tgcs-expert-solution",
+      "targets": [
+        "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla",
+        "/treatments/subcision-acne-scarring-1"
+      ]
+    },
+    {
+      "source": "/plla-sculptra-/-aesplla/f/next-generation-of-skincare-the-hydrafacial-syndeo",
+      "targets": [
+        "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla",
+        "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+      ]
+    },
+    {
+      "source": "/upper-third-temple-filler/f/non-surgical-face-lift-lip-enhancement-rejuvenation",
+      "targets": [
+        "/treatments/lip-enhancements",
+        "/gallery/non-surgical-full-face-rejuvenation-1765560129962x482716356226522900"
+      ]
+    },
+    {
+      "source": "/upper-third-temple-filler/f/forehead-rejuvenation-how-fillers-can-turn-back-time",
+      "targets": [
+        "/treatments/upper-third-temple-filler",
+        "/treatments/forehead-revolumisation-1765308796436x204344993782369380"
+      ]
+    },
+    {
+      "source": "/pricing",
+      "targets": [
+        "/treatments/view-our-treatments?section=treatments",
+        "/treatments/view-our-treatments"
+      ]
+    },
+    {
+      "source": "/knowledge-hub/f/prp-for-hair-transplant-natural-hair-restoration-at-the-gorgeous",
+      "targets": [
+        "/treatments/view-our-treatments?section=treatments",
+        "/treatments/prp-for-hair-restoration-1765309605238x422875589125000450"
+      ]
+    }
+  ],
+  "unambiguous_paths_without_query_variants": 43
 }
