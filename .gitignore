@@ -1,0 +1,5 @@
+private/
+data/bubble-exports/
+data/imported/
+*.local.csv
+*.local.xlsx
