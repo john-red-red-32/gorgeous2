@@ -1,0 +1,24 @@
+---
+// The existing Google Ads global site tag from the old clinic site.
+// Only execute on the real production hostname; Cloudflare previews stay untracked.
+---
+<script is:inline>
+  (() => {
+    const host = window.location.hostname.toLowerCase();
+    if (host !== 'thegorgeousclinic.co.uk' && host !== 'www.thegorgeousclinic.co.uk') return;
+    const id = 'AW-11114476947';
+    if (window.__tgcAdsTagConfigured) return;
+    window.__tgcAdsTagConfigured = true;
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
+    window.gtag('js', new Date());
+    window.gtag('config', id);
+    if (!document.querySelector('script[data-tgc-ads]')) {
+      const tag = document.createElement('script');
+      tag.async = true;
+      tag.dataset.tgcAds = 'true';
+      tag.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(id);
+      document.head.append(tag);
+    }
+  })();
+</script>
