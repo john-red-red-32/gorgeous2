@@ -1,0 +1,17 @@
+{
+  "snapshot_date": "2026-10-18",
+  "source": "https://thegorgeousclinic.co.uk/sitemap.xml",
+  "count": 10,
+  "urls": [
+    "https://thegorgeousclinic.co.uk/sitemap-index.xml",
+    "https://thegorgeousclinic.co.uk/sitemap-gallery.xml",
+    "https://thegorgeousclinic.co.uk/sitemap-videos.xml",
+    "https://thegorgeousclinic.co.uk/sitemap-meet-the-team.xml",
+    "https://thegorgeousclinic.co.uk/sitemap-contact-us.xml",
+    "https://thegorgeousclinic.co.uk/sitemap-cancelation-policy.xml",
+    "https://thegorgeousclinic.co.uk/sitemap-treatments.xml",
+    "https://thegorgeousclinic.co.uk/sitemap-blog.xml",
+    "https://thegorgeousclinic.co.uk/sitemap-blog-posts.xml",
+    "https://thegorgeousclinic.co.uk/sitemap-explore-academy.xml"
+  ]
+}
