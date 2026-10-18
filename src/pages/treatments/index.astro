@@ -1,73 +1,84 @@
 ---
 import SiteLayout from '../../layouts/SiteLayout.astro';
-import { treatments } from '../../data/content';
-const base = 'https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io';
-const concerns = [
- {name:'Wrinkles', description:'Fine lines that appear with age, sun exposure, and facial movement, often around the eyes and forehead.', image:'f1765454945166x911527603846544800/ChatGPT%20Image%20Dec%2011%2C%202025%2C%2011_56_45%20AM.png'},
- {name:'Jowls', description:'Sagging or looseness along the jawline that softens facial definition with age.', image:'f1765455527885x750352559496446600/ChatGPT%20Image%20Dec%2011%2C%202025%2C%2012_18_39%20PM.png'},
- {name:'Lip Lines', description:'Vertical lines around the mouth, often from ageing, sun exposure, or puckering expressions.', image:'f1765208380728x258805943997262750/ChatGPT%20Image%20Dec%207%2C%202025%2C%2006_46_14%20PM.png'},
- {name:'Sagging Skin', description:'Skin that has lost firmness and elasticity, creating a drooping appearance on the face or neck.', image:'f1765207334107x591207324493823000/ChatGPT%20Image%20Dec%207%2C%202025%2C%2006_52_13%20PM.png'},
- {name:'Lip Volume', description:'Lips that appear thinner or flatter due to natural shape or age-related volume loss.', image:'f1765207343851x160040545009242140/ChatGPT%20Image%20Dec%207%2C%202025%2C%2003_55_58%20PM.png'},
- {name:'Jawline Definition', description:'A softer or less sculpted jawline, often from ageing or reduced contour.', image:'f1765207360107x602448429123216900/ChatGPT%20Image%20Dec%207%2C%202025%2C%2006_54_39%20PM.png'},
- {name:'Pigmentation Issues', description:'Uneven skin tone, dark spots, or sun damage causing patchy colour on the face.', image:'f1765207369655x351026390638250940/ChatGPT%20Image%20Dec%207%2C%202025%2C%2006_36_28%20AM.png'},
- {name:'Chin Fat', description:'Fullness under the chin causing a less defined profile or double chin.', image:'f1765207397798x164350819343333860/ChatGPT%20Image%20Dec%207%2C%202025%2C%2004_48_07%20PM.png'},
- {name:'Gaunt Face', description:'A hollow or sunken appearance, often caused by volume loss in the cheeks or temples.', image:'f1765207386725x499974064118120500/ChatGPT%20Image%20Dec%207%2C%202025%2C%2004_01_15%20PM.png'},
- {name:'Acne & Breakouts', description:'Pimples, clogged pores, or inflammation that affect skin clarity and texture.', image:'f1765207423836x983510275028990300/ChatGPT%20Image%20Dec%207%2C%202025%2C%2006_47_53%20PM.png'},
- {name:'Under-eye Hollows', description:'Deep grooves beneath the eyes that create a tired or sunken look.', image:'f1765455154058x746100452471946800/ChatGPT%20Image%20Dec%2011%2C%202025%2C%2012_11_15%20PM.png'},
- {name:'Teeth Grinding', description:'Jaw clenching or grinding that causes tension and bulkiness.', image:'f1765207443345x520648976564254340/ChatGPT%20Image%20Dec%207%2C%202025%2C%2006_47_53%20PM.png'}
+import {treatments, bookingUrl} from '../../data/content';
+import {concerns, treatmentRelationships, catalogueStatus} from '../../data/catalogue';
+const assetBase='https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io';
+const clinicMark=assetBase+'/f1764895866717x944082419627878600/Untitled%20design%20%281%29.png';
+const categories=[...new Set(treatments.map(t=>t.category))];
+const discoveryData = {
+  concerns: concerns.map(c=>({slug:c.slug,name:c.name,description:c.description,explainer:c.explainer,treatmentSlugs:c.treatmentSlugs})),
+  treatments: treatments.map(t=>({slug:t.slug,name:t.name,category:t.category,summary:t.summary})),
+  prices: treatmentRelationships.map(r=>({slug:r.treatmentSlug,lines:r.priceLines}))
+};
+const paths = [
+ {id:'concerns', anchor:'explore-concerns', icon:'✦', name:'Explore by Concern', subtitle:'I know what bothers me, but not what treatment I need.'},
+ {id:'list',anchor:'treatment-list',icon:'≡',name:'Browse Treatments',subtitle:'I already have a treatment in mind.'},
+ {id:'consult',anchor:'virtual-consultation',icon:'✧',name:'Virtual Consultation',subtitle:'I’d like some guidance before I decide.'},
+ {id:'prices',anchor:'price-list',icon:'£',name:'View Price List',subtitle:'I just want to compare the treatments and prices.'}
 ];
-const categories = [...new Set(treatments.map(t=>t.category))];
-const clinicMark=base+'/f1764895866717x944082419627878600/Untitled%20design%20%281%29.png';
 ---
-<SiteLayout title="Aesthetics Treatments in Blackpool | The Gorgeous Clinic" description="Explore anti-wrinkle injections, lip enhancements, dermal fillers and more at The Gorgeous Clinic, Blackpool's highest rated medical aesthetics clinic.">
+<SiteLayout title="Explore Medical Aesthetics Treatments in Blackpool | The Gorgeous Clinic" description="Explore aesthetics treatments by concern, browse all treatments, get guided advice or view prices. Find answers and treatment education at The Gorgeous Clinic.">
   <div class="original-page-top" aria-hidden="true"></div>
   <div class="original-page-medallion"><img src={clinicMark} alt="" /></div>
-  <section class="original-treatment-title"><h1>Treatments</h1></section>
-  <section class="original-treatment-selector" aria-label="Search treatments">
-    <div class="original-tab-row">
-      <span>Search by:</span>
-      <div role="tablist" aria-label="Treatment search options">
-        <button class="is-active" data-tgc-tab="concerns" role="tab" aria-selected="true">Area of concern</button>
-        <button data-tgc-tab="list" role="tab" aria-selected="false">Treatment List</button>
-        <button data-tgc-tab="prices" role="tab" aria-selected="false">Price List</button>
-      </div>
-    </div>
-    <section class="original-tab-panel" id="concerns" aria-label="Find treatments by concern">
-      <div class="original-concerns-intro">
-        <span>Select your concerns, then click ‘View Selected’.</span>
-        <button id="view-tgc-selections" class="original-view-selected">View Selected</button>
-      </div>
-      <div class="original-concern-grid">
-        {concerns.map(c=><label class="original-concern-card"><input type="checkbox" name="concern" value={c.name} /><span class="original-concern-copy"><strong>{c.name}</strong><small>{c.description}</small></span><img src={base+'/'+c.image} alt="" loading="lazy" /></label>)}
-      </div>
-      <div id="selected-concerns-result" hidden class="original-selection-result" aria-live="polite"><strong>Your selected concerns</strong><p id="selected-concerns-label"></p><p>Discuss your concerns during a free consultation, or browse our treatment list for information on each option.</p><a href="/treatments/#treatment-list" class="heritage-solid-button">Browse treatments</a></div>
-    </section>
-    <section class="original-tab-panel" id="list" hidden aria-label="Browse treatment list">
-      <h2 id="treatment-list">A-Z List of Treatments</h2>
-      <p class="original-panel-note">This is the initial prototype selection. The full treatment catalogue will be imported from Bubble.</p>
-      <div class="original-treatment-list">
-        {categories.map(category=><div class="original-treatment-category"><h3>{category}</h3>{treatments.filter(t=>t.category===category).map(t=><a href={'/treatments/'+t.slug+'/'}>{t.name}<span aria-hidden="true">↗</span></a>)}</div>)}
-      </div>
-    </section>
-    <section class="original-tab-panel" id="prices" hidden aria-label="Price list">
-      <h2>Price List</h2>
-      <p>We're transferring the exact treatment prices from the existing clinic database. Please use the current booking system for live prices while this development site is being completed.</p>
-      <a class="heritage-solid-button" href="https://thegorgeousclinic.co.uk/treatments/" target="_blank" rel="noopener noreferrer">View Current Price List</a>
-    </section>
+  <section class="original-treatment-title">
+    <h1>Treatments</h1>
+    <p>Not sure where to begin? Discover our treatments in whichever way suits you.</p>
   </section>
-  <script>
-    const tabs = [...document.querySelectorAll<HTMLButtonElement>('[data-tgc-tab]')];
-    const panels = [...document.querySelectorAll<HTMLElement>('.original-tab-panel')];
-    function setTab(id: string) {
-      tabs.forEach(t=>{const yes=t.dataset.tgcTab===id;t.classList.toggle('is-active',yes);t.setAttribute('aria-selected',String(yes));});
-      panels.forEach(p=>{p.hidden=p.id!==id;});
-    }
-    tabs.forEach(t=>t.addEventListener('click',()=>setTab(t.dataset.tgcTab||'concerns')));
-    document.querySelector('#view-tgc-selections')?.addEventListener('click',()=>{
-      const chosen=[...document.querySelectorAll<HTMLInputElement>('input[name=concern]:checked')].map(el=>el.value);
-      const box=document.querySelector<HTMLElement>('#selected-concerns-result');
-      const label=document.querySelector<HTMLElement>('#selected-concerns-label');
-      if(box&&label){box.hidden=false;label.textContent=chosen.length?chosen.join(' · '):'Choose one or more areas above.';box.scrollIntoView({behavior:'smooth',block:'center'});}
-    });
-  </script>
+  <section class="tgc-discovery-shell" aria-label="Explore treatments">
+    <div class="tgc-pathways" role="group" aria-label="Choose how to explore">
+      {paths.map((p,i)=>
+        <button class:list={['tgc-pathway',{ 'is-selected':i===0 }]} type="button" data-tgc-tab={p.id} data-anchor={p.anchor} aria-controls={'tgc-panel-'+p.id} aria-expanded={i===0?'true':'false'}>
+          <span class="tgc-pathway-icon" aria-hidden="true">{p.icon}</span>
+          <strong>{p.name}</strong>
+          <small>{p.subtitle}</small>
+          <span class="tgc-pathway-arrow" aria-hidden="true">↗</span>
+        </button>
+      )}
+    </div>
+    <script type="application/json" id="tgc-discovery-data" set:html={JSON.stringify(discoveryData).replace(/</g,'\\u003c')} />
+    <div class="tgc-discovery-view">
+      <section id="tgc-panel-concerns" class="tgc-discovery-panel" aria-label="Explore by concern">
+        <div class="tgc-panel-intro"><div><p class="eyebrow">Explore by concern</p><h2>What's on your mind?</h2><p>Select one or more concerns. We'll explain what may be relevant, using the treatment relationships in our catalogue.</p></div></div>
+        <div class="original-concern-grid tgc-modern-concerns">
+          {concerns.map(c=><label class="original-concern-card"><input type="checkbox" name="concern" value={c.slug} /><span class="original-concern-copy"><strong>{c.name}</strong><small>{c.description}</small><a class="tgc-inline-concern" href={'/concerns/'+c.slug+'/'}>Learn about this concern ↗</a></span>{c.image && <img src={c.image} alt="" loading="lazy" />}</label>)}
+        </div>
+        <div class="tgc-selector-actions"><button class="heritage-solid-button" id="view-tgc-selections" type="button">View Related Treatments <span aria-hidden="true">→</span></button><span id="tgc-concern-count" aria-live="polite">Select the concerns you'd like to explore</span></div>
+        <div id="selected-concerns-result" class="tgc-results" hidden aria-live="polite" tabindex="-1"></div>
+      </section>
+      <section id="tgc-panel-list" class="tgc-discovery-panel" hidden aria-label="Browse all treatments">
+        <div class="tgc-panel-intro"><div><p class="eyebrow">Browse treatments</p><h2>Discover the treatments.</h2><p>If you know the treatment you're looking for, browse by name or category. Selecting a treatment opens its details in the side panel.</p></div></div>
+        <label class="tgc-search-label" for="tgc-treatment-search">Search the treatment list</label>
+        <input id="tgc-treatment-search" class="tgc-search-field" type="search" placeholder="Search treatments…" autocomplete="off" />
+        <div class="original-treatment-list tgc-treatment-index">
+          {categories.map(category=><div class="original-treatment-category" data-tgc-category><h3>{category}</h3>{treatments.filter(t=>t.category===category).map(t=><a href={'/treatments/'+t.slug+'/'} data-tgc-treatment-name={t.name.toLowerCase()}>{t.name}<span aria-hidden="true">↗</span></a>)}</div>)}
+        </div>
+        <p id="tgc-search-empty" hidden>No matching treatments. Try a different search.</p>
+        <p class="original-panel-note">{catalogueStatus}</p>
+      </section>
+      <section id="tgc-panel-consult" class="tgc-discovery-panel" hidden aria-label="Guided virtual consultation">
+        <div class="tgc-panel-intro"><div><p class="eyebrow">A little guidance goes a long way</p><h2>Your virtual consultation.</h2><p>Tell us what's bothering you. This first version is a guided educational preview; the conversational AI will be added once our full treatment knowledge is imported.</p></div></div>
+        <div class="tgc-consult-chat" id="tgc-consult-chat" aria-live="polite">
+          <div class="tgc-chat-message is-assistant"><span class="tgc-chat-from">THE GORGEOUS CLINIC</span><p>Hello! What would you like to learn more about? You can describe a concern in your own words or select one of the topics below.</p></div>
+        </div>
+        <div class="tgc-consult-picks" aria-label="Suggested concerns">
+          {concerns.slice(0,8).map(c=><button type="button" data-consult-concern={c.slug}>{c.name}</button>)}
+        </div>
+        <form id="tgc-consult-form" class="tgc-consult-form">
+          <label for="tgc-consult-text">Describe your concern</label>
+          <div class="tgc-consult-compose"><textarea id="tgc-consult-text" rows="3" maxlength="700" placeholder="For example: I have fine lines around my eyes and I'm not sure where to start." required></textarea><button type="submit" class="heritage-solid-button">Explore <span aria-hidden="true">→</span></button></div>
+          <p>Your text stays in this browser in the current prototype. This is general educational guidance, not an individual assessment.</p>
+        </form>
+      </section>
+      <section id="tgc-panel-prices" class="tgc-discovery-panel" hidden aria-label="Treatment price list">
+        <div class="tgc-panel-intro"><div><p class="eyebrow">Clear and straightforward</p><h2>Our price list.</h2><p>Browse treatments and their prices together. Exact amounts will be added directly from the Bubble export, so pricing stays consistent across the website.</p></div></div>
+        <div class="tgc-price-table"><div class="tgc-price-header"><strong>Treatment</strong><strong>Price</strong></div>
+          {treatments.map(t=>{const prices=treatmentRelationships.find(r=>r.treatmentSlug===t.slug)?.priceLines||[];return <div class="tgc-price-row"><a href={'/treatments/'+t.slug+'/'}>{t.name} <span aria-hidden="true">↗</span></a><span>{prices.length>0 ? prices.map(p=>'£'+p.gbp.toFixed(2)).join(' / ') : 'See live price list'}</span></div>})}
+        </div>
+        <p class="original-panel-note">The verified clinic price data has not yet been imported. No estimated prices are shown.</p>
+        <a class="heritage-ghost-button" href="https://thegorgeousclinic.co.uk/treatments/" target="_blank" rel="noopener noreferrer">View Current Prices ↗</a>
+      </section>
+    </div>
+  </section>
+  <section class="heritage-feature-band"><h2>Knowledge is power.</h2><p>Explore the different approaches to aesthetics, compare treatment options and book a free consultation whenever you're ready.</p><a class="heritage-ghost-button" href={bookingUrl} target="_blank" rel="noopener noreferrer">Book a Free Consultation →</a></section>
+  <script is:inline src="/discovery.js" defer></script>
 </SiteLayout>
