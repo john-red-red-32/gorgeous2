@@ -19,5 +19,7 @@ jobs:
         run: npm run audit
       - name: Test Bubble CSV parser
         run: npm run test:import
+      - name: Test legacy 301 redirect normalisation
+        run: npm run test:redirects
       - name: Audit legacy sitemap coverage (advisory until cutover)
         run: npm run audit:migration
