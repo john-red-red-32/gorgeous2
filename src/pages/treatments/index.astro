@@ -40,7 +40,14 @@ const paths = [
       <section id="tgc-panel-concerns" class="tgc-discovery-panel" aria-label="Explore by concern">
         <div class="tgc-panel-intro"><div><p class="eyebrow">Explore by concern</p><h2>What's on your mind?</h2><p>Select one or more concerns. We'll explain what may be relevant, using the treatment relationships in our catalogue.</p></div></div>
         <div class="original-concern-grid tgc-modern-concerns">
-          {concerns.map(c=><label class="original-concern-card"><input type="checkbox" name="concern" value={c.slug} /><span class="original-concern-copy"><strong>{c.name}</strong><small>{c.description}</small><a class="tgc-inline-concern" href={'/concerns/'+c.slug+'/'}>Learn about this concern ↗</a></span>{c.image && <img src={c.image} alt="" loading="lazy" />}</label>)}
+          {concerns.map(c=><div class="original-concern-card tgc-accessible-concern">
+            <label class="tgc-concern-select" for={'tgc-concern-'+c.slug}>
+              <input id={'tgc-concern-'+c.slug} type="checkbox" name="concern" value={c.slug} />
+              <span class="original-concern-copy"><strong>{c.name}</strong><small>{c.description}</small></span>
+              {c.image && <img src={c.image} alt="" loading="lazy" />}
+            </label>
+            <a class="tgc-inline-concern" href={'/concerns/'+c.slug+'/'}>Learn about this concern ↗</a>
+          </div>)}
         </div>
         <div class="tgc-selector-actions"><button class="heritage-solid-button" id="view-tgc-selections" type="button">View Related Treatments <span aria-hidden="true">→</span></button><span id="tgc-concern-count" aria-live="polite">Select the concerns you'd like to explore</span></div>
         <div id="selected-concerns-result" class="tgc-results" hidden aria-live="polite" tabindex="-1"></div>
