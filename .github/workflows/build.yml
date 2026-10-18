@@ -17,3 +17,7 @@ jobs:
         run: npm run build
       - name: Audit generated HTML
         run: npm run audit
+      - name: Test Bubble CSV parser
+        run: npm run test:import
+      - name: Audit legacy sitemap coverage (advisory until cutover)
+        run: npm run audit:migration
