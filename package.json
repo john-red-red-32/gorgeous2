@@ -11,7 +11,9 @@
     "audit": "node scripts/audit-dist.mjs",
     "test:import": "node --test scripts/inspect-bubble-exports.test.mjs",
     "audit:migration": "node scripts/audit-migration.mjs",
-    "audit:migration:strict": "node scripts/audit-migration.mjs --strict"
+    "audit:migration:strict": "node scripts/audit-migration.mjs --strict",
+    "test:redirects": "node --test scripts/prepare-redirects.test.mjs",
+    "audit:redirects": "node scripts/prepare-redirects.mjs"
   },
   "dependencies": {
     "astro": "^5.16.0"
