@@ -1,13 +1,14 @@
 ---
 import SiteLayout from '../layouts/SiteLayout.astro';
 import { bookingUrl, articles } from '../data/content';
+import { concerns } from '../data/catalogue';
 
 const assetBase = 'https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io';
 const whiteLogo = assetBase + '/f1764895107430x247950839261458880/2%20white.png';
 const greenLogo = assetBase + '/f1764895866717x944082419627878600/Untitled%20design%20%281%29.png';
 const clinicPhoto = assetBase + '/f1764947143838x499374604427451840/rs%3Dw_1200%2Ch_902%2Ccg_true%5B1%5D';
 const secondPhoto = assetBase + '/f1764947578406x237798609847311940/rs%3Dw_1200%2Ch_902%2Ccg_true%5B1%5D';
-const concernNames = ['Wrinkles','Jowls','Lip lines','Sagging skin','Lip volume','Jawline definition','Pigmentation','Chin fat','Gaunt face','Acne','Under-eye hollows','Frown lines'];
+const concernNames = concerns.map(c => ({name:c.name,slug:c.slug}));
 const galleryUrl = 'https://thegorgeousclinic.co.uk/gallery/';
 const videosUrl = 'https://thegorgeousclinic.co.uk/videos/';
 const teamUrl = 'https://thegorgeousclinic.co.uk/meet-the-team/';
@@ -44,7 +45,7 @@ const schema = { '@context':'https://schema.org', '@type':'WebSite', name:'The G
 
   <section class="heritage-concerns-wrap" aria-label="Popular concerns">
     <div class="heritage-concerns">
-      {concernNames.map((name, i) => <a class="heritage-concern" href="/treatments/" aria-label={'Explore treatments for ' + name}><span class="heritage-concern-circle" aria-hidden="true">{String(i+1).padStart(2,'0')}</span><span>{name}</span></a>)}
+      {concernNames.map((name, i) => <a class="heritage-concern" href={'/concerns/'+name.slug+'/'} aria-label={'Learn about ' + name.name}><span class="heritage-concern-circle" aria-hidden="true">{String(i+1).padStart(2,'0')}</span><span>{name.name}</span></a>)}
     </div>
   </section>
 
