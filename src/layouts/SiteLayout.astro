@@ -1,0 +1,74 @@
+---
+import '../styles/site.css';
+import { bookingUrl, whatsappUrl } from '../data/content';
+
+interface Props {
+  title: string;
+  description: string;
+  schema?: Record<string, unknown>;
+}
+const { title, description, schema } = Astro.props;
+const siteUrl = 'https://thegorgeousclinic.co.uk';
+const canonical = new URL(Astro.url.pathname, siteUrl).toString();
+const indexable = import.meta.env.PUBLIC_INDEXABLE === 'true';
+const currentPath = Astro.url.pathname;
+const nav = [
+  { href: '/', label: 'Home' },
+  { href: '/treatments/', label: 'Treatments' },
+  { href: '/blog-posts/', label: 'Knowledge hub' },
+  { href: '/contact-us/', label: 'Contact' }
+];
+---
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#153c34" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <meta name="robots" content={indexable ? 'index,follow' : 'noindex,nofollow'} />
+  <link rel="canonical" href={canonical} />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={canonical} />
+  {schema && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
+</head>
+<body>
+  <div class="announcement"><span class="sparkle">✦</span> THE FYLDE COAST'S HIGHEST RATED MEDICAL AESTHETICS CLINIC <span class="sparkle">✦</span></div>
+  <header class="site-header">
+    <div class="header-inner container">
+      <a class="brand" href="/" aria-label="The Gorgeous Clinic homepage">
+        <span class="brand-emblem">G</span>
+        <span class="brand-stack"><strong>THE GORGEOUS CLINIC</strong><small>MEDICAL AESTHETICS · BLACKPOOL</small></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        {nav.map(item => <a href={item.href} aria-current={currentPath === item.href ? 'page' : undefined}>{item.label}</a>)}
+      </nav>
+      <a class="header-book" href={bookingUrl} target="_blank" rel="noopener noreferrer">Book a consultation <span aria-hidden="true">↗</span></a>
+      <details class="mobile-menu">
+        <summary aria-label="Open navigation"><span></span><span></span><span></span></summary>
+        <nav aria-label="Mobile navigation">{nav.map(item => <a href={item.href}>{item.label}</a>)}<a href={bookingUrl} target="_blank" rel="noopener noreferrer">Book a consultation ↗</a></nav>
+      </details>
+    </div>
+  </header>
+  <main><slot /></main>
+  <section class="footer-cta">
+    <div class="container footer-cta-inner">
+      <div><p class="eyebrow gold">THE GORGEOUS CLINIC</p><h2>A little more you.<br /><em>A lot more confidence.</em></h2><p>Personalised aesthetics in the heart of Blackpool, with genuine care from your first conversation.</p></div>
+      <div class="footer-cta-actions"><a class="button button-cream" href={bookingUrl} target="_blank" rel="noopener noreferrer">Book a free consultation <span aria-hidden="true">↗</span></a><a class="footer-text-link" href={whatsappUrl} target="_blank" rel="noopener noreferrer">Or message us on WhatsApp →</a></div>
+    </div>
+  </section>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><span class="footer-brand">THE GORGEOUS CLINIC</span><p>Medical aesthetics, done beautifully.<br />221 Whitegate Drive, Blackpool, FY3 9HW</p></div>
+      <div><strong>Explore</strong><a href="/treatments/">All treatments</a><a href="/blog-posts/">Knowledge hub</a><a href="/contact-us/">Contact us</a></div>
+      <div><strong>Get in touch</strong><a href="tel:+441253928029">01253 928029</a><a href={whatsappUrl} target="_blank" rel="noopener noreferrer">WhatsApp the clinic</a><a href={bookingUrl} target="_blank" rel="noopener noreferrer">Book online</a></div>
+      <div><strong>Visit us</strong><p>By appointment only<br />Free parking available<br />Blackpool, Lancashire</p></div>
+    </div>
+    <div class="container footer-bottom"><span>© {new Date().getFullYear()} The Gorgeous Clinic.</span><span>Gorgeous2 development preview · not the live clinic website</span></div>
+  </footer>
+</body>
+</html>
