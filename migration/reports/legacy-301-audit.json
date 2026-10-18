@@ -1,40 +1,22 @@
 {
   "generated_at": "2026-10-18",
-  "raw_unique_pairs": 858,
-  "old_source_path_count": 164,
-  "path_level_unambiguous": 141,
-  "path_level_conflicting": 23,
-  "unsupported": [
-    {
-      "row": 83,
-      "from": "/ 33pptMNwErCOd0Mn3XQPEFDnCmmueian70S15Az2Q=",
-      "to": "",
-      "reason": "empty or non-local path"
-    },
-    {
-      "row": 84,
-      "from": "/IzdEbSL0w 2aBJTYvUIKWC5E mk4yHB7QIRgmvZEaQ=",
-      "to": "",
-      "reason": "empty or non-local path"
-    },
-    {
-      "row": 123,
-      "from": "/ccnuw2zLf3k5mmjsyqYsCyAllwKGeTG/9ylN5meMMY=",
-      "to": "",
-      "reason": "empty or non-local path"
-    },
-    {
-      "row": 139,
-      "from": "/our-team",
-      "to": "",
-      "reason": "empty or non-local path"
-    }
+  "pairs_from_original_export": 896,
+  "removed_exact_duplicates": 38,
+  "unique_pairs": 858,
+  "unique_source_urls": 836,
+  "source_paths": 167,
+  "unambiguous_path_candidates": 143,
+  "path_conflicts": 24,
+  "source_queries": 685,
+  "query_related_candidate_paths": 100,
+  "source_paths_in_existing_sitemaps": [],
+  "paths_with_target_in_existing_sitemaps": 137,
+  "roots_as_target_for": [
+    "/ 33pptMNwErCOd0Mn3XQPEFDnCmmueian70S15Az2Q=",
+    "/IzdEbSL0w 2aBJTYvUIKWC5E mk4yHB7QIRgmvZEaQ=",
+    "/ccnuw2zLf3k5mmjsyqYsCyAllwKGeTG/9ylN5meMMY="
   ],
-  "query_source_pairs": 685,
-  "query_target_pairs": 4,
-  "query_related_paths_needing_review": 100,
-  "unambiguous_destinations_in_current_sitemaps": 0,
-  "source_is_already_sitemapped": 0,
+  "unencoded_space_path_candidates": 2,
   "conflicts": [
     {
       "source": "/knowledge-hub",
@@ -42,14 +24,14 @@
         "/blog",
         "/blog/how-to-choose-an-aesthetics-clinic-in-lancashire-8526---"
       ],
-      "exampleRecords": [
+      "examples": [
         {
-          "source": "/knowledge-hub",
-          "target": "/blog"
+          "from": "/knowledge-hub",
+          "to": "/blog"
         },
         {
-          "source": "/knowledge-hub?blogcategory=Fat Dissolving Injections",
-          "target": "/blog/how-to-choose-an-aesthetics-clinic-in-lancashire-8526---"
+          "from": "/knowledge-hub?blogcategory=Fat Dissolving Injections",
+          "to": "/blog/how-to-choose-an-aesthetics-clinic-in-lancashire-8526---"
         }
       ],
       "variants": 24
@@ -60,14 +42,14 @@
         "/treatments/injectable-moisturisers-1",
         "/treatments/brighter-undereyes"
       ],
-      "exampleRecords": [
+      "examples": [
         {
-          "source": "/brighter-undereyes",
-          "target": "/treatments/injectable-moisturisers-1"
+          "from": "/brighter-undereyes",
+          "to": "/treatments/injectable-moisturisers-1"
         },
         {
-          "source": "/brighter-undereyes",
-          "target": "/treatments/brighter-undereyes"
+          "from": "/brighter-undereyes",
+          "to": "/treatments/brighter-undereyes"
         }
       ],
       "variants": 2
@@ -78,14 +60,14 @@
         "/treatments/collagen-inductiontherapy",
         "/treatments/platelet-rich-plasma-prp"
       ],
-      "exampleRecords": [
+      "examples": [
         {
-          "source": "/vampire-facial",
-          "target": "/treatments/collagen-inductiontherapy"
+          "from": "/vampire-facial",
+          "to": "/treatments/collagen-inductiontherapy"
         },
         {
-          "source": "/vampire-facial",
-          "target": "/treatments/platelet-rich-plasma-prp"
+          "from": "/vampire-facial",
+          "to": "/treatments/platelet-rich-plasma-prp"
         }
       ],
       "variants": 2
@@ -96,14 +78,14 @@
         "/treatments/non-surgical-face-lift-1",
         "/gallery/full-works-ultra-1765470725058x493426724585029900"
       ],
-      "exampleRecords": [
+      "examples": [
         {
-          "source": "/full-works-ultra",
-          "target": "/treatments/non-surgical-face-lift-1"
+          "from": "/full-works-ultra",
+          "to": "/treatments/non-surgical-face-lift-1"
         },
         {
-          "source": "/full-works-ultra",
-          "target": "/gallery/full-works-ultra-1765470725058x493426724585029900"
+          "from": "/full-works-ultra",
+          "to": "/gallery/full-works-ultra-1765470725058x493426724585029900"
         }
       ],
       "variants": 2
@@ -114,14 +96,32 @@
         "/treatments/view-our-treatments?section=concern",
         "/treatments/view-our-treatments"
       ],
-      "exampleRecords": [
+      "examples": [
         {
-          "source": "/solutions",
-          "target": "/treatments/view-our-treatments?section=concern"
+          "from": "/solutions",
+          "to": "/treatments/view-our-treatments?section=concern"
         },
         {
-          "source": "/solutions",
-          "target": "/treatments/view-our-treatments"
+          "from": "/solutions",
+          "to": "/treatments/view-our-treatments"
+        }
+      ],
+      "variants": 2
+    },
+    {
+      "source": "/our-team",
+      "targets": [
+        "/meet-the-team",
+        "/"
+      ],
+      "examples": [
+        {
+          "from": "/our-team",
+          "to": "/meet-the-team"
+        },
+        {
+          "from": "/our-team",
+          "to": "/"
         }
       ],
       "variants": 2
@@ -132,14 +132,14 @@
         "/treatments/injectable-moisturisers-1",
         "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
       ],
-      "exampleRecords": [
+      "examples": [
         {
-          "source": "/f/exploring-the-ingredients-jalupro-vs-profhilo",
-          "target": "/treatments/injectable-moisturisers-1"
+          "from": "/f/exploring-the-ingredients-jalupro-vs-profhilo",
+          "to": "/treatments/injectable-moisturisers-1"
         },
         {
-          "source": "/f/exploring-the-ingredients-jalupro-vs-profhilo",
-          "target": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+          "from": "/f/exploring-the-ingredients-jalupro-vs-profhilo",
+          "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
         }
       ],
       "variants": 6
@@ -150,14 +150,14 @@
         "/treatments/lip-enhancements",
         "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
       ],
-      "exampleRecords": [
+      "examples": [
         {
-          "source": "/pricing/f/the-art-of-lip-filler-injections-finding-a-skilled-practitioner",
-          "target": "/treatments/lip-enhancements"
+          "from": "/pricing/f/the-art-of-lip-filler-injections-finding-a-skilled-practitioner",
+          "to": "/treatments/lip-enhancements"
         },
         {
-          "source": "/pricing/f/the-art-of-lip-filler-injections-finding-a-skilled-practitioner",
-          "target": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+          "from": "/pricing/f/the-art-of-lip-filler-injections-finding-a-skilled-practitioner",
+          "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
         }
       ],
       "variants": 3
@@ -168,14 +168,14 @@
         "/treatments/fat-dissolving-injections",
         "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
       ],
-      "exampleRecords": [
+      "examples": [
         {
-          "source": "/pricing/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction",
-          "target": "/treatments/fat-dissolving-injections"
+          "from": "/pricing/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction",
+          "to": "/treatments/fat-dissolving-injections"
         },
         {
-          "source": "/pricing/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction",
-          "target": "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
+          "from": "/pricing/f/the-truth-aqualyx-fat-dissolving-injections-vs-liposuction",
+          "to": "/blog/aqualyx-fat-dissolving-how-it-works-and-what-to-expect-9526"
         }
       ],
       "variants": 9
@@ -186,14 +186,14 @@
         "/treatments/temple-revolumisation-1765308723112x953852281526645600",
         "/treatments/forehead-revolumisation-1765308796436x204344993782369380"
       ],
-      "exampleRecords": [
+      "examples": [
         {
-          "source": "/pricing/f/forehead-rejuvenation-how-fillers-can-turn-back-time",
-          "target": "/treatments/temple-revolumisation-1765308723112x953852281526645600"
+          "from": "/pricing/f/forehead-rejuvenation-how-fillers-can-turn-back-time",
+          "to": "/treatments/temple-revolumisation-1765308723112x953852281526645600"
         },
         {
-          "source": "/pricing/f/forehead-rejuvenation-how-fillers-can-turn-back-time",
-          "target": "/treatments/forehead-revolumisation-1765308796436x204344993782369380"
+          "from": "/pricing/f/forehead-rejuvenation-how-fillers-can-turn-back-time",
+          "to": "/treatments/forehead-revolumisation-1765308796436x204344993782369380"
         }
       ],
       "variants": 6
@@ -204,14 +204,14 @@
         "/treatments/lip-enhancements",
         "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
       ],
-      "exampleRecords": [
+      "examples": [
         {
-          "source": "/pricing/f/the-secret-to-natural-lip-filler",
-          "target": "/treatments/lip-enhancements"
+          "from": "/pricing/f/the-secret-to-natural-lip-filler",
+          "to": "/treatments/lip-enhancements"
         },
         {
-          "source": "/pricing/f/the-secret-to-natural-lip-filler",
-          "target": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
+          "from": "/pricing/f/the-secret-to-natural-lip-filler",
+          "to": "/blog/natural-looking-lip-fillers-what-to-expect-in-blackpool-8526---"
         }
       ],
       "variants": 6
@@ -223,18 +223,18 @@
         "/blog-posts",
         "/treatments/view-our-treatments"
       ],
-      "exampleRecords": [
+      "examples": [
         {
-          "source": "/treatments-info",
-          "target": "/treatments"
+          "from": "/treatments-info",
+          "to": "/treatments"
         },
         {
-          "source": "/treatments-info",
-          "target": "/blog-posts"
+          "from": "/treatments-info",
+          "to": "/blog-posts"
         },
         {
-          "source": "/treatments-info",
-          "target": "/treatments/view-our-treatments"
+          "from": "/treatments-info",
+          "to": "/treatments/view-our-treatments"
         }
       ],
       "variants": 6
@@ -245,14 +245,14 @@
         "/treatments/non-surgical-face-lift-1",
         "/treatments/thread-lifts-pdo-pla"
       ],
-      "exampleRecords": [
+      "examples": [
         {
-          "source": "/non-surgical-face-lift-1",
-          "target": "/treatments/non-surgical-face-lift-1"
+          "from": "/non-surgical-face-lift-1",
+          "to": "/treatments/non-surgical-face-lift-1"
         },
         {
-          "source": "/non-surgical-face-lift-1",
-          "target": "/treatments/thread-lifts-pdo-pla"
+          "from": "/non-surgical-face-lift-1",
+          "to": "/treatments/thread-lifts-pdo-pla"
         }
       ],
       "variants": 2
@@ -263,14 +263,14 @@
         "/treatments/upper-third-temple-filler",
         "/blog/non-surgical-face-lift-explained-8526"
       ],
-      "exampleRecords": [
+      "examples": [
         {
-          "source": "/upper-third-temple-filler/f/non-surgical-face-lift-lip-enhancement-walkthrough",
-          "target": "/treatments/upper-third-temple-filler"
+          "from": "/upper-third-temple-filler/f/non-surgical-face-lift-lip-enhancement-walkthrough",
+          "to": "/treatments/upper-third-temple-filler"
         },
         {
-          "source": "/upper-third-temple-filler/f/non-surgical-face-lift-lip-enhancement-walkthrough",
-          "target": "/blog/non-surgical-face-lift-explained-8526"
+          "from": "/upper-third-temple-filler/f/non-surgical-face-lift-lip-enhancement-walkthrough",
+          "to": "/blog/non-surgical-face-lift-explained-8526"
         }
       ],
       "variants": 3
@@ -281,14 +281,14 @@
         "/treatments/upper-third-temple-filler",
         "/gallery/facial-asymmetry-correction-brow-balance-1765559754044x598757657110037500"
       ],
-      "exampleRecords": [
+      "examples": [
         {
-          "source": "/upper-third-temple-filler/f/symmetry-work-for-client-with-facial-paralysis",
-          "target": "/treatments/upper-third-temple-filler"
+          "from": "/upper-third-temple-filler/f/symmetry-work-for-client-with-facial-paralysis",
+          "to": "/treatments/upper-third-temple-filler"
         },
         {
-          "source": "/upper-third-temple-filler/f/symmetry-work-for-client-with-facial-paralysis",
-          "target": "/gallery/facial-asymmetry-correction-brow-balance-1765559754044x598757657110037500"
+          "from": "/upper-third-temple-filler/f/symmetry-work-for-client-with-facial-paralysis",
+          "to": "/gallery/facial-asymmetry-correction-brow-balance-1765559754044x598757657110037500"
         }
       ],
       "variants": 3
@@ -299,14 +299,14 @@
         "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla",
         "/treatments/subcision-acne-scarring-1"
       ],
-      "exampleRecords": [
+      "examples": [
         {
-          "source": "/plla-sculptra-/-aesplla/f/subcision-for-acne-scar-removal-tgcs-expert-solution",
-          "target": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+          "from": "/plla-sculptra-/-aesplla/f/subcision-for-acne-scar-removal-tgcs-expert-solution",
+          "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
         },
         {
-          "source": "/plla-sculptra-/-aesplla/f/subcision-for-acne-scar-removal-tgcs-expert-solution",
-          "target": "/treatments/subcision-acne-scarring-1"
+          "from": "/plla-sculptra-/-aesplla/f/subcision-for-acne-scar-removal-tgcs-expert-solution",
+          "to": "/treatments/subcision-acne-scarring-1"
         }
       ],
       "variants": 3
@@ -317,14 +317,14 @@
         "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla",
         "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
       ],
-      "exampleRecords": [
+      "examples": [
         {
-          "source": "/plla-sculptra-/-aesplla/f/next-generation-of-skincare-the-hydrafacial-syndeo",
-          "target": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+          "from": "/plla-sculptra-/-aesplla/f/next-generation-of-skincare-the-hydrafacial-syndeo",
+          "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
         },
         {
-          "source": "/plla-sculptra-/-aesplla/f/next-generation-of-skincare-the-hydrafacial-syndeo",
-          "target": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
+          "from": "/plla-sculptra-/-aesplla/f/next-generation-of-skincare-the-hydrafacial-syndeo",
+          "to": "/blog/skin-boosters-blackpool-hydration-glow-skin-quality-9526"
         }
       ],
       "variants": 3
@@ -335,14 +335,14 @@
         "/treatments/lip-enhancements",
         "/gallery/non-surgical-full-face-rejuvenation-1765560129962x482716356226522900"
       ],
-      "exampleRecords": [
+      "examples": [
         {
-          "source": "/upper-third-temple-filler/f/non-surgical-face-lift-lip-enhancement-rejuvenation",
-          "target": "/treatments/lip-enhancements"
+          "from": "/upper-third-temple-filler/f/non-surgical-face-lift-lip-enhancement-rejuvenation",
+          "to": "/treatments/lip-enhancements"
         },
         {
-          "source": "/upper-third-temple-filler/f/non-surgical-face-lift-lip-enhancement-rejuvenation",
-          "target": "/gallery/non-surgical-full-face-rejuvenation-1765560129962x482716356226522900"
+          "from": "/upper-third-temple-filler/f/non-surgical-face-lift-lip-enhancement-rejuvenation",
+          "to": "/gallery/non-surgical-full-face-rejuvenation-1765560129962x482716356226522900"
         }
       ],
       "variants": 3
@@ -353,14 +353,14 @@
         "/treatments/upper-third-temple-filler",
         "/treatments/forehead-revolumisation-1765308796436x204344993782369380"
       ],
-      "exampleRecords": [
+      "examples": [
         {
-          "source": "/upper-third-temple-filler/f/forehead-rejuvenation-how-fillers-can-turn-back-time",
-          "target": "/treatments/upper-third-temple-filler"
+          "from": "/upper-third-temple-filler/f/forehead-rejuvenation-how-fillers-can-turn-back-time",
+          "to": "/treatments/upper-third-temple-filler"
         },
         {
-          "source": "/upper-third-temple-filler/f/forehead-rejuvenation-how-fillers-can-turn-back-time",
-          "target": "/treatments/forehead-revolumisation-1765308796436x204344993782369380"
+          "from": "/upper-third-temple-filler/f/forehead-rejuvenation-how-fillers-can-turn-back-time",
+          "to": "/treatments/forehead-revolumisation-1765308796436x204344993782369380"
         }
       ],
       "variants": 3
@@ -371,14 +371,14 @@
         "/treatments/view-our-treatments?section=treatments",
         "/treatments/view-our-treatments"
       ],
-      "exampleRecords": [
+      "examples": [
         {
-          "source": "/pricing",
-          "target": "/treatments/view-our-treatments?section=treatments"
+          "from": "/pricing",
+          "to": "/treatments/view-our-treatments?section=treatments"
         },
         {
-          "source": "/pricing",
-          "target": "/treatments/view-our-treatments"
+          "from": "/pricing",
+          "to": "/treatments/view-our-treatments"
         }
       ],
       "variants": 20
@@ -389,14 +389,14 @@
         "/treatments/view-our-treatments?section=treatments",
         "/treatments/prp-for-hair-restoration-1765309605238x422875589125000450"
       ],
-      "exampleRecords": [
+      "examples": [
         {
-          "source": "/knowledge-hub/f/prp-for-hair-transplant-natural-hair-restoration-at-the-gorgeous",
-          "target": "/treatments/view-our-treatments?section=treatments"
+          "from": "/knowledge-hub/f/prp-for-hair-transplant-natural-hair-restoration-at-the-gorgeous",
+          "to": "/treatments/view-our-treatments?section=treatments"
         },
         {
-          "source": "/knowledge-hub/f/prp-for-hair-transplant-natural-hair-restoration-at-the-gorgeous",
-          "target": "/treatments/prp-for-hair-restoration-1765309605238x422875589125000450"
+          "from": "/knowledge-hub/f/prp-for-hair-transplant-natural-hair-restoration-at-the-gorgeous",
+          "to": "/treatments/prp-for-hair-restoration-1765309605238x422875589125000450"
         }
       ],
       "variants": 6
@@ -407,14 +407,14 @@
         "/treatments/chemical-peels-1",
         "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
       ],
-      "exampleRecords": [
+      "examples": [
         {
-          "source": "/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=Lines%2C+Wrinkles+%26+Acne+Scars",
-          "target": "/treatments/chemical-peels-1"
+          "from": "/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla?blogcategory=Lines%2C+Wrinkles+%26+Acne+Scars",
+          "to": "/treatments/chemical-peels-1"
         },
         {
-          "source": "/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla",
-          "target": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
+          "from": "/f/plla-poly-l-lactic-acid-treatment-sculptra-aesplla",
+          "to": "/treatments/plla-poly-l-lactic-acid-sculptra-aesplla"
         }
       ],
       "variants": 14
@@ -425,14 +425,14 @@
         "/treatments/chemical-peels-1",
         "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
       ],
-      "exampleRecords": [
+      "examples": [
         {
-          "source": "/f/how-often-should-you-get-a-hydrafacial?ref=qanomed&blogcategory=PDO+Cogs+%26+Threads",
-          "target": "/treatments/chemical-peels-1"
+          "from": "/f/how-often-should-you-get-a-hydrafacial?ref=qanomed&blogcategory=PDO+Cogs+%26+Threads",
+          "to": "/treatments/chemical-peels-1"
         },
         {
-          "source": "/f/how-often-should-you-get-a-hydrafacial?ref=qanomed&blogcategory=PDO Cogs %26 Threads",
-          "target": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
+          "from": "/f/how-often-should-you-get-a-hydrafacial?ref=qanomed&blogcategory=PDO Cogs %26 Threads",
+          "to": "/blog/holiday-ready-skin-what-to-book-and-when-8526---"
         }
       ],
       "variants": 14
@@ -443,19 +443,24 @@
         "/treatments/subcision-acne-scarring-1",
         "/blog/chemical-peels-which-peel-suits-your-skin-9526"
       ],
-      "exampleRecords": [
+      "examples": [
         {
-          "source": "/treatments-info/f/can-hydrafacial-help-with-acne?blogcategory=Facial+Paralysis",
-          "target": "/treatments/subcision-acne-scarring-1"
+          "from": "/treatments-info/f/can-hydrafacial-help-with-acne?blogcategory=Facial+Paralysis",
+          "to": "/treatments/subcision-acne-scarring-1"
         },
         {
-          "source": "/treatments-info/f/can-hydrafacial-help-with-acne?blogcategory=Facial Paralysis",
-          "target": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
+          "from": "/treatments-info/f/can-hydrafacial-help-with-acne?blogcategory=Facial Paralysis",
+          "to": "/blog/chemical-peels-which-peel-suits-your-skin-9526"
         }
       ],
       "variants": 9
     }
   ],
-  "existingSitemapSources": [],
-  "note": "ADVISORY ONLY. Source query parameter variants cannot always be replaced by a plain Cloudflare Pages _redirects path rule; query-dependent alternatives and conflicting targets need review before activation."
+  "notes": [
+    "The original export included full URL pairs pasted without separators. Exact URL boundaries were reconstructed using its shared domain prefix.",
+    "Empty target suffix in the original represents redirect to the domain root, not a missing target.",
+    "The same pathname occurs with many different query parameters. Plain static redirects cannot necessarily preserve query-specific behaviour.",
+    "Conflicting destinations, existing source pages, stale target paths and redirects to the homepage must be reviewed before activation.",
+    "Candidates are a staging analysis, NOT deployed redirect rules."
+  ]
 }
