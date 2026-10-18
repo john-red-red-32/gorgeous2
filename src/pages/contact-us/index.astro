@@ -1,0 +1,8 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import { bookingUrl, whatsappUrl } from '../../data/content';
+---
+<SiteLayout title="Contact The Gorgeous Clinic | Aesthetics Clinic Blackpool & Lancashire" description="Contact The Gorgeous Clinic in Blackpool for free consultations, dermal fillers, lip enhancements and anti-wrinkle treatments. Call 01253 928029 or WhatsApp.">
+<section class="page-hero"><div class="container"><p class="eyebrow">We would love to hear from you</p><h1>Let's talk<br /><em>about you.</em></h1><p>Questions about treatments, appointments or consultations? Our team is happy to help.</p></div></section>
+<section class="section"><div class="container two-column"><div><p class="eyebrow">Get in touch</p><h2>Start with a conversation.</h2><p>WhatsApp is the quickest way to speak with our team. You can also call us or book your free consultation online.</p><div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:27px"><a class="button button-dark" href={whatsappUrl} target="_blank" rel="noopener noreferrer">WhatsApp the clinic ↗</a><a class="button button-outline" href={bookingUrl} target="_blank" rel="noopener noreferrer">Book online ↗</a></div><p><a href="tel:+441253928029" style="font-weight:700;color:var(--forest)">01253 928029</a></p></div><div class="quote-panel"><p>221 Whitegate Drive<br />Blackpool<br />Lancashire<br />FY3 9HW</p><span class="eyebrow">BY APPOINTMENT ONLY · FREE PARKING</span></div></div></section>
+</SiteLayout>
