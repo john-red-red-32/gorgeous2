@@ -63,6 +63,17 @@ const nav = [
     </details>
   </header>
   <main><slot /></main>
+  <div id="tgc-treatment-layer" class="tgc-treatment-layer" hidden>
+    <button type="button" class="tgc-panel-scrim" data-tgc-close aria-label="Close treatment details"></button>
+    <aside id="tgc-treatment-pane" class="tgc-treatment-pane" role="dialog" aria-modal="true" aria-label="Treatment details" tabindex="-1">
+      <div class="tgc-panel-toolbar">
+        <span>THE GORGEOUS CLINIC · TREATMENTS</span>
+        <button type="button" data-tgc-close aria-label="Close treatment details" class="tgc-panel-close">Close <span aria-hidden="true">×</span></button>
+      </div>
+      <div id="tgc-treatment-body" class="tgc-treatment-body"></div>
+    </aside>
+  </div>
+  <script is:inline src="/treatment-panel.js" defer></script>
   <section class="footer-cta">
     <div class="container footer-cta-inner">
       <div><p class="eyebrow gold">THE GORGEOUS CLINIC</p><h2>A little more you.<br /><em>A lot more confidence.</em></h2><p>Personalised aesthetics in the heart of Blackpool, with genuine care from your first conversation.</p></div>
