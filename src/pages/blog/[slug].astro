@@ -1,0 +1,28 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import { articles, treatments } from '../../data/content';
+export function getStaticPaths() {
+  return articles.map(article => ({ params: { slug: article.slug }, props: { article } }));
+}
+const { article } = Astro.props;
+const recommendations = articles.filter(a => a.slug !== article.slug).slice(0,3);
+const treatment = article.category === 'Lip filler' ? treatments.find(t=>t.slug==='lip-enhancements') : treatments.find(t=>t.slug==='anti-wrinkle-injections');
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: article.title,
+  description: article.description,
+  mainEntityOfPage: 'https://thegorgeousclinic.co.uk/blog/'+article.slug+'/',
+  publisher: { '@type': 'Organization', name: 'The Gorgeous Clinic' }
+};
+---
+<SiteLayout title={article.title+' | The Gorgeous Clinic'} description={article.description} schema={schema}>
+<section class="page-hero"><div class="container article-masthead"><div class="breadcrumbs"><a href="/">Home</a> / <a href="/blog-posts/">Knowledge hub</a></div><p class="eyebrow">{article.category} · The Gorgeous Clinic Editorial</p><h1>{article.title}</h1><p>{article.description}</p></div></section>
+<article class="body-wrap">
+<p class="demo-note">PROTOTYPE ARTICLE COPY. EXACT PUBLISHED BODY, CITATIONS AND ORIGINAL DATES WILL BE MIGRATED FROM BUBBLE.</p>
+<p style="font-size:20px;color:var(--ink)">{article.intro}</p>
+{article.sections.map(section=><section><h2>{section.title}</h2><p>{section.body}</p></section>)}
+{treatment && <div class="content-aside"><p>Considering treatment? Explore our <a style="text-decoration:underline" href={'/treatments/'+treatment.slug+'/'}>{treatment.name.toLowerCase()}</a> page for an overview and consultation details.</p></div>}
+</article>
+{recommendations.length>0 && <section class="section" style="background:#f0eee5"><div class="container"><div class="split-heading"><div><p class="eyebrow">Keep reading</p><h2>Explore more articles.</h2></div></div><div class="article-list">{recommendations.map(item=><a href={'/blog/'+item.slug+'/'} class="article-card"><span class="eyebrow">{item.category}</span><h3>{item.title}</h3><p>{item.description}</p><span class="more">Read the article ↗</span></a>)}</div></div></section>}
+</SiteLayout>
