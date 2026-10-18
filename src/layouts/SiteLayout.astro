@@ -2,6 +2,7 @@
 import '../styles/site.css';
 import '../styles/heritage.css';
 import { bookingUrl, whatsappUrl } from '../data/content';
+import GoogleAdsTag from '../components/GoogleAdsTag.astro';
 
 interface Props {
   title: string;
@@ -36,6 +37,7 @@ const nav = [
   <meta property="og:description" content={description} />
   <meta property="og:url" content={canonical} />
   {schema && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
+  <GoogleAdsTag />
 </head>
 <body>
   <header class:list={['heritage-header', { 'is-home': currentPath === '/' }]} id="site-header">
