@@ -25,7 +25,7 @@ for(const [collection,sitemap,label] of [[treatments,treatmentSitemap,'treatment
   assert(actual===expected,label+' #'+(i+1)+': original route changed');
   assert(!paths.has(actual),label+' #'+(i+1)+': duplicate route '+actual);
   paths.add(actual);
-  assert(actual.endsWith('/'+row.slug+'/'),label+' #'+(i+1)+': slug mismatch');
+  assert(decodeURI(actual).endsWith('/'+row.slug+'/'),label+' #'+(i+1)+': slug mismatch');
  }
 }
 assert(treatments[67].sourceRowBlank && treatments[67].slug==='view-our-treatments',
