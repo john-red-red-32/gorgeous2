@@ -1,4 +1,5 @@
 import { treatments, articles } from './content';
+import { galleryForTreatment } from './gallery';
 
 /**
  * Single source of truth for concern-to-treatment discovery.
@@ -116,7 +117,7 @@ export const treatmentRelationships: TreatmentRelationship[] = treatments.map(t 
     : t.slug === 'lip-enhancements'
       ? ['lip-filler-migration-what-it-looks-like-and-when-dissolving-may-help-26726']
       : [],
-  gallerySlugs: [], // The Bubble export will populate these exact gallery IDs/slugs.
+  gallerySlugs: galleryForTreatment(t.slug).map(g=>g.slug), // Restored media descriptions; crosslinks remain auditable.
   videoIds: [], // Vimeo IDs from Bubble.
   concernSlugs: concerns.filter(c => c.treatmentSlugs.includes(t.slug)).map(c => c.slug),
   priceLines: [] // Only add amounts verified in Bubble; never infer prices.
