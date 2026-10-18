@@ -131,22 +131,67 @@
     chat.scrollTop = chat.scrollHeight;
     return box;
   }
-  function advice(c) {
-    message(c.explainer,'assistant');
-    const available = matchesFor([c.slug]);
-    if(!available.length) {
-      message('Our full catalogue links are still being imported, so I won’t guess which treatment would suit this concern. You can explore the educational page for now.','assistant');
-    } else {
-      message('Here are some treatments from our catalogue you can learn about. These aren’t personalised recommendations.','assistant');
-      const box=node('div','tgc-consult-recommendations');
-      available.forEach(({treatment}) => {
-        const a=link('/treatments/'+treatment.slug+'/','', 'tgc-consult-treatment');
-        a.append(node('strong','',treatment.name),node('small','',treatment.summary),
-          node('span','','Explore treatment ↗'));
-        box.append(a);
-      });
-      chat.append(box);
+  const guidedQuestions={
+    'under-eye-concerns':{
+      question:'When you mention the area beneath your eyes, what concerns you most? These can look similar but have different causes.',
+      answers:[
+        {label:'Puffiness or swelling, especially in the morning',reply:'Puffiness can be influenced by fluid retention and other factors. It is useful to understand whether it changes through the day, rather than assuming filler or a skin treatment would be appropriate.',slugs:['anti-fluid-retention-eyes']},
+        {label:'Dark circles or discolouration',reply:'Dark circles may relate to pigmentation, skin translucency or the shape of the under-eye area. Different causes call for different approaches.',slugs:['under-eye-brightening-treatment-polynucleotides-1765302897850x815775285912820200']},
+        {label:'A hollow or shadow beneath the eye',reply:'A structural hollow can create a shadow even when the skin itself is healthy. An assessment helps distinguish a hollow from puffiness or colour changes.',slugs:['under-eye-hollow-filler-1776481181955x304405063828494100']},
+        {label:'Crepey skin or fine texture lines',reply:'Skin texture is a different issue from hollowness or swelling. Skin-focused treatments are among the options worth understanding.',slugs:['collagen-inductiontherapy','under-eye-brightening-treatment-polynucleotides-1765302897850x815775285912820200']}
+      ]
+    },
+    'lines-and-wrinkles':{
+      question:'Do the lines mainly appear when you make an expression, or can you see them even when your face is relaxed?',
+      answers:[
+        {label:'Mostly when I smile, frown or raise my brows',reply:'Lines associated with facial movement and muscle activity are distinct from changes to skin texture. A consultation can explain muscle-relaxing options.',slugs:['anti-wrinkle-injections']},
+        {label:'Visible at rest, with thinner or crepey skin',reply:'Lines that remain when the face is relaxed can involve the skin itself. Treatments that address skin quality may be worth exploring in addition to, or instead of, muscle-relaxing approaches.',slugs:['collagen-inductiontherapy','chemical-peels-1']},
+        {label:'A mixture of both',reply:'Movement and skin quality may both contribute. That is why combining careful assessment with education about several treatment types can be useful.',slugs:['anti-wrinkle-injections','collagen-inductiontherapy','chemical-peels-1']}
+      ]
     }
+  };
+  function showTreatments(ids) {
+    const options=[...new Set(ids)].map(id=>treatments.get(id)).filter(Boolean);
+    if(!options.length)return;
+    message('Here are some of our treatment pages worth exploring. This is educational guidance, not a confirmed recommendation for you.','assistant');
+    const cards=node('div','tgc-consult-recommendations');
+    options.forEach(t=>{
+      const a=link('/treatments/'+t.slug+'/','', 'tgc-consult-treatment');
+      a.append(node('strong','',t.name),node('small','',t.summary),
+        node('span','','Explore treatment ↗'));
+      cards.append(a);
+    });
+    chat.append(cards);
+    chat.scrollTop=chat.scrollHeight;
+  }
+  function followUp(c) {
+    const guide=guidedQuestions[c.slug];
+    if(!guide)return false;
+    message(guide.question,'assistant');
+    const controls=node('div','tgc-consult-followups');
+    guide.answers.forEach(option=>{
+      const button=node('button','',''+option.label);
+      button.type='button';
+      button.addEventListener('click',()=>{
+        message(option.label,'visitor');
+        controls.remove();
+        message(option.reply,'assistant');
+        showTreatments(option.slugs);
+        chat.append(link('/concerns/'+c.slug+'/','Read our full guide to '+c.name.toLowerCase()+' →','tgc-consult-topic-link'));
+        chat.scrollTop=chat.scrollHeight;
+      });
+      controls.append(button);
+    });
+    chat.append(controls);
+    chat.scrollTop=chat.scrollHeight;
+    return true;
+  }
+  function advice(c) {
+    if(followUp(c))return;
+    message(c.explainer,'assistant');
+    const available=matchesFor([c.slug]).map(x=>x.treatment.slug);
+    if(available.length)showTreatments(available);
+    else message('We are still completing this part of the treatment catalogue. You can read about the concern or discuss your goals with our team.','assistant');
     chat.append(link('/concerns/'+c.slug+'/','Learn more about '+c.name.toLowerCase()+' →','tgc-consult-topic-link'));
     chat.scrollTop=chat.scrollHeight;
   }
