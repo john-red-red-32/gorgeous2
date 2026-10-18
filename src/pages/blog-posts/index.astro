@@ -1,0 +1,8 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import { articles } from '../../data/content';
+---
+<SiteLayout title="Aesthetics Knowledge Hub & Blog | The Gorgeous Clinic Blackpool" description="Explore The Gorgeous Clinic knowledge hub for helpful articles about lip fillers, anti-wrinkle injections, aesthetic treatments, safety and aftercare.">
+<section class="page-hero"><div class="container"><p class="eyebrow">The Gorgeous Clinic journal</p><h1>Knowledge is<br /><em>beautiful.</em></h1><p>Honest answers, expert insight and thoughtful advice. Explore the topics that matter before and after aesthetic treatment.</p></div></section>
+<section class="section"><div class="container"><p class="demo-note">INITIAL PROTOTYPE: THE FULL BLOG ARCHIVE AND ORIGINAL ARTICLE CONTENT WILL BE IMPORTED FROM BUBBLE.</p><div class="split-heading"><div><p class="eyebrow">Recent articles</p><h2>Read, discover,<br />understand.</h2></div></div><div class="article-list">{articles.map(article=><a href={'/blog/'+article.slug+'/'} class="article-card"><span class="eyebrow">{article.category}</span><h3>{article.title}</h3><p>{article.description}</p><span class="more">Read article ↗</span></a>)}</div></div></section>
+</SiteLayout>
