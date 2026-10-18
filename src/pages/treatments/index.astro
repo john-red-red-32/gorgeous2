@@ -1,9 +1,73 @@
 ---
 import SiteLayout from '../../layouts/SiteLayout.astro';
 import { treatments } from '../../data/content';
-const groups = [...new Set(treatments.map(t => t.category))];
+const base = 'https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io';
+const concerns = [
+ {name:'Wrinkles', description:'Fine lines that appear with age, sun exposure, and facial movement, often around the eyes and forehead.', image:'f1765454945166x911527603846544800/ChatGPT%20Image%20Dec%2011%2C%202025%2C%2011_56_45%20AM.png'},
+ {name:'Jowls', description:'Sagging or looseness along the jawline that softens facial definition with age.', image:'f1765455527885x750352559496446600/ChatGPT%20Image%20Dec%2011%2C%202025%2C%2012_18_39%20PM.png'},
+ {name:'Lip Lines', description:'Vertical lines around the mouth, often from ageing, sun exposure, or puckering expressions.', image:'f1765208380728x258805943997262750/ChatGPT%20Image%20Dec%207%2C%202025%2C%2006_46_14%20PM.png'},
+ {name:'Sagging Skin', description:'Skin that has lost firmness and elasticity, creating a drooping appearance on the face or neck.', image:'f1765207334107x591207324493823000/ChatGPT%20Image%20Dec%207%2C%202025%2C%2006_52_13%20PM.png'},
+ {name:'Lip Volume', description:'Lips that appear thinner or flatter due to natural shape or age-related volume loss.', image:'f1765207343851x160040545009242140/ChatGPT%20Image%20Dec%207%2C%202025%2C%2003_55_58%20PM.png'},
+ {name:'Jawline Definition', description:'A softer or less sculpted jawline, often from ageing or reduced contour.', image:'f1765207360107x602448429123216900/ChatGPT%20Image%20Dec%207%2C%202025%2C%2006_54_39%20PM.png'},
+ {name:'Pigmentation Issues', description:'Uneven skin tone, dark spots, or sun damage causing patchy colour on the face.', image:'f1765207369655x351026390638250940/ChatGPT%20Image%20Dec%207%2C%202025%2C%2006_36_28%20AM.png'},
+ {name:'Chin Fat', description:'Fullness under the chin causing a less defined profile or double chin.', image:'f1765207397798x164350819343333860/ChatGPT%20Image%20Dec%207%2C%202025%2C%2004_48_07%20PM.png'},
+ {name:'Gaunt Face', description:'A hollow or sunken appearance, often caused by volume loss in the cheeks or temples.', image:'f1765207386725x499974064118120500/ChatGPT%20Image%20Dec%207%2C%202025%2C%2004_01_15%20PM.png'},
+ {name:'Acne & Breakouts', description:'Pimples, clogged pores, or inflammation that affect skin clarity and texture.', image:'f1765207423836x983510275028990300/ChatGPT%20Image%20Dec%207%2C%202025%2C%2006_47_53%20PM.png'},
+ {name:'Under-eye Hollows', description:'Deep grooves beneath the eyes that create a tired or sunken look.', image:'f1765455154058x746100452471946800/ChatGPT%20Image%20Dec%2011%2C%202025%2C%2012_11_15%20PM.png'},
+ {name:'Teeth Grinding', description:'Jaw clenching or grinding that causes tension and bulkiness.', image:'f1765207443345x520648976564254340/ChatGPT%20Image%20Dec%207%2C%202025%2C%2006_47_53%20PM.png'}
+];
+const categories = [...new Set(treatments.map(t=>t.category))];
+const clinicMark=base+'/f1764895866717x944082419627878600/Untitled%20design%20%281%29.png';
 ---
-<SiteLayout title="Aesthetics Treatments in Blackpool | The Gorgeous Clinic" description="Explore anti-wrinkle injections, lip enhancements, dermal fillers and other treatments at The Gorgeous Clinic, Blackpool's highest rated aesthetics clinic.">
-<section class="page-hero"><div class="container"><p class="eyebrow">Discover our treatments</p><h1>Thoughtful treatments.<br /><em>Beautifully done.</em></h1><p>Explore options for facial balance, fine lines, lips and skin concerns. Our approach begins with an honest conversation about what would suit you.</p></div></section>
-<div class="container section"><p class="demo-note">INITIAL PROTOTYPE: THE COMPLETE TREATMENT CATALOGUE WILL BE IMPORTED FROM BUBBLE.</p>{groups.map(group=><section style="margin-bottom:65px"><div class="split-heading"><h2 style="font-size:36px">{group}</h2><p>Explore treatments and learn more about suitability, results and consultation.</p></div><div class="card-grid">{treatments.filter(t=>t.category===group).map((t,i)=><a class="tile" href={'/treatments/'+t.slug+'/'}><div class="tile-body"><span class="eyebrow">The Gorgeous Clinic</span><h3>{t.name}</h3><p>{t.summary}</p></div><div class="tile-footer"><span>Discover treatment</span><span class="arrow-pill">↗</span></div></a>)}</div></section>)}</div>
+<SiteLayout title="Aesthetics Treatments in Blackpool | The Gorgeous Clinic" description="Explore anti-wrinkle injections, lip enhancements, dermal fillers and more at The Gorgeous Clinic, Blackpool's highest rated medical aesthetics clinic.">
+  <div class="original-page-top" aria-hidden="true"></div>
+  <div class="original-page-medallion"><img src={clinicMark} alt="" /></div>
+  <section class="original-treatment-title"><h1>Treatments</h1></section>
+  <section class="original-treatment-selector" aria-label="Search treatments">
+    <div class="original-tab-row">
+      <span>Search by:</span>
+      <div role="tablist" aria-label="Treatment search options">
+        <button class="is-active" data-tgc-tab="concerns" role="tab" aria-selected="true">Area of concern</button>
+        <button data-tgc-tab="list" role="tab" aria-selected="false">Treatment List</button>
+        <button data-tgc-tab="prices" role="tab" aria-selected="false">Price List</button>
+      </div>
+    </div>
+    <section class="original-tab-panel" id="concerns" aria-label="Find treatments by concern">
+      <div class="original-concerns-intro">
+        <span>Select your concerns, then click ‘View Selected’.</span>
+        <button id="view-tgc-selections" class="original-view-selected">View Selected</button>
+      </div>
+      <div class="original-concern-grid">
+        {concerns.map(c=><label class="original-concern-card"><input type="checkbox" name="concern" value={c.name} /><span class="original-concern-copy"><strong>{c.name}</strong><small>{c.description}</small></span><img src={base+'/'+c.image} alt="" loading="lazy" /></label>)}
+      </div>
+      <div id="selected-concerns-result" hidden class="original-selection-result" aria-live="polite"><strong>Your selected concerns</strong><p id="selected-concerns-label"></p><p>Discuss your concerns during a free consultation, or browse our treatment list for information on each option.</p><a href="/treatments/#treatment-list" class="heritage-solid-button">Browse treatments</a></div>
+    </section>
+    <section class="original-tab-panel" id="list" hidden aria-label="Browse treatment list">
+      <h2 id="treatment-list">A-Z List of Treatments</h2>
+      <p class="original-panel-note">This is the initial prototype selection. The full treatment catalogue will be imported from Bubble.</p>
+      <div class="original-treatment-list">
+        {categories.map(category=><div class="original-treatment-category"><h3>{category}</h3>{treatments.filter(t=>t.category===category).map(t=><a href={'/treatments/'+t.slug+'/'}>{t.name}<span aria-hidden="true">↗</span></a>)}</div>)}
+      </div>
+    </section>
+    <section class="original-tab-panel" id="prices" hidden aria-label="Price list">
+      <h2>Price List</h2>
+      <p>We're transferring the exact treatment prices from the existing clinic database. Please use the current booking system for live prices while this development site is being completed.</p>
+      <a class="heritage-solid-button" href="https://thegorgeousclinic.co.uk/treatments/" target="_blank" rel="noopener noreferrer">View Current Price List</a>
+    </section>
+  </section>
+  <script>
+    const tabs = [...document.querySelectorAll<HTMLButtonElement>('[data-tgc-tab]')];
+    const panels = [...document.querySelectorAll<HTMLElement>('.original-tab-panel')];
+    function setTab(id: string) {
+      tabs.forEach(t=>{const yes=t.dataset.tgcTab===id;t.classList.toggle('is-active',yes);t.setAttribute('aria-selected',String(yes));});
+      panels.forEach(p=>{p.hidden=p.id!==id;});
+    }
+    tabs.forEach(t=>t.addEventListener('click',()=>setTab(t.dataset.tgcTab||'concerns')));
+    document.querySelector('#view-tgc-selections')?.addEventListener('click',()=>{
+      const chosen=[...document.querySelectorAll<HTMLInputElement>('input[name=concern]:checked')].map(el=>el.value);
+      const box=document.querySelector<HTMLElement>('#selected-concerns-result');
+      const label=document.querySelector<HTMLElement>('#selected-concerns-label');
+      if(box&&label){box.hidden=false;label.textContent=chosen.length?chosen.join(' · '):'Choose one or more areas above.';box.scrollIntoView({behavior:'smooth',block:'center'});}
+    });
+  </script>
 </SiteLayout>
