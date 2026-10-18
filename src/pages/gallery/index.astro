@@ -1,0 +1,36 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import {gallery} from '../../data/gallery';
+const mark='https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/f1764895866717x944082419627878600/Untitled%20design%20%281%29.png';
+---
+<SiteLayout title="Real Aesthetics Before and After Gallery | The Gorgeous Clinic Blackpool" description="Explore real before and after photographs from The Gorgeous Clinic, Blackpool. Natural-looking results from personalised aesthetics treatments.">
+  <div class="original-page-top" aria-hidden="true"></div>
+  <div class="original-page-medallion"><img src={mark} alt="" /></div>
+  <section class="original-knowledge-title">
+    <p class="eyebrow">Real clients · Real results</p>
+    <h1>Before &amp; Afters</h1>
+    <p>Explore the transformations and treatment stories from The Gorgeous Clinic. Each photograph has its own page, so you can learn about the approach behind the result.</p>
+  </section>
+  <section class="container tgc-gallery-landing">
+    <label for="tgc-gallery-search">Find a transformation</label>
+    <input type="search" id="tgc-gallery-search" class="tgc-search-field" placeholder="Try lips, forehead, jawline or skin..." autocomplete="off" />
+    <div class="tgc-gallery-grid">
+      {gallery.map(item=><a class="tgc-gallery-tile" href={'/gallery/'+item.slug+'/'} data-tgc-gallery-search={(item.title+' '+item.alt+' '+item.body).toLowerCase()}>
+        <img loading="lazy" src={item.imageUrl} alt={item.alt||item.title} />
+        <span class="tgc-gallery-tile-copy"><strong>{item.title}</strong><small>View before &amp; after <span aria-hidden="true">↗</span></small></span>
+      </a>)}
+    </div>
+    <p id="tgc-gallery-empty" hidden>No results for that search. Try another concern or treatment.</p>
+  </section>
+  <script>
+    const input=document.querySelector<HTMLInputElement>('#tgc-gallery-search');
+    const tiles=[...document.querySelectorAll<HTMLElement>('[data-tgc-gallery-search]')];
+    const empty=document.querySelector<HTMLElement>('#tgc-gallery-empty');
+    input?.addEventListener('input',()=>{
+      const q=input.value.trim().toLowerCase();
+      let found=0;
+      for(const tile of tiles){const yes=tile.dataset.tgcGallerySearch?.includes(q)||false;tile.hidden=!yes;if(yes)found++;}
+      if(empty)empty.hidden=found>0;
+    });
+  </script>
+</SiteLayout>
