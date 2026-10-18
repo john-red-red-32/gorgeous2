@@ -1,0 +1,28 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import { treatments, articles, bookingUrl } from '../data/content';
+const image = 'https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/f1764947143838x499374604427451840/rs%3Dw_1200%2Ch_902%2Ccg_true%5B1%5D';
+const schema = { '@context': 'https://schema.org', '@type': 'WebSite', name: 'The Gorgeous Clinic', url: 'https://thegorgeousclinic.co.uk/' };
+---
+<SiteLayout title="The Gorgeous Clinic | Medical Aesthetics Blackpool & Lancashire" description="Discover The Gorgeous Clinic in Blackpool, the Fylde Coast's highest rated medical aesthetics clinic with over 1,000 five-star reviews and a focus on natural results." schema={schema}>
+  <section class="hero">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Welcome to The Gorgeous Clinic · Blackpool</p>
+        <h1>Confidence,<br /><em>beautifully</em><br />considered.</h1>
+        <p>Medical aesthetics with a thoughtful touch. From subtle lip enhancements to advanced skin treatments, our approach is personal, precise and always centred on you.</p>
+        <div class="hero-actions"><a class="button button-light" href="/treatments/">Explore treatments <span>↗</span></a><a class="button button-outline" style="color:#fff;border-color:#83988c" href={bookingUrl} target="_blank" rel="noopener noreferrer">Free consultation <span>↗</span></a></div>
+      </div>
+      <div class="hero-visual">
+        <img src={image} alt="Medical aesthetics and natural-looking facial rejuvenation at The Gorgeous Clinic" loading="eager" decoding="async" onerror="this.style.display='none'" />
+        <div class="visual-ring"></div>
+        <div class="visual-label">A REFINED APPROACH TO AESTHETICS</div>
+      </div>
+    </div>
+  </section>
+  <div class="trust-strip"><div class="container trust-inner"><span><b>1,000+</b> FIVE-STAR REVIEWS</span><span><b>01</b> NATURAL-LOOKING RESULTS</span><span><b>02</b> HIGHLY TRAINED PRACTITIONERS</span><span><b>03</b> FREE CONSULTATIONS</span></div></div>
+  <section class="section intro-block"><div class="container intro-grid"><div><p class="eyebrow">Our philosophy</p><h2>Natural, but <em>noticeable.</em></h2></div><div class="lead"><p>We believe the best aesthetic treatments are the ones that make you feel refreshed, rather than different.</p><p>Based on Whitegate Drive in Blackpool, we welcome clients from the Fylde Coast, Lancashire and further afield. Every treatment starts with a conversation about what will genuinely suit you.</p><a class="button button-outline" href="/contact-us/">Get to know us <span>↗</span></a></div></div></section>
+  <section class="section" style="background:#f0eee5"><div class="container"><div class="split-heading"><div><p class="eyebrow">The treatments</p><h2>Small refinements.<br />Beautifully balanced.</h2></div><p>Explore some of our most requested treatments, from lip enhancements to skin and facial rejuvenation.</p></div><div class="card-grid">{treatments.slice(0,3).map((t,i)=><a href={'/treatments/'+t.slug+'/'} class="tile"><div class="tile-body"><span class="tile-number">0{i+1}</span><h3>{t.name}</h3><p>{t.summary}</p></div><div class="tile-footer"><span>Explore treatment</span><span class="arrow-pill">↗</span></div></a>)}</div><div style="margin-top:34px;text-align:center"><a class="button button-dark" href="/treatments/">View all treatments <span>↗</span></a></div></div></section>
+  <section class="section"><div class="container two-column"><div><p class="eyebrow">What sets us apart</p><h2>Real expertise.<br /><em>Real people.</em></h2><p>Over 1,000 five-star reviews reflect the trust our clients place in us. We take that responsibility seriously, from the initial consultation to the smallest treatment detail.</p><p>Our team combines specialist training, honest guidance and an eye for facial balance.</p><a class="button button-outline" href="/contact-us/">Speak to the clinic <span>↗</span></a></div><div class="quote-panel"><p>“The best results still look like you. Just a little fresher.”</p><span class="eyebrow">THE GORGEOUS CLINIC APPROACH</span></div></div></section>
+  <section class="section dark-section"><div class="container"><div class="split-heading"><div><p class="eyebrow">The knowledge hub</p><h2>A little knowledge<br />goes a long way.</h2></div><p>Clear answers to common questions about treatment, results and safety, written with real clients in mind.</p></div><div class="article-list">{articles.map(a=><a class="article-card" href={'/blog/'+a.slug+'/'}><span class="eyebrow">{a.category}</span><h3>{a.title}</h3><p>{a.description}</p><span class="more">Read the article ↗</span></a>)}</div><div style="margin-top:35px"><a class="button button-light" href="/blog-posts/">Browse the knowledge hub <span>↗</span></a></div></div></section>
+</SiteLayout>
