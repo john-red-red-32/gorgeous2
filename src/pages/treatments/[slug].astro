@@ -1,0 +1,22 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import { treatments, articles, bookingUrl } from '../../data/content';
+export function getStaticPaths() {
+  return treatments.map(treatment => ({ params: { slug: treatment.slug }, props: { treatment } }));
+}
+const { treatment } = Astro.props;
+const related = articles.filter(a => treatment.slug === 'lip-enhancements' ? a.category === 'Lip filler' : a.category === 'Anti-wrinkle').slice(0,2);
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: treatment.name + ' | The Gorgeous Clinic',
+  url: 'https://thegorgeousclinic.co.uk/treatments/' + treatment.slug + '/',
+  description: treatment.summary
+};
+---
+<SiteLayout title={treatment.name+' Blackpool | The Gorgeous Clinic'} description={treatment.summary+' The Gorgeous Clinic in Blackpool, Lancashire.'} schema={schema}>
+<section class="page-hero"><div class="container"><div class="breadcrumbs"><a href="/">Home</a> / <a href="/treatments/">Treatments</a> / {treatment.name}</div><p class="eyebrow">{treatment.category}</p><h1>{treatment.name}</h1><p>{treatment.summary}</p><div class="hero-actions" style="margin-top:28px"><a class="button button-light" href={bookingUrl} target="_blank" rel="noopener noreferrer">Book a free consultation ↗</a></div></div></section>
+<div class="container section two-column"><div><p class="eyebrow">Treatment overview</p><h2>A little detail makes all the difference.</h2><p style="font-size:18px;line-height:1.9;color:#56685e">{treatment.introduction}</p><p>The right advice starts with understanding your concerns, medical history and expectations. We will explain your options clearly and discuss what may be suitable for you.</p></div><aside class="quote-panel"><p>Every face is different. Your treatment should be too.</p><span class="eyebrow">AN INDIVIDUAL APPROACH</span></aside></div>
+<section class="section" style="background:#f0eee5"><div class="container"><p class="eyebrow">What we discuss</p><h2 style="margin-bottom:34px">Your consultation.</h2><div class="info-pills">{treatment.benefits.map(item=><span>{item}</span>)}</div><p style="max-width:690px;margin-top:35px">We will explain what treatment can and cannot achieve, how results may develop and what to expect from aftercare.</p><a class="button button-dark" href={bookingUrl} target="_blank" rel="noopener noreferrer">Free consultation ↗</a></div></section>
+{related.length>0 && <section class="section"><div class="container"><div class="split-heading"><div><p class="eyebrow">Further reading</p><h2>Explore the knowledge hub.</h2></div></div><div class="article-list">{related.map(a=><a class="article-card" href={'/blog/'+a.slug+'/'}><span class="eyebrow">{a.category}</span><h3>{a.title}</h3><p>{a.description}</p><span class="more">Read more ↗</span></a>)}</div></div></section>}
+</SiteLayout>
