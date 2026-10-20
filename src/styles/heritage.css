@@ -225,7 +225,7 @@ p{line-height:1.75}a{transition:opacity .18s ease}a:hover{opacity:.86}
 .tgc-treatment-layer:not([hidden]){position:fixed;inset:0;z-index:200;display:flex;justify-content:flex-end}
 .tgc-treatment-layer[hidden]{display:none!important}
 .tgc-panel-scrim{position:absolute;inset:0;background:#10251caf;border:0;cursor:pointer}
-.tgc-treatment-pane{height:100%;width:min(750px,92vw);max-width:100%;overflow-y:auto;overflow-x:hidden;position:relative;background:#f9f9f8;box-shadow:-10px 0 45px #0002;outline:0;overscroll-behavior:contain}
+.tgc-treatment-pane{height:100%;width:min(980px,94vw);max-width:100%;overflow-y:auto;overflow-x:hidden;position:relative;background:#f9f9f8;box-shadow:-10px 0 45px #0002;outline:0;overscroll-behavior:contain}
 .tgc-panel-toolbar{position:sticky;top:0;z-index:2;min-height:66px;padding:13px 22px;display:flex;align-items:center;justify-content:space-between;gap:14px;background:#fbfaf5;border-bottom:1px solid #e3e3d7}
 .tgc-panel-toolbar>span{font-size:10px;letter-spacing:.13em;color:#796d5c}
 .tgc-panel-close{border:1px solid #dedfd4;border-radius:22px;background:white;padding:10px 16px;cursor:pointer;font-size:12px;color:#534a40}
@@ -319,3 +319,6 @@ p{line-height:1.75}a{transition:opacity .18s ease}a:hover{opacity:.86}
 .tgc-gallery-neighbours a strong{font-family:'Playfair Display',serif;font-size:18px;font-weight:500;}
 @media(max-width:900px){.tgc-gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.tgc-gallery-detail{grid-template-columns:1fr;gap:28px;}}
 @media(max-width:590px){.tgc-gallery-grid{grid-template-columns:1fr;}.tgc-gallery-landing{padding-bottom:50px}.tgc-gallery-detail{padding-top:30px;padding-bottom:38px}.tgc-gallery-story h2{font-size:28px}.tgc-gallery-neighbours{padding-bottom:55px;}.tgc-gallery-neighbours a{padding:12px}.tgc-gallery-neighbours a strong{font-size:15px}}
+
+/* A wider, more readable desktop treatment drawer; mobile remains full-width. */
+@media(min-width:901px){.tgc-treatment-pane .treatment-detail-hero{padding:56px clamp(28px,4vw,60px) 42px;}.tgc-treatment-pane .treatment-detail-content{padding:44px clamp(28px,4vw,60px) 78px;}}
