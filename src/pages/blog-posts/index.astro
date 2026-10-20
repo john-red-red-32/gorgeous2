@@ -1,20 +1,65 @@
 ---
 import SiteLayout from '../../layouts/SiteLayout.astro';
-import { articles } from '../../data/content';
-const logo = 'https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/f1764895866717x944082419627878600/Untitled%20design%20%281%29.png';
+import {articles} from '../../data/content';
+const mark='https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/f1764895866717x944082419627878600/Untitled%20design%20%281%29.png';
+const ordered=[...articles].sort((a,b)=>b.sourceRow-a.sourceRow);
+const categories=[...new Set(ordered.map(a=>a.category))].sort();
+const clinicCount=ordered.filter(a=>a.contentType==='Clinic').length;
 ---
 <SiteLayout title="Aesthetics Knowledge Hub & Blog | The Gorgeous Clinic Blackpool" description="Explore The Gorgeous Clinic knowledge hub for helpful articles about lip fillers, anti-wrinkle injections, aesthetic treatments, safety and aftercare.">
-  <div class="original-page-top" aria-hidden="true"></div>
-  <div class="original-page-medallion"><img src={logo} alt="" /></div>
-  <section class="original-knowledge-title">
-    <h1>Knowledge Hub</h1>
-    <p>Honest, medically-led advice on aesthetics treatments; from what to expect, to how to choose the right clinic.</p>
-  </section>
-  <section class="original-knowledge-articles container">
-    <h2>A-Z List of blog posts</h2>
-    <p class="original-panel-note">Initial layout preview. All original article text, images, authors, references and dates will be migrated from Bubble.</p>
-    <div class="original-knowledge-grid">
-      {articles.map(a=><a class="original-knowledge-card" href={'/blog/'+a.slug+'/'}><span class="eyebrow">{a.category}</span><h3>{a.title}</h3><p>{a.description}</p><span class="original-knowledge-link">Read article →</span></a>)}
+ <div class="original-page-top" aria-hidden="true"></div>
+ <div class="original-page-medallion"><img src={mark} alt="" /></div>
+ <section class="original-knowledge-title tgc-blog-index-head">
+  <p class="eyebrow">SKIN HEALTH · TREATMENTS · CLINIC EDUCATION</p>
+  <h1>Knowledge Hub</h1>
+  <p>Practical education from The Gorgeous Clinic. Explore treatment science, expectations, and natural-looking aesthetics at your own pace.</p>
+ </section>
+ <section class="container tgc-blog-landing">
+  <div class="tgc-blog-index-info">
+    <div><p class="eyebrow">EXPLORE THE KNOWLEDGE HUB</p><h2>Articles &amp; insights.</h2><p>{clinicCount} clinic articles and {articles.length-clinicCount} professional education articles, all carefully preserved from our original knowledge hub.</p></div>
+    <div class="tgc-blog-index-filters">
+      <label for="tgc-blog-search">Search articles</label>
+      <input id="tgc-blog-search" class="tgc-search-field" type="search" placeholder="Search treatments, skin concerns or aftercare…" autocomplete="off" />
+      <label for="tgc-blog-type">Browse collection</label>
+      <select id="tgc-blog-type" aria-label="Browse collection"><option value="Clinic">Clinic articles</option><option value="all">All articles</option><option value="Academy">Practitioner education</option></select>
+      <label for="tgc-blog-category">Topic</label>
+      <select id="tgc-blog-category"><option value="all">All topics</option>{categories.map(c=><option value={c}>{c}</option>)}</select>
     </div>
-  </section>
+  </div>
+  <div class="tgc-blog-post-grid" id="tgc-blog-results">
+    {ordered.map(article=><a class="tgc-blog-post" href={'/blog/'+article.slug+'/'} data-blog-type={article.contentType} data-blog-category={article.category} data-blog-search={(article.title+' '+article.description+' '+article.category).toLowerCase()}>
+      {article.heroImage&&<img src={article.heroImage} alt="" loading="lazy" decoding="async" />}
+      <div class="tgc-blog-post-text">
+        <span class="eyebrow">{article.contentType==='Academy'?'PRACTITIONER EDUCATION':article.category}</span>
+        <h3>{article.title}</h3>
+        <p>{article.description}</p>
+        <span class="tgc-blog-read">Read the article <span aria-hidden="true">↗</span></span>
+      </div>
+    </a>)}
+  </div>
+  <p class="tgc-blog-search-empty" id="tgc-blog-empty" hidden>No articles match those filters. Try a different search or collection.</p>
+ </section>
+ <script>
+   const search=document.querySelector<HTMLInputElement>('#tgc-blog-search');
+   const type=document.querySelector<HTMLSelectElement>('#tgc-blog-type');
+   const category=document.querySelector<HTMLSelectElement>('#tgc-blog-category');
+   const results=[...document.querySelectorAll<HTMLElement>('.tgc-blog-post[data-blog-type]')];
+   const empty=document.querySelector<HTMLElement>('#tgc-blog-empty');
+   function applyFilters(){
+    const q=search?.value.trim().toLowerCase()||'';
+    const selectedType=type?.value||'Clinic',cat=category?.value||'all';
+    let visible=0;
+    for(const result of results) {
+      const okay=(selectedType==='all'||result.dataset.blogType===selectedType)
+        &&(cat==='all'||result.dataset.blogCategory===cat)
+        &&(!q||result.dataset.blogSearch?.includes(q));
+      result.hidden=!okay;if(okay)visible++;
+    }
+    if(empty)empty.hidden=visible>0;
+   }
+   search?.addEventListener('input',applyFilters);
+   type?.addEventListener('change',applyFilters);
+   category?.addEventListener('change',applyFilters);
+   applyFilters();
+ </script>
 </SiteLayout>
