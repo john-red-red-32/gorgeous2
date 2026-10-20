@@ -1,1 +1,9 @@
-{}
+{
+  "migratedAt": "2026-10-20T12:27:36.401Z",
+  "uniqueSources": 614,
+  "requested": 614,
+  "newFiles": 614,
+  "existingFiles": 0,
+  "failed": 0,
+  "failures": []
+}
