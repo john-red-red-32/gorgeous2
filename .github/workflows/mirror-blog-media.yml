@@ -1,0 +1,41 @@
+name: Mirror original blog images into Gorgeous2
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/mirror-blog-media.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install one-time image converter
+        run: npm install --no-save --no-package-lock --no-audit --no-fund sharp
+      - name: Copy original Bubble editorial images to optimized WebP assets
+        run: node scripts/mirror-blog-media.mjs
+        continue-on-error: true
+        env:
+          MEDIA_CONCURRENCY: 5
+      - name: Save migrated image files and manifest to GitHub
+        run: |
+          git config user.name "gorgeous2-media-import"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/media/blog/ src/data/imported/blog-media-mirror.json migration/reports/blog-media-copy.json
+          if git diff --cached --quiet; then
+            echo "No new files to commit"
+          else
+            git commit -m "Mirror Bubble blog hero and section images as self-hosted WebP assets"
+            git push origin HEAD:main
+          fi
+      - name: Media copy summary
+        run: |
+          cat migration/reports/blog-media-copy.json | head -35
