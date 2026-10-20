@@ -1,32 +1,103 @@
 ---
 import SiteLayout from '../../layouts/SiteLayout.astro';
-import { articles, treatments } from '../../data/content';
-import { treatmentRelationships } from '../../data/catalogue';
-export function getStaticPaths() {
-  return articles.map(article => ({ params: { slug: article.slug }, props: { article } }));
+import {articles,treatments} from '../../data/content';
+import {treatmentsForArticle,furtherReading} from '../../data/article-links';
+import {renderArticleBody,safeReferenceUrl} from '../../utils/article-html';
+
+export function getStaticPaths(){
+ return articles.map(article=>({params:{slug:article.slug},props:{article}}));
 }
-const { article } = Astro.props;
-const recommendations = articles.filter(a => a.slug !== article.slug).slice(0,3);
-const relatedTreatments = treatmentRelationships
-  .filter(rel => rel.articleSlugs.includes(article.slug))
-  .map(rel => treatments.find(t => t.slug === rel.treatmentSlug))
-  .filter((t): t is typeof treatments[number] => Boolean(t));
-const schema = {
-  '@context': 'https://schema.org',
-  '@type': 'Article',
-  headline: article.title,
-  description: article.description,
-  mainEntityOfPage: 'https://thegorgeousclinic.co.uk/blog/'+article.slug+'/',
-  publisher: { '@type': 'Organization', name: 'The Gorgeous Clinic' }
+const {article}=Astro.props;
+const relatedTreatments=treatmentsForArticle(article,5);
+const recommendations=furtherReading(article,4);
+const sections=article.sections.map((section,index)=>{
+ const prefix=article.title+', ';
+ const displayTitle=section.title.startsWith(prefix)?section.title.slice(prefix.length):section.title;
+ return {...section,displayTitle:displayTitle||'Understanding the treatment',index};
+});
+const sourceReferences=article.references.filter(ref=>ref.title?.trim());
+const referenceKeys=new Set<string>();
+const references=sourceReferences.filter(ref=>{
+ const key=[ref.title.trim(),ref.url.trim()].join('|').toLowerCase();
+ if(referenceKeys.has(key))return false;
+ referenceKeys.add(key);
+ return true;
+});
+const pageUrl='https://thegorgeousclinic.co.uk/blog/'+article.slug+'/';
+const schema={
+ '@context':'https://schema.org','@type':'Article',
+ headline:article.title,
+ description:article.description,
+ image:article.heroImage,
+ mainEntityOfPage:pageUrl,
+ author:article.author?{'@type':'Person',name:article.author}:undefined,
+ publisher:{'@type':'Organization',name:'The Gorgeous Clinic',url:'https://thegorgeousclinic.co.uk'},
+ articleSection:article.category,
+ inLanguage:'en-GB'
 };
 ---
-<SiteLayout title={article.title+' | The Gorgeous Clinic'} description={article.description} schema={schema}>
-<section class="page-hero"><div class="container article-masthead"><div class="breadcrumbs"><a href="/">Home</a> / <a href="/blog-posts/">Knowledge hub</a></div><p class="eyebrow">{article.category} · The Gorgeous Clinic Editorial</p><h1>{article.title}</h1><p>{article.description}</p></div></section>
-<article class="body-wrap">
-<p class="demo-note">PROTOTYPE ARTICLE COPY. EXACT PUBLISHED BODY, CITATIONS AND ORIGINAL DATES WILL BE MIGRATED FROM BUBBLE.</p>
-<p style="font-size:20px;color:var(--ink)">{article.intro}</p>
-{article.sections.map(section=><section><h2>{section.title}</h2><p>{section.body}</p></section>)}
-{relatedTreatments.length>0 && <div class="content-aside"><p>Explore these related treatments and their consultation details:</p><div class="treatment-detail-tags">{relatedTreatments.map(t=><a href={'/treatments/'+t.slug+'/'}>{t.name} ↗</a>)}</div></div>}
-</article>
-{recommendations.length>0 && <section class="section" style="background:#f0eee5"><div class="container"><div class="split-heading"><div><p class="eyebrow">Keep reading</p><h2>Explore more articles.</h2></div></div><div class="article-list">{recommendations.map(item=><a href={'/blog/'+item.slug+'/'} class="article-card"><span class="eyebrow">{item.category}</span><h3>{item.title}</h3><p>{item.description}</p><span class="more">Read the article ↗</span></a>)}</div></div></section>}
+<SiteLayout title={article.title+' | The Gorgeous Clinic'} description={article.description} schema={schema} ogImage={article.heroImage} ogType="article">
+  <header class="tgc-article-header">
+    <div class="container tgc-article-header-inner">
+      <nav class="tgc-article-breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>→</span><a href="/blog-posts/">Knowledge Hub</a><span>→</span><span>{article.category}</span></nav>
+      <p class="eyebrow">{article.contentType==='Academy'?'THE GORGEOUS CLINIC ACADEMY':'THE GORGEOUS CLINIC'} · {article.category}</p>
+      <h1>{article.title}</h1>
+      <p class="tgc-article-deck">{article.intro}</p>
+      {article.author && <p class="tgc-article-author">By {article.author}</p>}
+    </div>
+  </header>
+  <article class="tgc-article">
+    {article.heroImage && <figure class="tgc-article-hero-image">
+      <img src={article.heroImage} alt={article.title} fetchpriority="high" decoding="async" />
+    </figure>}
+    <div class="tgc-article-columns container">
+      <div class="tgc-article-prose">
+        {sections.map(section=><section class="tgc-article-section" id={'section-'+(section.index+1)}>
+          <h2>{section.displayTitle}</h2>
+          <div class="tgc-article-section-grid">
+            <div class="tgc-article-section-text" set:html={renderArticleBody(section.body)} />
+            {section.image && <figure><img src={section.image} alt={section.displayTitle} loading="lazy" decoding="async" /></figure>}
+          </div>
+        </section>)}
+        {references.length>0 && <section class="tgc-article-references" aria-labelledby="references-heading">
+          <h2 id="references-heading">Sources &amp; further reading</h2>
+          <ol>
+            {references.map(ref=><li>
+              {safeReferenceUrl(ref.url)
+                ? <a href={safeReferenceUrl(ref.url)!} target="_blank" rel="noopener noreferrer">{ref.title}</a>
+                : <span>{ref.title}</span>}
+            </li>)}
+          </ol>
+        </section>}
+        <div class="tgc-article-footer-cta">
+          <p class="eyebrow">PERSONALISED ADVICE</p>
+          <h2>Let's talk about your goals.</h2>
+          <p>Come and talk to our team at The Gorgeous Clinic in Blackpool. We offer free consultations to explore the most suitable options for you.</p>
+          <a href="/contact-us/" class="heritage-solid-button">Book a free consultation ↗</a>
+        </div>
+      </div>
+      <aside class="tgc-article-side" aria-label="Article information">
+        <p class="eyebrow">IN THIS ARTICLE</p>
+        <nav aria-label="On this page">
+          {sections.map(section=><a href={'#section-'+(section.index+1)}>{section.displayTitle}</a>)}
+        </nav>
+        {relatedTreatments.length>0 && <div class="tgc-article-treatments">
+          <p class="eyebrow">EXPLORE TREATMENTS</p>
+          {relatedTreatments.map(t=><a href={'/treatments/'+t.slug+'/'}>{t.name}<span aria-hidden="true">↗</span></a>)}
+        </div>}
+      </aside>
+    </div>
+  </article>
+  {recommendations.length>0 && <section class="tgc-more-reading">
+    <div class="container">
+      <p class="eyebrow">KEEP EXPLORING</p>
+      <h2>Continue reading</h2>
+      <div class="tgc-reading-grid">
+        {recommendations.map(item=><a class="tgc-reading-card" href={'/blog/'+item.slug+'/'}>
+          {item.heroImage&&<img src={item.heroImage} alt="" loading="lazy" />}
+          <div><span class="eyebrow">{item.category}</span><h3>{item.title}</h3><p>{item.description}</p><span class="tgc-reading-link">Read article ↗</span></div>
+        </a>)}
+      </div>
+    </div>
+  </section>}
 </SiteLayout>
