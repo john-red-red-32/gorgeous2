@@ -1,3 +1,6 @@
+import importedBlogPosts from './imported/blog-posts.json';
+import importedBlogSections from './imported/blog-sections.json';
+import importedBlogReferences from './imported/blog-references.json';
 /**
  * GORGEOUS2 clinic treatment catalogue.
  * 75 original treatment routes aligned with the 75 Bubble rows exported Oct 18 2026.
@@ -27,13 +30,12 @@ export type Treatment = {
   faqs?:TreatmentFaq[];
   sourceRow?:number;
 };
+export type ArticleSection = {title:string;body:string;image:string;order:number;sourceRow:number};
+export type ArticleReference = {number:number|null;title:string;url:string};
 export type Article = {
-  slug: string;
-  title: string;
-  description: string;
-  category: string;
-  intro: string;
-  sections: { title: string; body: string }[];
+ slug:string;title:string;description:string;category:string;contentType:'Clinic'|'Academy';
+ intro:string;heroImage:string;author:string|null;sourceParentId:string;sourceRow:number;
+ sections:ArticleSection[];references:ArticleReference[];
 };
 
 /** Specific name matches independently established by source-section headings. */
@@ -103,32 +105,52 @@ export const treatments:Treatment[] = originalRows.map(r=>{
   };
 });
 
-export const articles: Article[] = [
-  {
-    slug: 'how-long-do-anti-wrinkle-injections-last-in-practice-1626',
-    title: 'How Long Do Anti-Wrinkle Injections Last in Practice?',
-    description: 'A realistic look at anti-wrinkle treatment longevity, what affects results and when maintenance may be appropriate.',
-    category: 'Anti-wrinkle',
-    intro: 'One of the most common questions before anti-wrinkle treatment is how long the result will last. There is no single answer for everyone.',
-    sections: [
-      { title: 'Why results vary', body: 'Treatment area, muscle activity and individual response all affect how long lines stay softened. A careful assessment helps establish realistic expectations before treatment.' },
-      { title: 'When movement returns', body: 'Results develop gradually and do not disappear overnight. Normal muscle movement returns over time, and maintenance needs depend on the individual.' },
-      { title: 'Planning your next appointment', body: 'Your practitioner can advise on review timing, treatment goals and whether a repeat appointment is appropriate. The aim is consistency, not excessive treatment.' }
-    ]
-  },
-  {
-    slug: 'lip-filler-migration-what-it-looks-like-and-when-dissolving-may-help-26726',
-    title: 'Lip Filler Migration: What It Looks Like',
-    description: 'What migrated lip filler may look like, why it happens and when a professional assessment could help.',
-    category: 'Lip filler',
-    intro: 'Changes to the lip border or an unusual fullness above the lip can prompt questions about filler migration. It is important not to assume every change is migration.',
-    sections: [
-      { title: 'What migration means', body: 'Migration describes filler that is sitting outside its intended area. Swelling, natural anatomy and previous treatment can sometimes look similar, so assessment matters.' },
-      { title: 'Why it can happen', body: 'Repeated treatment, tissue limits and placement decisions can contribute. A thorough history and examination help identify the likely cause.' },
-      { title: 'When to seek advice', body: 'A practitioner can review the area and discuss appropriate options. Avoid attempting to massage or correct suspected migration yourself without professional guidance.' }
-    ]
-  }
-];
+
+/** Every article (106), section (525) and reference (531) is sourced from
+ * its original Bubble CSV and mapped to the published sitemap URL.
+ * Publishing date and original meta description were not present in this export.
+ * No publication date is fabricated.
+ */
+const sectionsByPost=new Map<string,ArticleSection[]>();
+for(const s of importedBlogSections){
+ const list=sectionsByPost.get(s.sourceParentId)||[];
+ list.push({title:s.title,body:s.body,image:s.image,order:s.order,sourceRow:s.sourceRow});
+ sectionsByPost.set(s.sourceParentId,list);
+}
+const referencesByPost=new Map<string,ArticleReference[]>();
+for(const r of importedBlogReferences){
+ const list=referencesByPost.get(r.sourceParentId)||[];
+ list.push({number:r.number,title:r.title,url:r.url});
+ referencesByPost.set(r.sourceParentId,list);
+}
+function getExcerpt(body:string,max=155):string {
+ const clean=body.replace(/\s+/g,' ').trim();
+ if(clean.length<=max)return clean;
+ const end=clean.lastIndexOf(' ',max);
+ return clean.slice(0,end>max-30?end:max).replace(/[,;:]$/,'')+'.';
+}
+function categoryFor(title:string,contentType:string):string {
+ const t=title.toLowerCase();
+ if(contentType==='Academy')return 'Aesthetics education';
+ if(/lip filler|lip enhancement|lip lines|lips/.test(t))return 'Lip enhancements';
+ if(/anti.wrinkle|botox|brow|frown|masseter|jawtox|toxin/.test(t))return 'Anti-wrinkle treatments';
+ if(/prp|polynucleotide|skin booster|profhilo|regenerative/.test(t))return 'Regenerative aesthetics';
+ if(/fat dissolv|aqualyx|weight loss/.test(t))return 'Facial and body contouring';
+ if(/chemical peel|microneedl|acne|collagen|pigmentation|sun damage|skin care/.test(t))return 'Skin health';
+ if(/dermal filler|chin filler|temple filler|cheek filler|under.eye|jawline|facelift|face lift/.test(t))return 'Dermal fillers and facial balance';
+ return 'Clinic knowledge';
+}
+export const articles:Article[]=importedBlogPosts.map(p=>{
+ const sections=(sectionsByPost.get(p.sourceParentId)||[]).slice().sort((a,b)=>a.order-b.order||a.sourceRow-b.sourceRow);
+ return{
+  slug:p.slug,title:p.title,description:getExcerpt(p.intro||sections[0]?.body||''),
+  category:categoryFor(p.title,p.contentType),
+  contentType:p.contentType==='Academy'?'Academy':'Clinic',
+  intro:p.intro,heroImage:p.heroImage,author:p.author,
+  sourceParentId:p.sourceParentId,sourceRow:p.sourceRow,
+  sections,references:(referencesByPost.get(p.sourceParentId)||[]).slice().sort((a,b)=>(a.number??999)-(b.number??999))
+ };
+});
 
 export const bookingUrl = 'https://www.fresha.com/a/the-gorgeous-clinic-blackpool-221-whitegate-drive-a4km7ley/booking?menu=true&share=true&pId=812794&dppub=true';
 export const whatsappUrl = 'https://wa.me/441253928029';
