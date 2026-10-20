@@ -8,8 +8,10 @@ interface Props {
   title: string;
   description: string;
   schema?: Record<string, unknown>;
+  ogImage?: string;
+  ogType?: 'website'|'article';
 }
-const { title, description, schema } = Astro.props;
+const { title, description, schema, ogImage, ogType='website' } = Astro.props;
 const siteUrl = 'https://thegorgeousclinic.co.uk';
 const canonical = new URL(Astro.url.pathname, siteUrl).toString();
 const indexable = import.meta.env.PUBLIC_INDEXABLE === 'true';
@@ -32,10 +34,14 @@ const nav = [
   <meta name="robots" content={indexable ? 'index,follow' : 'noindex,nofollow'} />
   <link rel="canonical" href={canonical} />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <meta property="og:type" content="website" />
+  <meta property="og:type" content={ogType} />
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />
   <meta property="og:url" content={canonical} />
+  {ogImage && <meta property="og:image" content={ogImage} />}
+  {ogImage && <meta name="twitter:card" content="summary_large_image" />}
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
   {schema && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
   <GoogleAdsTag />
 </head>
