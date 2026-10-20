@@ -1,4 +1,5 @@
-import { treatments, articles } from './content';
+import { treatments } from './content';
+import { articlesForTreatment as findRelatedArticles } from './article-links';
 import { galleryForTreatment } from './gallery';
 
 /**
@@ -112,11 +113,7 @@ export type TreatmentRelationship = {
 };
 export const treatmentRelationships: TreatmentRelationship[] = treatments.map(t => ({
   treatmentSlug: t.slug,
-  articleSlugs: t.slug === 'anti-wrinkle-injections'
-    ? ['how-long-do-anti-wrinkle-injections-last-in-practice-1626']
-    : t.slug === 'lip-enhancements'
-      ? ['lip-filler-migration-what-it-looks-like-and-when-dissolving-may-help-26726']
-      : [],
+  articleSlugs: findRelatedArticles(t.slug,5).map(a=>a.slug),
   gallerySlugs: galleryForTreatment(t.slug).map(g=>g.slug), // Restored media descriptions; crosslinks remain auditable.
   videoIds: [], // Vimeo IDs from Bubble.
   concernSlugs: concerns.filter(c => c.treatmentSlugs.includes(t.slug)).map(c => c.slug),
@@ -128,10 +125,7 @@ export function treatmentsForConcern(slug: string) {
   const item = findConcern(slug);
   return item ? item.treatmentSlugs.map(findTreatment).filter((t): t is typeof treatments[number] => !!t) : [];
 }
-export function articlesForTreatment(slug: string) {
-  const ids = treatmentRelationships.find(t => t.treatmentSlug === slug)?.articleSlugs || [];
-  return ids.map(id => articles.find(a => a.slug === id)).filter((a): a is typeof articles[number] => !!a);
-}
+export const articlesForTreatment=findRelatedArticles;
 export function concernsForTreatment(slug: string) {
   return concerns.filter(c => c.treatmentSlugs.includes(slug));
 }
