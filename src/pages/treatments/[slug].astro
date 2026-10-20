@@ -54,7 +54,6 @@ const schema = {
       {treatment.benefits.length > 0 && <section class="treatment-detail-section"><h2>What we can discuss</h2><ul class="treatment-detail-benefits">{treatment.benefits.map(item=><li>{item}</li>)}</ul></section>}
       {concerns.length > 0 && <section class="treatment-detail-section"><h2>Related concerns</h2><p>Learn how these concerns differ and which approaches may be worth exploring.</p><div class="treatment-detail-tags">{concerns.map(c=><a href={'/concerns/'+c.slug+'/'}>{c.name} <span aria-hidden="true">↗</span></a>)}</div></section>}
       {priceLines.length > 0 && <section class="treatment-detail-section"><h2>Prices</h2>{priceLines.map(p=><p class="treatment-price-row"><span>{p.name}</span><strong>£{p.gbp.toFixed(2)}</strong></p>)}</section>}
-      {articles.length > 0 && <section class="treatment-detail-section"><h2>From our Knowledge Hub</h2><div class="treatment-detail-related">{articles.map(a=><a href={'/blog/'+a.slug+'/'}><span>{a.category}</span><strong>{a.title}</strong><small>Read article ↗</small></a>)}</div></section>}
       {relation && relation.gallerySlugs.length > 0 && <section class="treatment-detail-section"><h2>Related results</h2><div class="treatment-detail-tags">{relation.gallerySlugs.map(slug=><a href={'/gallery/'+slug+'/'}>View result ↗</a>)}</div></section>}
       {relation && relation.videoIds.length > 0 && <section class="treatment-detail-section"><h2>Videos</h2><div class="treatment-detail-videos">{relation.videoIds.map(id=><div class="treatment-video"><iframe title={treatment.name+' treatment video'} src={'https://player.vimeo.com/video/'+encodeURIComponent(id)} loading="lazy" allow="fullscreen; picture-in-picture" allowfullscreen></iframe></div>)}</div></section>}
       {treatment.faqs && treatment.faqs.length>0 && <section class="treatment-detail-section tgc-treatment-faqs">
@@ -64,6 +63,17 @@ const schema = {
       {treatment.childOf && <section class="treatment-detail-section">
         <p class="eyebrow">Part of a treatment family</p><h2>{treatment.childOf}</h2>
         <p>This treatment is listed within the {treatment.childOf} collection in the clinic's original treatment catalogue.</p>
+      </section>}
+      {articles.length > 0 && <section class="treatment-detail-section tgc-related-articles-bottom" aria-label="Related articles from our Knowledge Hub">
+        <p class="eyebrow">Continue learning</p>
+        <h2>Related articles</h2>
+        <p>Explore the research, explanations and treatment guides from our clinic's Knowledge Hub.</p>
+        <div class="treatment-detail-related">
+          {articles.map(a=><a href={'/blog/'+a.slug+'/'} class="tgc-related-article-card">
+            {a.heroImage && <img src={a.heroImage} alt="" loading="lazy" />}
+            <span>{a.category}</span><strong>{a.title}</strong><small>Read article ↗</small>
+          </a>)}
+        </div>
       </section>}
       <div class="treatment-detail-bottom"><h2>Let's talk about your goals.</h2><p>Book a free consultation and explore your options with our team.</p><a class="heritage-solid-button" href={bookingUrl} target="_blank" rel="noopener noreferrer">Free Consultation ↗</a></div>
       <p class="original-panel-note">Development preview: original treatment sections and FAQ answers have been imported where their parent relationships could be matched. Prices, remaining images, videos and missing content are still being migrated.</p>
