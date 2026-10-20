@@ -322,3 +322,98 @@ p{line-height:1.75}a{transition:opacity .18s ease}a:hover{opacity:.86}
 
 /* A wider, more readable desktop treatment drawer; mobile remains full-width. */
 @media(min-width:901px){.tgc-treatment-pane .treatment-detail-hero{padding:56px clamp(28px,4vw,60px) 42px;}.tgc-treatment-pane .treatment-detail-content{padding:44px clamp(28px,4vw,60px) 78px;}}
+
+
+/* 2026 Gorgeous Clinic editorial knowledge hub: source imagery and clean, generous typography. */
+.tgc-blog-index-head{padding-bottom:45px;}
+.tgc-blog-landing{padding-bottom:100px;}
+.tgc-blog-index-info{display:grid;grid-template-columns:1fr minmax(290px,400px);gap:55px;align-items:start;margin:10px 0 33px;}
+.tgc-blog-index-info h2{font-size:clamp(28px,3.1vw,42px);font-weight:500;margin:6px 0 18px;}
+.tgc-blog-index-info p:not(.eyebrow){max-width:560px;line-height:1.9;color:#776e62;font-size:13px;}
+.tgc-blog-index-filters{display:grid;grid-template-columns:1fr 1fr;gap:10px 12px;}
+.tgc-blog-index-filters label{display:block;font-size:11px;letter-spacing:.02em;color:#62584b;align-self:end;}
+.tgc-blog-index-filters label:first-of-type,.tgc-blog-index-filters input{grid-column:1/-1;}
+.tgc-blog-index-filters select{width:100%;border:1px solid #d8d9ce;padding:12px;background:#fff;border-radius:6px;font:12px 'Inter',Arial,sans-serif;color:#51473d;}
+.tgc-blog-post-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;}
+.tgc-blog-post{display:flex;flex-direction:column;min-width:0;background:white;border:1px solid #e5e4db;overflow:hidden;text-decoration:none;border-radius:5px;transition:transform .22s,box-shadow .22s;}
+.tgc-blog-post[hidden]{display:none!important;}
+.tgc-blog-post:hover{transform:translateY(-3px);box-shadow:0 12px 35px #193c2618;}
+.tgc-blog-post>img{width:100%;aspect-ratio:1.35;object-fit:cover;background:#e9eee4;display:block;}
+.tgc-blog-post-text{padding:23px 23px 28px;display:flex;flex-direction:column;gap:11px;flex:1;}
+.tgc-blog-post h3{font-family:'Playfair Display',Georgia,serif;font-size:23px;line-height:1.26;font-weight:500;margin:0;color:#473d34;}
+.tgc-blog-post-text>p{font-size:12px;line-height:1.8;color:#716960;margin:0 0 15px;flex:1;}
+.tgc-blog-read{border-top:1px solid #e6e5da;padding-top:12px;color:var(--forest);font-size:12px;display:flex;justify-content:space-between;gap:10px;}
+.tgc-blog-search-empty{padding:42px 0;font-size:13px;color:#716657;}
+.tgc-article-header{background:linear-gradient(160deg,#f3f4ef 0%,#fff 85%);padding:55px 0 68px;}
+.tgc-article-header-inner{max-width:960px;text-align:center;}
+.tgc-article-header h1{font-size:clamp(37px,5.4vw,70px);line-height:1.14;letter-spacing:-.025em;color:#493d33;max-width:920px;margin:19px auto 28px;}
+.tgc-article-breadcrumbs{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:10px;color:#8a7e6b;font-size:11px;margin:0 0 44px;}
+.tgc-article-breadcrumbs a{color:#5a694f;text-decoration:underline;text-underline-offset:3px;}
+.tgc-article-deck{font-size:clamp(15px,1.7vw,19px);line-height:1.82;color:#686154;max-width:750px;margin:0 auto 16px;white-space:pre-line;}
+.tgc-article-author{font-size:11px;color:#8b806f;letter-spacing:.02em;margin-top:22px;}
+.tgc-article-hero-image{max-width:1080px;margin:-25px auto 60px;padding:0 25px;position:relative;}
+.tgc-article-hero-image img{display:block;width:100%;height:auto;max-height:680px;object-fit:cover;border-radius:6px;background:#e4e9de;box-shadow:0 12px 50px #0000000e;}
+.tgc-article-columns{display:grid;grid-template-columns:minmax(0,1fr) minmax(200px,245px);gap:70px;align-items:start;max-width:1150px;padding-bottom:80px;}
+.tgc-article-prose{min-width:0;}
+.tgc-article-section{margin-bottom:53px;scroll-margin-top:90px;clear:both;}
+.tgc-article-section h2,.tgc-article-references h2{font-size:clamp(27px,3vw,38px);line-height:1.28;margin:0 0 23px;color:#504539;}
+.tgc-article-section-grid{display:flow-root;}
+.tgc-article-section-grid figure{width:min(42%,320px);float:right;margin:5px 0 18px 25px;}
+.tgc-article-section-grid figure img{display:block;width:100%;height:auto;max-height:430px;object-fit:contain;border-radius:7px;background:#eaece6;}
+.tgc-article-section-text p{font-size:14px;line-height:2.03;white-space:normal;color:#554e45;margin:0 0 18px;}
+.tgc-article-section-text a,.tgc-article-references a{color:#2b6243;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere;}
+.tgc-article-side{position:sticky;top:95px;border-left:1px solid #e2e3da;padding:20px 0 20px 22px;}
+.tgc-article-side nav{display:flex;flex-direction:column;margin-top:14px;gap:12px;}
+.tgc-article-side nav a{font-size:12px;line-height:1.6;color:#6c645b;}
+.tgc-article-side nav a:hover,.tgc-article-treatments a:hover{color:var(--forest);text-decoration:underline;}
+.tgc-article-treatments{border-top:1px solid #e3e3d9;padding-top:26px;margin-top:35px;display:flex;flex-direction:column;gap:12px;}
+.tgc-article-treatments a{display:flex;align-items:center;justify-content:space-between;gap:15px;font-size:12px;line-height:1.65;}
+.tgc-article-treatments a span{color:var(--forest);}
+.tgc-article-references{border-top:1px solid #e2e2da;margin-top:65px;padding-top:38px;}
+.tgc-article-references h2{font-size:30px;}
+.tgc-article-references ol{padding-left:20px;display:flex;flex-direction:column;gap:12px;}
+.tgc-article-references li{font-size:12px;line-height:1.7;color:#766e64;overflow-wrap:anywhere;}
+.tgc-article-footer-cta{padding:35px;margin:60px 0 20px;border-radius:8px;background:#e8eee6;}
+.tgc-article-footer-cta h2{font-size:clamp(26px,3vw,36px);margin:11px 0 17px;}
+.tgc-article-footer-cta p:not(.eyebrow){font-size:13px;line-height:1.85;margin-bottom:25px;}
+.tgc-more-reading{padding:70px 0 90px;background:#f0f2ec;}
+.tgc-more-reading h2{font-size:clamp(29px,3vw,42px);margin:13px 0 34px;}
+.tgc-reading-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:17px;}
+.tgc-reading-card{display:block;min-width:0;background:white;border:1px solid #e3e5d9;border-radius:5px;overflow:hidden;}
+.tgc-reading-card img{width:100%;height:165px;object-fit:cover;display:block;}
+.tgc-reading-card>div{padding:18px;}
+.tgc-reading-card h3{font-size:19px;line-height:1.32;margin:13px 0;color:#554438;}
+.tgc-reading-card p{font-size:11px;line-height:1.7;color:#797063;}
+.tgc-reading-link{font-size:11px;color:var(--forest);}
+.tgc-related-articles-bottom{border-top:1px solid #e1e5da;padding-top:36px;margin-top:34px;}
+.tgc-related-articles-bottom .treatment-detail-related{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px;margin-top:20px;}
+.tgc-related-article-card{display:flex!important;flex-direction:column;overflow:hidden;padding:0!important;}
+.tgc-related-article-card img{width:100%;aspect-ratio:1.6;object-fit:cover;display:block;}
+.tgc-related-article-card span,.tgc-related-article-card strong,.tgc-related-article-card small{margin-left:17px;margin-right:17px;}
+.tgc-related-article-card span{margin-top:16px;}
+.tgc-related-article-card small{margin-bottom:20px;}
+@media(max-width:1040px){
+ .tgc-blog-post-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .tgc-article-columns{gap:35px;}
+ .tgc-reading-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:760px){
+ .tgc-blog-index-info{grid-template-columns:1fr;gap:20px}
+ .tgc-article-header{padding:38px 0 48px}
+ .tgc-article-breadcrumbs{margin-bottom:32px}
+ .tgc-article-header h1{margin:16px auto 20px}
+ .tgc-article-columns{grid-template-columns:1fr;padding-bottom:50px}
+ .tgc-article-side{position:static;order:-1;border-left:0;border-bottom:1px solid #e3e3db;padding:0 0 28px;margin-bottom:5px;}
+ .tgc-article-side nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+ .tgc-article-section-grid figure{float:none;margin:18px auto 22px;width:100%;max-width:470px;}
+ .tgc-article-hero-image{padding:0 14px;margin:-8px auto 36px}
+ .tgc-related-articles-bottom .treatment-detail-related{grid-template-columns:1fr}
+}
+@media(max-width:490px){
+ .tgc-blog-post-grid{grid-template-columns:1fr}
+ .tgc-reading-grid{grid-template-columns:1fr}
+ .tgc-article-side nav{grid-template-columns:1fr}
+ .tgc-blog-index-filters{grid-template-columns:1fr}
+ .tgc-blog-index-filters label:first-of-type,.tgc-blog-index-filters input{grid-column:auto;}
+ .tgc-article-footer-cta{padding:24px}
+}
