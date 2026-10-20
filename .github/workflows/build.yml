@@ -27,5 +27,7 @@ jobs:
         run: npm run audit:legacy
       - name: Validate source export ordering and URL preservation
         run: npm run audit:imports
+      - name: Validate original blog content and image migration
+        run: npm run audit:blog
       - name: Audit legacy sitemap coverage (advisory until cutover)
         run: npm run audit:migration
