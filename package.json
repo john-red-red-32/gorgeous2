@@ -17,7 +17,8 @@
     "audit:legacy": "node scripts/audit-legacy-redirects.mjs",
     "test:legacy": "node --test scripts/audit-legacy-redirects.test.mjs",
     "test:build-redirects": "node --test scripts/build-redirects.test.mjs",
-    "audit:imports": "node scripts/audit-imported-content.mjs"
+    "audit:imports": "node scripts/audit-imported-content.mjs",
+    "audit:blog": "node scripts/audit-blog-import.mjs"
   },
   "dependencies": {
     "astro": "^5.16.0"
