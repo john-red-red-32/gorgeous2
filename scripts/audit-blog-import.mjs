@@ -51,6 +51,14 @@ for(const [oldUrl,newUrl] of pairs){
 const sampleHtml=await readFile('dist/blog/'+posts[0].slug+'/index.html','utf8');
 check(sampleHtml.includes('/media/blog/'),'The article does not use locally hosted images');
 console.log('All 614 self-hosted WebP files are present in the generated Pages site.');
+// The original sitemap endpoints are kept intact to avoid breaking Search Console.
+for(const [filename,count] of [['sitemap-blog.xml',106],['sitemap-treatments.xml',75],['sitemap-gallery.xml',66]]){
+ const xml=await readFile('dist/'+filename,'utf8');
+ check((xml.match(/<loc>/g)||[]).length===count,filename+' URL count changed');
+}
+const rootSitemap=await readFile('dist/sitemap.xml','utf8');
+check(rootSitemap.includes('sitemap-blog.xml')&&rootSitemap.includes('sitemap-gallery.xml'),
+ 'Master sitemap index missing original content sitemaps');
 const t=await readFile('dist/treatments/anti-wrinkle-injections/index.html','utf8');
 check(t.includes('tgc-related-articles-bottom'),'Missing treatment related articles section');
 check(t.includes('tgc-related-article-card'),'Missing article image links on treatment page');
