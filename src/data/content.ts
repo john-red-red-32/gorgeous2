@@ -1,3 +1,4 @@
+import {blogImageUrl} from './blog-media';
 import importedBlogPosts from './imported/blog-posts.json';
 import importedBlogSections from './imported/blog-sections.json';
 import importedBlogReferences from './imported/blog-references.json';
@@ -114,7 +115,7 @@ export const treatments:Treatment[] = originalRows.map(r=>{
 const sectionsByPost=new Map<string,ArticleSection[]>();
 for(const s of importedBlogSections){
  const list=sectionsByPost.get(s.sourceParentId)||[];
- list.push({title:s.title,body:s.body,image:s.image,order:s.order,sourceRow:s.sourceRow});
+ list.push({title:s.title,body:s.body,image:blogImageUrl(s.image),order:s.order,sourceRow:s.sourceRow});
  sectionsByPost.set(s.sourceParentId,list);
 }
 const referencesByPost=new Map<string,ArticleReference[]>();
@@ -146,7 +147,7 @@ export const articles:Article[]=importedBlogPosts.map(p=>{
   slug:p.slug,title:p.title,description:getExcerpt(p.intro||sections[0]?.body||''),
   category:categoryFor(p.title,p.contentType),
   contentType:p.contentType==='Academy'?'Academy':'Clinic',
-  intro:p.intro,heroImage:p.heroImage,author:p.author,
+  intro:p.intro,heroImage:blogImageUrl(p.heroImage),author:p.author,
   sourceParentId:p.sourceParentId,sourceRow:p.sourceRow,
   sections,references:(referencesByPost.get(p.sourceParentId)||[]).slice().sort((a,b)=>(a.number??999)-(b.number??999))
  };
