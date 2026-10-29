@@ -51,4 +51,4 @@ export function matchConcerns(slugs: string[]) {
     .sort((a,b) => b[1] - a[1] || a[0].localeCompare(b[0]))
     .map(([slug, score]) => ({ treatment: findTreatment(slug)!, score }));
 }
-export const catalogueStatus = 'Staging preview — the complete clinic catalogue and mappings will be imported from Bubble.';
+export const catalogueStatus = 'All 34 original concern cards and 75 treatment URLs are now restored. Treatment matches are an initial educational index while original Bubble relationship IDs are being verified.';
