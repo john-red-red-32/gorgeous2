@@ -143,7 +143,7 @@ for(const viewport of [
  {name:'desktop',width:1440,height:900,deviceScaleFactor:1},
  {name:'mobile',width:390,height:844,deviceScaleFactor:1,isMobile:true,hasTouch:true}
 ]){
- const context=await browser.newContext({viewport,
+ const context=await browser.newContext({viewport:{width:viewport.width,height:viewport.height},
    deviceScaleFactor:1,isMobile:viewport.isMobile||false,hasTouch:viewport.hasTouch||false,
    locale:'en-GB',timezoneId:'Europe/London',ignoreHTTPSErrors:false,
    reducedMotion:'reduce',serviceWorkers:'block'});
