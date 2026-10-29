@@ -1,0 +1,335 @@
+{
+  "capturedAt": "2026-10-29T23:14:59.537Z",
+  "source": "https://thegorgeousclinic.co.uk",
+  "browser": "Playwright Chromium",
+  "results": [
+    {
+      "group": "desktop/homepage",
+      "httpStatus": 200,
+      "steps": [],
+      "states": [
+        {
+          "state": "initial",
+          "url": "https://thegorgeousclinic.co.uk/",
+          "h1": [
+            "The Fylde Coast's\nHighest Rated\nMedical Aesthetics Clinic"
+          ],
+          "documentHeight": 7153,
+          "controls": 60,
+          "images": 36,
+          "fonts": [
+            "Arial",
+            "\"Playfair Display\"",
+            "Inter"
+          ],
+          "domBytes": 84042,
+          "screenshot": "reference-captures/desktop/homepage/initial-viewport.jpg"
+        }
+      ],
+      "pageErrors": []
+    },
+    {
+      "group": "desktop/treatments",
+      "httpStatus": 200,
+      "steps": [
+        {
+          "step": "concern-tab",
+          "clicked": true,
+          "pattern": "/concerns|explore by concern/i",
+          "url": "/treatments/"
+        },
+        {
+          "step": "select-wrinkles",
+          "clicked": false,
+          "reason": "not visible",
+          "pattern": "/lines\\s*(?:&|and)\\s*wrinkles/i"
+        },
+        {
+          "step": "view-related",
+          "clicked": false,
+          "reason": "not visible",
+          "pattern": "/view related treatments|find treatments|show treatments/i"
+        },
+        {
+          "step": "select-treatment",
+          "clicked": true,
+          "pattern": "/anti.wrinkle|botulinum toxin/i",
+          "url": "/treatments/anti-wrinkle-injections"
+        },
+        {
+          "step": "price-tab",
+          "clicked": false,
+          "reason": "TimeoutError: locator.click: Timeout 7000ms exceeded.\nCall log:\n  - waiting for getByText(/price list|pricing|view prices/i).first()\n    - locator resolved to <button class=\"clickable-element bubble-e",
+          "pattern": "/price list|pricing|view prices/i"
+        }
+      ],
+      "states": [
+        {
+          "state": "initial",
+          "url": "https://thegorgeousclinic.co.uk/treatments/",
+          "h1": [],
+          "documentHeight": 5285,
+          "controls": 127,
+          "images": 40,
+          "fonts": [
+            "\"Playfair Display\"",
+            "Inter"
+          ],
+          "domBytes": 133083,
+          "screenshot": "reference-captures/desktop/treatments/initial-viewport.jpg"
+        },
+        {
+          "state": "concern-tab",
+          "url": "https://thegorgeousclinic.co.uk/treatments/",
+          "h1": [],
+          "documentHeight": 5285,
+          "controls": 127,
+          "images": 40,
+          "fonts": [
+            "\"Playfair Display\"",
+            "Inter"
+          ],
+          "domBytes": 133083,
+          "screenshot": "reference-captures/desktop/treatments/concern-tab-viewport.jpg"
+        },
+        {
+          "state": "select-treatment",
+          "url": "https://thegorgeousclinic.co.uk/treatments/anti-wrinkle-injections",
+          "h1": [
+            "Anti-wrinkle / B’tox"
+          ],
+          "documentHeight": 4656,
+          "controls": 128,
+          "images": 59,
+          "fonts": [
+            "\"Playfair Display\"",
+            "Inter",
+            "Arial"
+          ],
+          "domBytes": 167417,
+          "screenshot": "reference-captures/desktop/treatments/select-treatment-viewport.jpg"
+        }
+      ],
+      "pageErrors": [
+        "TypeError: Failed to execute 'observe' on 'MutationObserver': parameter 1 is not of type 'Node'.",
+        "TypeError: Failed to execute 'observe' on 'MutationObserver': parameter 1 is not of type 'Node'."
+      ]
+    },
+    {
+      "group": "desktop/article-list",
+      "httpStatus": 200,
+      "steps": [],
+      "states": [
+        {
+          "state": "initial",
+          "url": "https://thegorgeousclinic.co.uk/blog-posts/",
+          "h1": [
+            "Knowledge Hub"
+          ],
+          "documentHeight": 9518,
+          "controls": 179,
+          "images": 35,
+          "fonts": [
+            "\"Playfair Display\"",
+            "Inter"
+          ],
+          "domBytes": 398967,
+          "screenshot": "reference-captures/desktop/article-list/initial-viewport.jpg"
+        }
+      ],
+      "pageErrors": []
+    },
+    {
+      "group": "desktop/gallery",
+      "httpStatus": 200,
+      "steps": [],
+      "states": [
+        {
+          "state": "initial",
+          "url": "https://thegorgeousclinic.co.uk/gallery/",
+          "h1": [
+            "Before & After Gallery"
+          ],
+          "documentHeight": 14681,
+          "controls": 220,
+          "images": 49,
+          "fonts": [
+            "\"Playfair Display\"",
+            "Inter"
+          ],
+          "domBytes": 278496,
+          "screenshot": "reference-captures/desktop/gallery/initial-viewport.jpg"
+        }
+      ],
+      "pageErrors": []
+    },
+    {
+      "group": "desktop/treatment-deep-link",
+      "httpStatus": 200,
+      "steps": [],
+      "states": [
+        {
+          "state": "initial",
+          "url": "https://thegorgeousclinic.co.uk/treatments/anti-wrinkle-injections/",
+          "h1": [
+            "Anti-wrinkle / B’tox"
+          ],
+          "documentHeight": 5285,
+          "controls": 175,
+          "images": 65,
+          "fonts": [
+            "\"Playfair Display\"",
+            "Inter",
+            "Arial"
+          ],
+          "domBytes": 195574,
+          "screenshot": "reference-captures/desktop/treatment-deep-link/initial-viewport.jpg"
+        }
+      ],
+      "pageErrors": [
+        "TypeError: Failed to execute 'observe' on 'MutationObserver': parameter 1 is not of type 'Node'."
+      ]
+    },
+    {
+      "group": "mobile/homepage",
+      "httpStatus": 200,
+      "steps": [],
+      "states": [
+        {
+          "state": "initial",
+          "url": "https://thegorgeousclinic.co.uk/",
+          "h1": [
+            "The Fylde Coast's\nHighest Rated\nMedical Aesthetics Clinic"
+          ],
+          "documentHeight": 8803,
+          "controls": 49,
+          "images": 26,
+          "fonts": [
+            "\"Playfair Display\"",
+            "Arial",
+            "Inter"
+          ],
+          "domBytes": 78773,
+          "screenshot": "reference-captures/mobile/homepage/initial-viewport.jpg"
+        }
+      ],
+      "pageErrors": []
+    },
+    {
+      "group": "mobile/treatments",
+      "httpStatus": 200,
+      "steps": [
+        {
+          "step": "concern-tab",
+          "clicked": true,
+          "pattern": "/concerns|explore by concern/i",
+          "url": "/treatments/"
+        },
+        {
+          "step": "select-wrinkles",
+          "clicked": false,
+          "reason": "not visible",
+          "pattern": "/lines\\s*(?:&|and)\\s*wrinkles/i"
+        },
+        {
+          "step": "view-related",
+          "clicked": false,
+          "reason": "not visible",
+          "pattern": "/view related treatments|find treatments|show treatments/i"
+        },
+        {
+          "step": "select-treatment",
+          "clicked": true,
+          "pattern": "/anti.wrinkle|botulinum toxin/i",
+          "url": "/treatments/anti-wrinkle-injections"
+        },
+        {
+          "step": "price-tab",
+          "clicked": false,
+          "reason": "TimeoutError: locator.click: Timeout 7000ms exceeded.\nCall log:\n  - waiting for getByText(/price list|pricing|view prices/i).first()\n    - locator resolved to <button class=\"clickable-element bubble-e",
+          "pattern": "/price list|pricing|view prices/i"
+        }
+      ],
+      "states": [
+        {
+          "state": "initial",
+          "url": "https://thegorgeousclinic.co.uk/treatments/",
+          "h1": [],
+          "documentHeight": 8252,
+          "controls": 119,
+          "images": 40,
+          "fonts": [
+            "\"Playfair Display\"",
+            "Inter",
+            "Arial"
+          ],
+          "domBytes": 137554,
+          "screenshot": "reference-captures/mobile/treatments/initial-viewport.jpg"
+        },
+        {
+          "state": "concern-tab",
+          "url": "https://thegorgeousclinic.co.uk/treatments/",
+          "h1": [],
+          "documentHeight": 8252,
+          "controls": 119,
+          "images": 40,
+          "fonts": [
+            "\"Playfair Display\"",
+            "Inter",
+            "Arial"
+          ],
+          "domBytes": 137554,
+          "screenshot": "reference-captures/mobile/treatments/concern-tab-viewport.jpg"
+        },
+        {
+          "state": "select-treatment",
+          "url": "https://thegorgeousclinic.co.uk/treatments/anti-wrinkle-injections",
+          "h1": [
+            "Anti-wrinkle / B’tox"
+          ],
+          "documentHeight": 5022,
+          "controls": 87,
+          "images": 40,
+          "fonts": [
+            "\"Playfair Display\"",
+            "Inter",
+            "Arial"
+          ],
+          "domBytes": 142804,
+          "screenshot": "reference-captures/mobile/treatments/select-treatment-viewport.jpg"
+        }
+      ],
+      "pageErrors": [
+        "TypeError: Failed to execute 'observe' on 'MutationObserver': parameter 1 is not of type 'Node'.",
+        "TypeError: Failed to execute 'observe' on 'MutationObserver': parameter 1 is not of type 'Node'."
+      ]
+    },
+    {
+      "group": "mobile/treatment-deep-link",
+      "httpStatus": 200,
+      "steps": [],
+      "states": [
+        {
+          "state": "initial",
+          "url": "https://thegorgeousclinic.co.uk/treatments/anti-wrinkle-injections/",
+          "h1": [
+            "Anti-wrinkle / B’tox"
+          ],
+          "documentHeight": 8252,
+          "controls": 161,
+          "images": 57,
+          "fonts": [
+            "\"Playfair Display\"",
+            "Inter",
+            "Arial"
+          ],
+          "domBytes": 197353,
+          "screenshot": "reference-captures/mobile/treatment-deep-link/initial-viewport.jpg"
+        }
+      ],
+      "pageErrors": [
+        "TypeError: Failed to execute 'observe' on 'MutationObserver': parameter 1 is not of type 'Node'."
+      ]
+    }
+  ]
+}
