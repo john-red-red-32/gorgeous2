@@ -417,3 +417,9 @@ p{line-height:1.75}a{transition:opacity .18s ease}a:hover{opacity:.86}
  .tgc-blog-index-filters label:first-of-type,.tgc-blog-index-filters input{grid-column:auto;}
  .tgc-article-footer-cta{padding:24px}
 }
+
+/* Restored directly from the original Bubble reference capture (1440px desktop). */
+@media(min-width:761px){
+ .tgc-modern-concerns{max-width:742px;margin-inline:auto;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;}
+ .tgc-modern-concerns .original-concern-card{min-height:148px;}
+}
