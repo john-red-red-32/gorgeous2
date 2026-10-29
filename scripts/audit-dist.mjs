@@ -19,7 +19,7 @@ for (const file of files) {
   if (!html.includes('<link rel="canonical"')) throw new Error(file + ': missing canonical');
   if (!html.includes('noindex,nofollow')) throw new Error(file + ': staging noindex missing');
 }
-for (const slug of ['lines-and-wrinkles','lip-volume','under-eye-concerns']) {
+for (const slug of ['lines-and-wrinkles','lip-volume','under-eye-hollows']) {
   const page = 'dist/concerns/'+slug+'/index.html';
   const html=await readFile(page,'utf8');
   if (!html.includes('aria-label="')) throw new Error(page+': missing accessible markup');
