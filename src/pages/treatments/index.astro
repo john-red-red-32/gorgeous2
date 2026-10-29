@@ -11,10 +11,10 @@ const discoveryData = {
   prices: treatmentRelationships.map(r=>({slug:r.treatmentSlug,lines:r.priceLines}))
 };
 const paths = [
- {id:'concerns', anchor:'explore-concerns', icon:'✦', name:'Explore by Concern', subtitle:'I know what bothers me, but not what treatment I need.'},
- {id:'list',anchor:'treatment-list',icon:'≡',name:'Browse Treatments',subtitle:'I already have a treatment in mind.'},
+ {id:'concerns', anchor:'explore-concerns', icon:'✦', name:'Area of Concern', subtitle:'I know what bothers me, but not what treatment I need.'},
+ {id:'list',anchor:'treatment-list',icon:'≡',name:'Treatment List',subtitle:'I already have a treatment in mind.'},
  {id:'consult',anchor:'virtual-consultation',icon:'✧',name:'Virtual Consultation',subtitle:'I’d like some guidance before I decide.'},
- {id:'prices',anchor:'price-list',icon:'£',name:'View Price List',subtitle:'I just want to compare the treatments and prices.'}
+ {id:'prices',anchor:'price-list',icon:'£',name:'Price List',subtitle:'I just want to compare the treatments and prices.'}
 ];
 ---
 <SiteLayout title="Explore Medical Aesthetics Treatments in Blackpool | The Gorgeous Clinic" description="Explore aesthetics treatments by concern, browse all treatments, get guided advice or view prices. Find answers and treatment education at The Gorgeous Clinic.">
@@ -49,7 +49,7 @@ const paths = [
             <a class="tgc-inline-concern" href={'/concerns/'+c.slug+'/'}>Learn about this concern ↗</a>
           </div>)}
         </div>
-        <div class="tgc-selector-actions"><button class="heritage-solid-button" id="view-tgc-selections" type="button">View Related Treatments <span aria-hidden="true">→</span></button><span id="tgc-concern-count" aria-live="polite">Select the concerns you'd like to explore</span></div>
+        <div class="tgc-selector-actions"><button class="heritage-solid-button" id="view-tgc-selections" type="button">View Selected <span aria-hidden="true">→</span></button><span id="tgc-concern-count" aria-live="polite">Select the concerns you'd like to explore</span></div>
         <div id="selected-concerns-result" class="tgc-results" hidden aria-live="polite" tabindex="-1"></div>
       </section>
       <section id="tgc-panel-list" class="tgc-discovery-panel" hidden aria-label="Browse all treatments">
