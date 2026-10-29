@@ -1,0 +1,48 @@
+name: Extract original Bubble treatment element inventory
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/publish-bubble-inventory.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: gorgeous-original-bubble-reference
+          run-id: 40971507246
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path: captured
+      - name: Publish public-only control/style inventories
+        run: |
+          mkdir -p docs/reference-captures/inventory
+          for name in initial concern-tab select-treatment; do
+            path="captured/desktop/treatments/$name.json"
+            if [ -f "$path" ]; then cp "$path" "docs/reference-captures/inventory/desktop-treatments-$name.json"; fi
+          done
+          for name in initial concern-tab select-treatment; do
+            path="captured/mobile/treatments/$name.json"
+            if [ -f "$path" ]; then cp "$path" "docs/reference-captures/inventory/mobile-treatments-$name.json"; fi
+          done
+          for path in desktop/treatment-deep-link/initial.json desktop/homepage/initial.json; do
+            if [ -f "captured/$path" ]; then
+              out="$(echo "$path" | tr '/' '-')"
+              cp "captured/$path" "docs/reference-captures/inventory/$out"
+            fi
+          done
+          git config user.name "gorgeous2-ui-research"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/reference-captures/inventory
+          if git diff --cached --quiet; then
+            echo "Nothing to publish"
+          else
+            git commit -m "Preserve captured Bubble treatment interactions, computed styles, control inventory"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
