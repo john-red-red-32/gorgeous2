@@ -4,7 +4,7 @@
     "name": "Wrinkles",
     "description": "Fine lines that appear with age, sun exposure, and facial movement, often around the eyes and forehead.",
     "explainer": "Fine lines that appear with age, sun exposure, and facial movement, often around the eyes and forehead.",
-    "image": "https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/cdn-cgi/image/f=auto,w=96,h=96,fit=contain,dpr=1/f1765454945166x911527603846544800/ChatGPT%20Image%20Dec%2011%2C%202025%2C%2011_56_45%20AM.png",
+    "image": "/media/concerns/lines-and-wrinkles.webp",
     "treatmentSlugs": [
       "anti-wrinkle-injections",
       "collagen-inductiontherapy",
@@ -18,7 +18,7 @@
     "name": "Jowls",
     "description": "Sagging or looseness along the jawline that softens facial definition with age.",
     "explainer": "Sagging or looseness along the jawline that softens facial definition with age.",
-    "image": "https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/cdn-cgi/image/f=auto,w=96,h=96,fit=contain,dpr=1/f1765455527885x750352559496446600/ChatGPT%20Image%20Dec%2011%2C%202025%2C%2012_18_39%20PM.png",
+    "image": "/media/concerns/jowls.webp",
     "treatmentSlugs": [
       "non-surgical-face-lift-1",
       "thread-lifts-pdo-pla"
@@ -31,7 +31,7 @@
     "name": "Lip Lines",
     "description": "Vertical lines around the mouth, often from ageing, sun exposure, or puckering expressions.",
     "explainer": "Vertical lines around the mouth, often from ageing, sun exposure, or puckering expressions.",
-    "image": "https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/cdn-cgi/image/f=auto,w=96,h=96,fit=contain,dpr=1/f1765208380728x258805943997262750/ChatGPT%20Image%20Dec%207%2C%202025%2C%2006_46_14%20PM.png",
+    "image": "/media/concerns/lip-lines.webp",
     "treatmentSlugs": [
       "perioral-line-rejuvenation-lip-lines-1765304767183x485320486977649540",
       "lip-lines--upper-lip-wrinkles-orbicularis-oris-softening-1765449689063x331437132837088200",
@@ -45,7 +45,7 @@
     "name": "Sagging Skin",
     "description": "Skin that has lost firmness and elasticity, creating a drooping appearance on the face or neck.",
     "explainer": "Skin that has lost firmness and elasticity, creating a drooping appearance on the face or neck.",
-    "image": "https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/cdn-cgi/image/f=auto,w=96,h=96,fit=contain,dpr=1/f1765207334107x591207324493823000/ChatGPT%20Image%20Dec%207%2C%202025%2C%2006_52_13%20PM.png",
+    "image": "/media/concerns/sagging-skin.webp",
     "treatmentSlugs": [
       "thread-lifts-pdo-pla",
       "pdo-tightening-threads-1776484227454x302647821264464100",
@@ -59,7 +59,7 @@
     "name": "Lip Volume",
     "description": "Lips that appear thinner or flatter due to natural shape or age-related volume loss.",
     "explainer": "Lips that appear thinner or flatter due to natural shape or age-related volume loss.",
-    "image": "https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/cdn-cgi/image/f=auto,w=96,h=96,fit=contain,dpr=1/f1765207343851x160040545009242140/ChatGPT%20Image%20Dec%207%2C%202025%2C%2003_55_58%20PM.png",
+    "image": "/media/concerns/lip-volume.webp",
     "treatmentSlugs": [
       "lip-enhancements",
       "level-2-—-standard-lip-enhancement-dermal-filler-1765296267574x118820474024747820",
@@ -74,7 +74,7 @@
     "name": "Jawline Definition",
     "description": "A softer or less sculpted jawline, often from ageing or reduced contour.",
     "explainer": "A softer or less sculpted jawline, often from ageing or reduced contour.",
-    "image": "https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/cdn-cgi/image/f=auto,w=96,h=96,fit=contain,dpr=1/f1765207360107x602448429123216900/ChatGPT%20Image%20Dec%207%2C%202025%2C%2006_54_39%20PM.png",
+    "image": "/media/concerns/jawline-definition.webp",
     "treatmentSlugs": [
       "hyaluronic-acid-dermal-filler-volume",
       "chin-filler-1776480435677x817295553410824000",
@@ -88,7 +88,7 @@
     "name": "Pigmentation Issues",
     "description": "Uneven skin tone, dark spots, or sun damage causing patchy colour on the face.",
     "explainer": "Uneven skin tone, dark spots, or sun damage causing patchy colour on the face.",
-    "image": "https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/cdn-cgi/image/f=auto,w=96,h=96,fit=contain,dpr=1/f1765207369655x351026390638250940/ChatGPT%20Image%20Dec%207%2C%202025%2C%2006_36_28%20PM.png",
+    "image": "/media/concerns/pigmentation.webp",
     "treatmentSlugs": [
       "depigmentation-peels-1765640437952x882826730501800700",
       "medium-depigmentation-peel-1765640544439x507542369576545300",
@@ -102,7 +102,7 @@
     "name": "Chin Fat",
     "description": "Fullness under the chin causing a less defined profile or “double chin”.",
     "explainer": "Fullness under the chin causing a less defined profile or “double chin”.",
-    "image": "https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/cdn-cgi/image/f=auto,w=96,h=96,fit=contain,dpr=1/f1765207397798x164350819343333860/ChatGPT%20Image%20Dec%207%2C%202025%2C%2004_48_07%20PM.png",
+    "image": "/media/concerns/chin-fullness.webp",
     "treatmentSlugs": [
       "chin-fat-dissolving-aqualyx®-1765299167857x679803064721934200",
       "fat-dissolving-injections"
@@ -115,7 +115,7 @@
     "name": "Gaunt Face",
     "description": "A hollow or sunken appearance, often caused by volume loss in the cheeks or temples.",
     "explainer": "A hollow or sunken appearance, often caused by volume loss in the cheeks or temples.",
-    "image": "https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/cdn-cgi/image/f=auto,w=96,h=96,fit=contain,dpr=1/f1765207415695x478783260743128100/ChatGPT%20Image%20Dec%207%2C%202025%2C%2003_58_38%20PM.png",
+    "image": "/media/concerns/facial-volume-loss.webp",
     "treatmentSlugs": [
       "hyaluronic-acid-dermal-filler-volume",
       "midface-reconstruction-cheek-filler",
@@ -129,7 +129,7 @@
     "name": "Acne & Breakouts",
     "description": "Pimples, clogged pores, or inflammation that affect skin clarity and texture.",
     "explainer": "Pimples, clogged pores, or inflammation that affect skin clarity and texture.",
-    "image": "https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/cdn-cgi/image/f=auto,w=96,h=96,fit=contain,dpr=1/f1765207386725x499974064118120500/ChatGPT%20Image%20Dec%207%2C%202025%2C%2004_01_15%20PM.png",
+    "image": "/media/concerns/acne-and-breakouts.webp",
     "treatmentSlugs": [
       "active-acne-peel-1765640746293x377513566426518340",
       "subcision-acne-scarring-1",
@@ -143,7 +143,7 @@
     "name": "Under-eye Hollows",
     "description": "Deep grooves beneath the eyes that create a tired or sunken look.",
     "explainer": "Deep grooves beneath the eyes that create a tired or sunken look.",
-    "image": "https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/cdn-cgi/image/f=auto,w=96,h=96,fit=contain,dpr=1/f1765207423836x983510275028990300/ChatGPT%20Image%20Dec%207%2C%202025%2C%2006_47_53%20PM.png",
+    "image": "/media/concerns/under-eye-hollows.webp",
     "treatmentSlugs": [
       "under-eye-hollow-filler-1776481181955x304405063828494100"
     ],
@@ -155,7 +155,7 @@
     "name": "Downturned Mouth Corners",
     "description": "Treating the muscles and tissues pulling downward on the mouth.",
     "explainer": "Treating the muscles and tissues pulling downward on the mouth.",
-    "image": "https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/cdn-cgi/image/f=auto,w=96,h=96,fit=contain,dpr=1/f1765455154058x746100452471946800/ChatGPT%20Image%20Dec%2011%2C%202025%2C%2012_11_15%20PM.png",
+    "image": "/media/concerns/downturned-mouth-corners.webp",
     "treatmentSlugs": [
       "downturned-mouth-corners-dao-relaxation-1765449140833x235304529281187500"
     ],
@@ -167,7 +167,7 @@
     "name": "Under-eye Darkness",
     "description": "Dark circles under the eyes caused by pigmentation, thin skin, or shadowing.",
     "explainer": "Dark circles under the eyes caused by pigmentation, thin skin, or shadowing.",
-    "image": "https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/cdn-cgi/image/f=auto,w=96,h=96,fit=contain,dpr=1/f1765207443345x520648976564254340/ChatGPT%20Image%20Dec%207%2C%202025%2C%2006_47_53%20PM.png",
+    "image": "/media/concerns/under-eye-darkness.webp",
     "treatmentSlugs": [
       "under-eye-brightening-treatment-polynucleotides-1765302897850x815775285912820200",
       "brighter-undereyes",
@@ -181,7 +181,7 @@
     "name": "Hair Transplant PRP",
     "description": "PRP to support transplanted hair and stimulate stronger growth.",
     "explainer": "PRP to support transplanted hair and stimulate stronger growth.",
-    "image": "https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/cdn-cgi/image/f=auto,w=96,h=96,fit=contain,dpr=1/f1765452928992x695648325192693200/ChatGPT%20Image%20Dec%2011%2C%202025%2C%2011_33_58%20AM.png",
+    "image": "/media/concerns/hair-transplant-prp.webp",
     "treatmentSlugs": [
       "prp-for-hair-restoration-1765309605238x422875589125000450"
     ],
@@ -193,7 +193,7 @@
     "name": "Cheek Hollows",
     "description": "Cheek hollows create shadowing beneath the cheekbone that can make the face look tired or drawn.",
     "explainer": "Cheek hollows create shadowing beneath the cheekbone that can make the face look tired or drawn.",
-    "image": "https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/cdn-cgi/image/f=auto,w=96,h=96,fit=contain,dpr=1/f1765307590458x628729706903955500/ChatGPT%20Image%20Dec%207%2C%202025%2C%2006_52_13%20PM.png",
+    "image": "/media/concerns/cheek-hollows.webp",
     "treatmentSlugs": [
       "midface-reconstruction-cheek-filler",
       "hyaluronic-acid-dermal-filler-volume"
@@ -206,7 +206,7 @@
     "name": "Under-eye Swelling",
     "description": "Puffiness or fluid retention under the eyes making the area look fuller or tired.",
     "explainer": "Puffiness or fluid retention under the eyes making the area look fuller or tired.",
-    "image": "https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/cdn-cgi/image/f=auto,w=96,h=96,fit=contain,dpr=1/f1765207434627x587097976526384900/ChatGPT%20Image%20Dec%207%2C%202025%2C%2006_47_53%20PM.png",
+    "image": "/media/concerns/under-eye-swelling.webp",
     "treatmentSlugs": [
       "anti-fluid-retention-eyes"
     ],
@@ -218,7 +218,7 @@
     "name": "Thinning Hair",
     "description": "Hair thinning can occur from stress, hormones, or natural ageing.",
     "explainer": "Hair thinning can occur from stress, hormones, or natural ageing.",
-    "image": "https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/cdn-cgi/image/f=auto,w=96,h=96,fit=contain,dpr=1/f1765453015116x543839103399799100/ChatGPT%20Image%20Dec%2011%2C%202025%2C%2011_36_02%20AM.png",
+    "image": "/media/concerns/thinning-hair.webp",
     "treatmentSlugs": [
       "prp-for-hair-restoration-1765309605238x422875589125000450"
     ],
@@ -230,7 +230,7 @@
     "name": "Temple Hollowing",
     "description": "Temple hollowing creates a sunken look at the outer forehead, subtly ageing the face.",
     "explainer": "Temple hollowing creates a sunken look at the outer forehead, subtly ageing the face.",
-    "image": "https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/cdn-cgi/image/f=auto,w=96,h=96,fit=contain,dpr=1/f1765454163256x702872608584391700/ChatGPT%20Image%20Dec%2011%2C%202025%2C%2011_55_17%20AM.png",
+    "image": "/media/concerns/temple-hollowing.webp",
     "treatmentSlugs": [
       "temple-revolumisation-1765308723112x953852281526645600",
       "hyaluronic-acid-dermal-filler-volume"
@@ -243,7 +243,7 @@
     "name": "Facial Asymmetry",
     "description": "Subtle differences in shape or volume between each side of the face.",
     "explainer": "Subtle differences in shape or volume between each side of the face.",
-    "image": "https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/cdn-cgi/image/f=auto,w=96,h=96,fit=contain,dpr=1/f1765453160674x956108236837646800/ChatGPT%20Image%20Dec%2011%2C%202025%2C%2011_39_08%20AM.png",
+    "image": "/media/concerns/facial-asymmetry.webp",
     "treatmentSlugs": [
       "hyaluronic-acid-dermal-filler-volume",
       "midface-reconstruction-cheek-filler"
@@ -256,7 +256,7 @@
     "name": "Stubborn Body Fat",
     "description": "Some areas of fat stay firm no matter how much we diet or exercise.",
     "explainer": "Some areas of fat stay firm no matter how much we diet or exercise.",
-    "image": "https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/cdn-cgi/image/f=auto,w=96,h=96,fit=contain,dpr=1/f1765453785093x478275640697181600/ChatGPT%20Image%20Dec%2011%2C%202025%2C%2011_49_35%20AM.png",
+    "image": "/media/concerns/stubborn-body-fat.webp",
     "treatmentSlugs": [
       "body-fat-dissolving-–-large-area-aqualyx®-1765299331777x321651918288427460",
       "fat-dissolving-injections"
@@ -269,7 +269,7 @@
     "name": "Teeth Grinding",
     "description": "Jaw clenching or grinding that causes tension and bulkiness.",
     "explainer": "Jaw clenching or grinding that causes tension and bulkiness.",
-    "image": "https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/cdn-cgi/image/f=auto,w=96,h=96,fit=contain,dpr=1/f1765453714592x691923642663325000/ChatGPT%20Image%20Dec%2011%2C%202025%2C%2011_48_28%20AM.png",
+    "image": "/media/concerns/teeth-grinding.webp",
     "treatmentSlugs": [
       "toxin-for-jawline-slimming--teeth-grinding-1765307099206x629520527693213200"
     ],
@@ -281,7 +281,7 @@
     "name": "Nose Shape & Symmetry",
     "description": "Concerns such as bumps, dips, asymmetry or a drooping tip that affect the nose’s overall balance.",
     "explainer": "Concerns such as bumps, dips, asymmetry or a drooping tip that affect the nose’s overall balance.",
-    "image": "https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/cdn-cgi/image/f=auto,w=96,h=96,fit=contain,dpr=1/f1765324353340x256644053439732740/ChatGPT%20Image%20Dec%209%2C%202025%2C%2011_52_01%20PM.png",
+    "image": "/media/concerns/nose-shape-symmetry.webp",
     "treatmentSlugs": [
       "non-surgical-rhinoplasty-1765314572985x611914775658768000"
     ],
@@ -293,7 +293,7 @@
     "name": "Jawline Slimming",
     "description": "Softening a bulky jawline caused by strong masseter muscles.",
     "explainer": "Softening a bulky jawline caused by strong masseter muscles.",
-    "image": "https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/cdn-cgi/image/f=auto,w=96,h=96,fit=contain,dpr=1/f1765453418017x414480061620775100/ChatGPT%20Image%20Dec%2011%2C%202025%2C%2011_43_29%20AM.png",
+    "image": "/media/concerns/jawline-slimming.webp",
     "treatmentSlugs": [
       "toxin-for-jawline-slimming--teeth-grinding-1765307099206x629520527693213200"
     ],
@@ -305,7 +305,7 @@
     "name": "Chronic Migranes",
     "description": "Recurring headaches linked to muscle tension and nerve sensitivity.",
     "explainer": "Recurring headaches linked to muscle tension and nerve sensitivity.",
-    "image": "https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/cdn-cgi/image/f=auto,w=96,h=96,fit=contain,dpr=1/f1765453480708x169005579360614880/ChatGPT%20Image%20Dec%2011%2C%202025%2C%2011_44_23%20AM.png",
+    "image": "/media/concerns/chronic-migraines.webp",
     "treatmentSlugs": [
       "toxin-for-chronic-migraines-1765306962908x742725757508666500"
     ],
@@ -317,7 +317,7 @@
     "name": "Excessive Sweating",
     "description": "Overactive sweat glands causing moisture and discomfort.",
     "explainer": "Overactive sweat glands causing moisture and discomfort.",
-    "image": "https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/cdn-cgi/image/f=auto,w=96,h=96,fit=contain,dpr=1/f1765453227982x490968028957686340/ChatGPT%20Image%20Dec%207%2C%202025%2C%2007_05_22%20PM.png",
+    "image": "/media/concerns/excessive-sweating.webp",
     "treatmentSlugs": [
       "hyperhidrosis-sweat-control-injections"
     ],
@@ -329,7 +329,7 @@
     "name": "Forehead Lines",
     "description": "Horizontal lines across the forehead caused by repeated lifting of the brows.",
     "explainer": "Horizontal lines across the forehead caused by repeated lifting of the brows.",
-    "image": "https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/cdn-cgi/image/f=auto,w=96,h=96,fit=contain,dpr=1/f1765454371445x810524246742835100/ChatGPT%20Image%20Dec%2011%2C%202025%2C%2011_59_25%20AM.png",
+    "image": "/media/concerns/forehead-lines.webp",
     "treatmentSlugs": [
       "forehead-lines-frontalis-1765445668412x914269484581035900",
       "anti-wrinkle-injections"
@@ -342,7 +342,7 @@
     "name": "Frown Lines / 11s",
     "description": "Vertical lines between the brows caused by the corrugator and procerus muscles.",
     "explainer": "Vertical lines between the brows caused by the corrugator and procerus muscles.",
-    "image": "https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/cdn-cgi/image/f=auto,w=96,h=96,fit=contain,dpr=1/f1765454477185x613427652934498800/ChatGPT%20Image%20Dec%2011%2C%202025%2C%2012_00_42%20PM.png",
+    "image": "/media/concerns/frown-lines.webp",
     "treatmentSlugs": [
       "frown-lines--“11s”-glabellar-complex-1765448317142x971020410098657300",
       "anti-wrinkle-injections"
@@ -355,7 +355,7 @@
     "name": "Crow’s Feet",
     "description": "Fine lines radiating from the outer corners of the eyes when smiling or squinting.",
     "explainer": "Fine lines radiating from the outer corners of the eyes when smiling or squinting.",
-    "image": "https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/cdn-cgi/image/f=auto,w=96,h=96,fit=contain,dpr=1/f1765454234307x764363900011838300/ChatGPT%20Image%20Dec%2011%2C%202025%2C%2011_56_45%20AM.png",
+    "image": "/media/concerns/crows-feet.webp",
     "treatmentSlugs": [
       "crows-feet-1765448467084x499603569275105100",
       "anti-wrinkle-injections"
@@ -368,7 +368,7 @@
     "name": "Bunny Lines / Nose Scrunch",
     "description": "Diagonal wrinkles that appear on the sides of the nose when smiling or scrunching.",
     "explainer": "Diagonal wrinkles that appear on the sides of the nose when smiling or scrunching.",
-    "image": "https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/cdn-cgi/image/f=auto,w=96,h=96,fit=contain,dpr=1/f1765454767842x875941215364106900/ChatGPT%20Image%20Dec%2011%2C%202025%2C%2012_06_00%20PM.png",
+    "image": "/media/concerns/bunny-lines.webp",
     "treatmentSlugs": [
       "bunny-lines-nasal-scrunch-lines-1765448570921x834962749349017100",
       "anti-wrinkle-injections"
@@ -381,7 +381,7 @@
     "name": "Brow Lift",
     "description": "Lifting the brows slightly by relaxing specific depressor muscles.",
     "explainer": "Lifting the brows slightly by relaxing specific depressor muscles.",
-    "image": "https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/cdn-cgi/image/f=auto,w=96,h=96,fit=contain,dpr=1/f1765454536905x291456882901011100/ChatGPT%20Image%20Dec%2011%2C%202025%2C%2012_02_08%20PM.png",
+    "image": "/media/concerns/brow-lift.webp",
     "treatmentSlugs": [
       "brow-lift-1765448602795x806398077016061400",
       "anti-wrinkle-injections"
@@ -394,7 +394,7 @@
     "name": "Chin Dimpling",
     "description": "Overactive mentalis muscle causing dimpling or texture on the chin.",
     "explainer": "Overactive mentalis muscle causing dimpling or texture on the chin.",
-    "image": "https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/cdn-cgi/image/f=auto,w=96,h=96,fit=contain,dpr=1/f1765455405128x862813036236311800/ChatGPT%20Image%20Dec%2011%2C%202025%2C%2012_14_12%20PM.png",
+    "image": "/media/concerns/chin-dimpling.webp",
     "treatmentSlugs": [
       "chin-dimpling-mentalis-relaxation-1765449499278x102785934882755120",
       "anti-wrinkle-injections"
@@ -407,7 +407,7 @@
     "name": "Gummy Smile",
     "description": "Excess gum show when smiling due to strong upper lip elevator muscles.",
     "explainer": "Excess gum show when smiling due to strong upper lip elevator muscles.",
-    "image": "https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/cdn-cgi/image/f=auto,w=96,h=96,fit=contain,dpr=1/f1765455411934x109782199596217380/ChatGPT%20Image%20Dec%2011%2C%202025%2C%2012_16_45%20PM.png",
+    "image": "/media/concerns/gummy-smile.webp",
     "treatmentSlugs": [
       "gummy-smile-correction-levator-modulation-1765449036948x770614049504337400",
       "anti-wrinkle-injections"
@@ -420,7 +420,7 @@
     "name": "Chin Projection",
     "description": "Improving chin projection to balance the profile and support the lower face.",
     "explainer": "Improving chin projection to balance the profile and support the lower face.",
-    "image": "https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/cdn-cgi/image/f=auto,w=96,h=96,fit=contain,dpr=1/f1765565398315x783099234685211000/ChatGPT%20Image%20Dec%2012%2C%202025%2C%2006_46_20%20PM.png",
+    "image": "/media/concerns/chin-projection.webp",
     "treatmentSlugs": [
       "chin-filler-1776480435677x817295553410824000",
       "hyaluronic-acid-dermal-filler-volume"
@@ -433,7 +433,7 @@
     "name": "Nose-to-mouth Lines",
     "description": "Nasolabial folds are the lines that run from the sides of the nose to the corners of the mouth.",
     "explainer": "Nasolabial folds are the lines that run from the sides of the nose to the corners of the mouth.",
-    "image": "https://8eb147f7d859a9618e57d27ae5aa5933.cdn.bubble.io/cdn-cgi/image/f=auto,w=96,h=96,fit=contain,dpr=1/f1776479690921x558976490023153300/ChatGPT%20Image%20Apr%2018%2C%202026%2C%2003_31_20%20AM.png",
+    "image": "/media/concerns/nose-to-mouth-lines.webp",
     "treatmentSlugs": [
       "nose-to-mouth-lines-1776479081334x319605839156922300",
       "hyaluronic-acid-dermal-filler-volume"
