@@ -1,0 +1,69 @@
+name: Capture original Bubble website design and interactions
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/capture-bubble-reference.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install browser automation
+        run: |
+          npm install --no-save --no-package-lock --no-audit --no-fund playwright
+          npx playwright install --with-deps chromium
+      - name: Capture public pages, layout and treatment interactions
+        id: browser
+        run: node scripts/capture-bubble-reference.mjs
+        continue-on-error: true
+      - name: Save complete rendered reference material
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: gorgeous-original-bubble-reference
+          path: reference-captures/
+          if-no-files-found: warn
+          compression-level: 6
+          retention-days: 30
+      - name: Persist visual baseline and state inventory
+        if: always()
+        run: |
+          mkdir -p docs/reference-captures
+          if [ -f reference-captures/capture-summary.json ]; then
+            cp reference-captures/capture-summary.json docs/reference-captures/live-site-summary.json
+          fi
+          if [ -f reference-captures/desktop/homepage/initial-viewport.jpg ]; then cp reference-captures/desktop/homepage/initial-viewport.jpg docs/reference-captures/homepage-desktop.jpg; fi
+          if [ -f reference-captures/desktop/treatments/initial-viewport.jpg ]; then cp reference-captures/desktop/treatments/initial-viewport.jpg docs/reference-captures/treatments-desktop.jpg; fi
+          if [ -f reference-captures/desktop/treatments/view-related-viewport.jpg ]; then cp reference-captures/desktop/treatments/view-related-viewport.jpg docs/reference-captures/treatments-matches-desktop.jpg; fi
+          if [ -f reference-captures/desktop/treatments/select-treatment-viewport.jpg ]; then cp reference-captures/desktop/treatments/select-treatment-viewport.jpg docs/reference-captures/treatments-drawer-desktop.jpg; fi
+          if [ -f reference-captures/mobile/treatments/initial-viewport.jpg ]; then cp reference-captures/mobile/treatments/initial-viewport.jpg docs/reference-captures/treatments-mobile.jpg; fi
+          if [ -f reference-captures/desktop/treatment-deep-link/initial-viewport.jpg ]; then cp reference-captures/desktop/treatment-deep-link/initial-viewport.jpg docs/reference-captures/treatment-direct-desktop.jpg; fi
+          git config user.name "gorgeous2-reference-capture"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/reference-captures
+          if git diff --cached --quiet; then
+            echo "No captured baseline to commit"
+          else
+            git commit -m "Record live Bubble visual baseline and treatment interaction inventory"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Show capture outcome
+        if: always()
+        run: |
+          if [ -f reference-captures/capture-summary.json ]; then
+            node -e "const r=require('./reference-captures/capture-summary.json'); for(const x of r.results) console.log(x.group,'states',x.states?.length||0,'actions',(x.steps||[]).map(y=>y.step+':'+y.clicked).join(','),x.error||'')"
+          else
+            echo "No capture summary was created; inspect workflow logs."
+          fi
